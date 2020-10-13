@@ -1,0 +1,56 @@
+====== DownG Android apps ======
+
+DownG Android apps are free Xiaomi-Ninebot compatible apps made by CamiAlfa.
+
+They can read version of BMS, DRV, and BLE; and upload firmware to these devices using properly made ZIP files. (see below)
+
+[[https://www.paypal.me/camialfa|Support CamiAlfa by donating]]
+
+===== M365 DownG =====
+
+M365 DownG can be used on M365 and M365 pro scooters. App preview:
+
+{{:photo_2019-09-21_23-22-42.jpg?nolink&200|photo_2019-09-21_23-22-42.jpg}}
+
+[[https://sctrhck.ml/m365downg|Get M365 DownG on Play Store]]
+
+===== ES DownG =====
+
+ES DownG can be used on ESx, SNSC, and KS Max (!) scooters. App preview:
+
+{{:photo_2019-09-21_23-22-42_3_.jpg?nolink&200|photo_2019-09-21_23-22-42_3_.jpg}}
+
+[[https://sctrhck.ml/esdowng|Get ES DownG on Play Store]]
+
+===== ZIP files =====
+
+Compatible DownG ZIP files consist of 3 files:
+
+  * info.txt
+
+''dev: M365;''  - replace with ES/SNSC for ES DownG, keep M365 for M365 DownG
+
+''nam: BMS115;''  - replace with the name you want, usually typ + VERSION
+
+''enc: N; ''  - Y/N/B (yes - encoded only, no - raw bin only, both)
+
+''typ: BMS;''  - BMS, BLE, DRV
+
+''md5: a82bb06003d4da98ad84db0b958d78ab;''  - replace with md5 hash (lowercase) of the unencoded bin (only if enc is B or N)
+
+''md5e: 7e8e7058d8b7367dc1af524ec3b9fcce;''  - replace with md5 hash (lowercase) of the encoded bin (only if enc is B or Y)
+
+  * FIRM.bin (only if enc is B or N)
+  * FIRM.bin.enc (only if enc is B or Y)
+
+^Encoded file needed  ^Ninebot  ^Xiaomi  |
+|BLE  |Yes  |No  |
+|BMS  |Yes  |No  |
+|DRV  |Yes|DRV140+ (see below)|
+
+Xiaomi requires encoding for DRV firmware if the current DRV version is 140 or higher. Make sure to use unencoded if your current DRV is less than 140. DownG automatically picks the correct one from the ZIP file, so make sure to use B as enc.
+
+<font inherit/inherit;;#cc0000;;inherit>**WARNING 29/04/19**: It seems that the DownG app cannot pick between encoded and raw if the version spoofing patch is applied - version is 5.x.x so they are higher than 1.4.0, triggering the encoding filter at occurrences where it shouldn't be. While waiting for DownG to be updated, we have disabled version spoofing for the incriminated versions. If you are stuck on 5.3.0, 5.3.4, or 5.3.8, you can use M365 DownG Patched to upload a raw bin. While most apps seem to face the same problem, we won't be following their update status here, so please make sure to check the changelog of your particular one.</font>
+
+\\
+

@@ -1,0 +1,6 @@
+====== Ninebot ES2/ES4 ======
+Ninebot ES2 and Ninebot ES4 are the second generation of scooters made by Segway in the Ninebot ES lineup. Though there is no notable design change from the ES1 series, apart from a now rotating folding latch, red LEDs on the back wheel instead of reflectors and Atmosphere Light (two rows of RGB LEDs under the footboard), they come equipped with a more powerful motor and with rear shock absorption.
+
+The ES2 and ES4 models are essentially the exact same scooter, the sole difference being that the ES4 comes equipped with a secondary external battery pack ensuring a longer autonomy over the ES2.
+
+A declination of these units destined to the free-floating scooter market has also been manufactured, under the model name SNSC1.0. These units have the same internals as the ES2/4 and can be seen both with or without an external battery pack. But they lack the folding mechanism present on both retail ES2 and ES4 models, as well as the rear shock absorption and the Atmosphere Light.

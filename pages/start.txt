@@ -1,0 +1,18 @@
+====== Welcome to ScooterHacking's Wiki! ======
+
+Latest pages: [[:brands|Sort by brands]] | [[:nbesx|Ninebot ESx/SNSC1]] | [[:nbdocs|Ninebot Scooters official documentation]] | [[:downg|DownG Android apps]]
+
+ScooterHacking.org is a collaborative project of developers, tinkerers, Sunday morning engineers and passionates whose goal is to understand and decode everything that revolves around the relatively new field of electric scooters. This wiki intends to provide you freely with an ever-increasingly accurate understanding of how these scooters work, hardware- and software-wise. Feel free to contribute if you have valuable insight into this domain. Please consider donating as well. Here you will find raw information about the various topics the community has been willing to explore. While some tools are provided with examples of use if you're willing to follow any kind of full tutorial or walk-through, head to the ScooterHacking.org forum ([[https://www.scooterhacking.org/forum|https://www.scooterhacking.org/forum]]) instead. If you want to contribute to the life and the advances of the community, join our forum and our Discord server ([[https://scooterhack.in/discord|https://scooterhack.in/discord]]).
+
+===== Works =====
+
+Several scooter models are out on the market. Some of them are available for private consumers, some are used by rental, free-floating companies. We have been trying to reference and document the most ubiquitous models in the Scooters page, see it for detailed information, on a "per-model" approach. That's where you are most likely to find what you're looking for. We've been compiling general software-related documents that apply to various types of scooters in the [[:software|Software]] page.
+
+We've also been compiling general information about possible hardware scooters modification in the Sort by [[:brands|]] page.
+
+===== Support us =====
+
+If you have found anything here that has been useful to you, the community would be grateful to you if you considered donating! You can thank the individual developers who wrote the tools you've used. You can donate to the community as well!
+
+……
+

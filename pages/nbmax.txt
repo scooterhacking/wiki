@@ -1,0 +1,102 @@
+====== Ninebot Max - SNSC 2.x series ======
+
+The Ninebot Max is little less popular scooter.\\
+The same rough design is carried over the whole line, the scooter always including a mechanical front brake and electrical rear brake.
+
+===== Characteristics & identification =====
+
+Click on a scooter model to show a preview.
+
+^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.x]]^[[https://upload.wikimedia.org/wikipedia/commons/7/72/Ninebot_by_Segway_Kickscooter_ES2.jpg|ES4]] (for comparison)|
+^Max speed|20/25/30km/h|20/30km/h|20/25 km/h|30km/h|
+^Range|65km|40km|65km|45km|
+^Battery (Wh)|551|367|551|374|
+^Ramovable battery|  No  ||  Varies  |  Only external  |
+^3-pin charging connector|  Yes  |  No  |  Yes  |  No  |
+^Voltage|  36-42V  ||||
+^Net weight|19kg|17.5kg|19kg|14kg|
+^Charging time (hrs)|6|6.5|6|7|
+^Power (nominal)|  350  |||300|
+^Power (peak)|  700  |||800|
+^Motor type|  Rear Hub  |||  Front Hub  |
+^Max angle (%)|  20  |||15|
+^Brakes|  Electrical rear Drum front  |||  Electrical front brake Mechanical rear foot brake  |
+^Braking distance (20km/h)|  2 meters  |||  4 meters  |
+^Shock absorption|  N/A  ||Varies|  Front Rear  |
+^Front Tire (inch)|  10 Pneumatic  |||  8 Solid  |
+^Rear Tire (inch)|  10 Pneumatic  |||  7.5 Solid  |
+^Max payload|  100kg  ||||
+^App/Bluetooth|  Yes  ||  Varies  |  Yes  |
+^LED screen|  Yes  ||  Varies  |  Yes  |
+^Visibility|  Headlight Rear light  ||||
+^Underglow lights|  No  |||  Yes  |
+^Dimension (LxWxH)|   \\ Unfolded: 112 x 47 x 120 cm \\   \\ Folded: 112 x 47 x 53 cm  ||   \\ Unfolded: 112 x 47 x 120 cm \\   \\ Folded: N/A  |  Unfolded: 102 x 43 x 113 cm \\   \\ Folded: 113 x 43 x 40 cm  |
+^Water Resistance (IP)|  54  ||||
+
+\\
+
+
+===== Hacking =====
+
+Ninebot Max and SNSC2.X scooters are supported by many apps and developers and are as popular in the hacking scene as Xiaomi scooters (they use a very similar protocol).
+
+===== Serial number anatomy =====
+
+We also have battery SN anatomy, available here [[:nbbattanatomy|(click)]]
+
+[[https://i.imgur.com/m8cDtqN.png|Visual diagram]]
+
+The ESC serial number consists of 14 characters
+
+<font inherit/inherit;;rgb(0, 0, 0);;inherit>Example serial number: **N4G**</font>**<font inherit/inherit;;rgb(243, 156, 18);;inherit>S</font><font inherit/inherit;;#7f8c8d;;inherit>D</font><font inherit/inherit;;rgb(142, 68, 173);;inherit>19</font><font inherit/inherit;;rgb(39, 174, 96);;inherit>39</font><font inherit/inherit;;rgb(192, 57, 43);;inherit>C</font><font inherit/inherit;;rgb(52, 152, 219);;inherit>0123</font>**
+
+**Black** - Product identifier
+
+**<font inherit/inherit;;#f39c12;;inherit>Orange</font>**- Product version (SN prefix)
+
+<font inherit/inherit;;#7f8c8d;;inherit>**Gray**</font> - Manufacturing line at the factory
+
+**<font inherit/inherit;;#9b59b6;;inherit>Purple</font>**- Year of production
+
+**<font inherit/inherit;;#27ae60;;inherit>Green</font>**- Week of production
+
+**<font inherit/inherit;;#e74c3c;;inherit>Red</font>**- Product revision
+
+<font inherit/inherit;;#3498db;;inherit>**Blue**</font> - Serial number unique for every unit made in each week
+
+==== Product identifiers ====
+
+  * **N4G**  represents a **consumer**  version of the scooter(G30/D/P/LP)
+  * **N4L**  represents a **rental **version of the scooter(SNSC2.0)
+  * **N4Z**  represents a **rental**  version of the scooter with removable battery (SNSC2.3)
+==== Product versions (SN prefixes) ====
+
+  * **S **is limited to 30 km/h
+  * **C **is limited to 25 km/h
+  * **E**  is limited to 20 km/h
+  * **N **is a Ninebot Max Lite serial prefix, limited to 30 km/h
+=== Known rental SN prefixes & mfg lines ===
+
+  * **YL - **Lyft
+  * **FC - **Circ
+  * **PL - **Spin
+  * **AK - **Voi
+  * **HD - **Voi
+  * **AB - **Scoot911
+  * **BG - **Bolt (Taxify)
+  * **AC - **Qick
+  * **UD - **Bolt (Taxify)
+=== Golden serial number ===
+
+If you change your serial number to **N4GSD1111Cxxxx **  (replace x-es with your current SN's numbers) and restart the scooter, it will unlock the full potential of the stock firmware.
+
+===== Identifying motor version =====
+
+Find your motor's serial number [[https://i.imgur.com/detHsir.png|printed on the side of the motor]].
+
+  * If the motor SN starts with a **6**, then it's the **older**  version, which will slow down below 70% battery.
+  * If the motor SN starts with a **9**, then it's the **newer**  version, which will retain it's 30 km/h vmax until the battery level drops below 10%
+  * If the motor SN starts with a **5**, then it's a **rental**  version. Most of them behave like the **older**  generation.
+
+\\
+

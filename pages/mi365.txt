@@ -1,0 +1,107 @@
+===== Characteristics & identification =====
+
+Click on a scooter model to show a preview.
+
+^Scooter model^  [[https://imgur.com/a/FRe1wGR|Euni ES808]]   ^  [[https://i.imgur.com/Zm4aMOk.png|M187]]  (Youth Edition)  ^  [[https://i.imgur.com/Zm4aMOk.png|M365]]   ^  [[https://i.imgur.com/l29g6Vv.png|M365 Pro]]   ^  [[https://i.imgur.com/f4vuv1g.png|M365 S1]]   ^  [[https://imgur.com/a/Gamudrn|M365 Pro 2]]   ^  [[https://imgur.com/a/Nmy7qfn|M365 Lite]]   |
+^Max speed|  25 km/h  |||||  20/25 km/h (region)  ||
+^Range (adv)|  20km  ||  30km  |  45km  |  30km  |  45km  |  20km  |
+^Battery capacity (Wh)|  187  ||  280  |  474  |  280  |  474  |  187  |
+^Max payload|  100kg  |  120kg  |  100kg  |||||
+^Voltage|  36V-42V  |||||||
+^Net weight|  13.2kg  |  12  |  12.5kg  |  14.2kg  |  12.5kg  |  14.2kg  |  12kg  |
+^Charging time (hrs)|  2  |  4  |  5  |  9  |  5  |  9  |  4  |
+^Power (nominal)|  250W  |||  300W  |  250W  |  300W  |  250W  |
+^Power (peak)|  500W  |||  600W  |  500W  |  600W  |  500W  |
+^Motor type|  Front hub  |||||||
+^Max angle (%)|  12  |  14  ||  20  |  14  |  20  |  14  |
+^Brakes|  Front ebrake, rear drum  |  Front ebrake, rear disc  ||||||
+^Shock absorption|  N/A  |||||||
+^Front Tire (inch)|  8 pneumatic  |  8.5 pneumatic  ||||||
+^Rear Tire (inch)|  8 air  |  8.5 pneumatic  ||||||
+^App/Bluetooth|  Yes (QiCycle)  |  Yes (Mi Home)  ||||||
+^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  ||||
+^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  |
+^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |
+^Water Resistance cert.|IPX5|  IP54  ||||||
+
+\\
+
+
+====== Hacking ======
+
+The M187, M365 and M365 Pro scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooers due to their similar popularity and protocols.
+
+The QiCycle EUNI ES808 isn't supported due to it's discontinued state and lack of popularity.
+
+The M365 1S, Pro 2 and Lite models aren't supported by custom firmware generators made for the previous versions. No custom firmware supports these models as of August 2020.
+
+
+===== Resources =====
+
+[[:xiaoerrorcodes|M187/365/Pro error codes]]
+
+[[https://m365.scooterhacking.org/|M187/M365 custom firmware toolkit]]
+
+[[https://m365pro.scooterhacking.org/|M365 Pro custom firmware toolkit]]
+
+[[https://iap.scooterhacking.org/|Ninebot IAP]] (Windows)
+
+[[https://play.google.com/store/apps/details?id=eScooter.m365Info&hl=en_US|XiaoFlasher]] (Android)
+
+[[https://play.google.com/store/apps/details?id=app.peretti.m365tools|M365 Tools]] (Android)
+
+[[https://tools.scooterhacking.org/xiaotea/|XiaoTea toolkit]]
+
+[[https://play.google.com/store/apps/details?id=com.m365downgrade|m365 DownG]]
+
+[[https://files.scooterhacking.org/m365/fw/|M365 firmware files]]
+
+[[https://files.scooterhacking.org/m365pro/fw/|M365 Pro firmware files]]
+
+===== Serial number anatomy =====
+
+[[https://i.imgur.com/ueVyY8q.png|Visual diagram]]
+
+The M-series serial number consists of 13 digits. The first 5 digits represent the scooter model. after the scooter model there's a SLASH and then there are 8 digits, that represent the actual serial number.
+
+\\
+**Checking fuse quantity by serial number**
+
+Look at the last 8 digits of the serial number. If the number is less than 35000, then you have the V1 version, which has one fuse. If the number is over 35000, then you have a V2 or higher scooter version, which has two fuses.
+
+==== Checking scooter version by serial number ====
+
+Look at the first 5 digits of the serial number. Below you will se a list of known versions & serial number combinations.
+
+**13678** - M365, White color, China version
+
+**13679** - M365, Black color, China version.
+
+**16057** - M187
+
+**16133** - M365, Black color, European version
+
+**16132** - M365, Black color, European version
+==== Checking battery version by serial number ====
+
+Find your 13-character battery serial number under "Battery info" in the Mi Home app or in any third-party app.
+
+The version is represented by the first 4 characters.
+
+List of known battery versions:
+
+**3JBG** - First version (//V1//)
+
+**3JCG **- Second version, with reinforced welds on the cells (//V2//)
+
+**3JEE** - Third version, with reinforced soldering & welds (//V3//)
+
+**3GBG **- Mi Electric Scooter Lite battery. Non-reinforced welds and soldering. (V1)
+
+
+==== Identifying hook version by serial number ====
+
+Scooter model 21074 with a serial number below 15107 and model 16133 with SNs between 541209 and 544518 have the non-reinforced hook which is prone to braking.
+
+All other scooter models are equipped with the newer, reinforced hook.
+

@@ -1,0 +1,244 @@
+<h1>Ninebot ESx - SNSC 1.x series</h1>
+
+<div class="level1">
+<p>The Ninebot ESx series is a very popular line of scooters, due to their use both in retail and rental markets.<br />
+The same rough design is carried over the whole line, the scooter always including a mechanical rear foot brake/electrical front brake combo, as well as an external battery port and a display.</p>
+
+<p>&nbsp;</p>
+</div>
+
+<h2>Identification</h2>
+
+<table aria-describedby="tablepress-6_info" id="tablepress-6" role="grid">
+	<thead>
+		<tr role="row">
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">Max (for comparison)</th>
+			<th colspan="1" rowspan="1">ES4 (ES2 + ext battery)</th>
+			<th colspan="1" rowspan="1">ES2</th>
+			<th colspan="1" rowspan="1">ES3 (ES1 + ext battery)</th>
+			<th colspan="1" rowspan="1">ES1</th>
+			<th rowspan="1">SNSC1.0</th>
+			<th rowspan="1">SNSC1.0 + ext battery</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Max.Speed</td>
+			<td>25-30km/h</td>
+			<td>30km/h</td>
+			<td>25km/h</td>
+			<td>25km/h</td>
+			<td>20km/h</td>
+			<td>20-25km/h</td>
+			<td>25-30km/h</td>
+		</tr>
+		<tr role="row">
+			<td>Max.Distance</td>
+			<td>65km</td>
+			<td>45km</td>
+			<td>25km</td>
+			<td>45km</td>
+			<td>25km</td>
+			<td>25km</td>
+			<td>45km</td>
+		</tr>
+		<tr role="row">
+			<td>Battery(Wh)</td>
+			<td>551</td>
+			<td>374</td>
+			<td>187</td>
+			<td>374</td>
+			<td>184</td>
+			<td>187</td>
+			<td>374</td>
+		</tr>
+		<tr role="row">
+			<td>Voltage(V)</td>
+			<td>36</td>
+			<td>36</td>
+			<td>36</td>
+			<td>36</td>
+			<td>36</td>
+			<td>36</td>
+			<td>36</td>
+		</tr>
+		<tr role="row">
+			<td>Net Weight</td>
+			<td>19kg</td>
+			<td>14kg</td>
+			<td>12kg</td>
+			<td>13kg</td>
+			<td>11kg</td>
+			<td>11kg</td>
+			<td>13kg</td>
+		</tr>
+		<tr role="row">
+			<td>Charging.Time(hrs)</td>
+			<td>6</td>
+			<td>7</td>
+			<td>3.5</td>
+			<td>7</td>
+			<td>3.5</td>
+			<td>3.5</td>
+			<td>7</td>
+		</tr>
+		<tr role="row">
+			<td>Power(nominal)</td>
+			<td>350</td>
+			<td>300</td>
+			<td>300</td>
+			<td>250</td>
+			<td>250</td>
+			<td>300</td>
+			<td>300</td>
+		</tr>
+		<tr role="row">
+			<td>Power(peak)</td>
+			<td>700</td>
+			<td>800</td>
+			<td>700</td>
+			<td>600</td>
+			<td>500</td>
+			<td>700</td>
+			<td>800</td>
+		</tr>
+		<tr role="row">
+			<td>Motor(Type)</td>
+			<td>Rear Hub</td>
+			<td>Front Hub</td>
+			<td>Front Hub</td>
+			<td>Front Hub</td>
+			<td>Front Hub</td>
+			<td>Front Hub</td>
+			<td>Front Hub</td>
+		</tr>
+		<tr role="row">
+			<td>Max.Angle(%)</td>
+			<td>20</td>
+			<td>15</td>
+			<td>10</td>
+			<td>15</td>
+			<td>10</td>
+			<td>10</td>
+			<td>10</td>
+		</tr>
+		<tr role="row">
+			<td>Brakes</td>
+			<td>Electrical + Drum</td>
+			<td>Electrical + Mechanical</td>
+			<td>Electrical + Mechanical</td>
+			<td>Electrical + Mechanical</td>
+			<td>Electrical + Mechanical</td>
+			<td>Electrical + Mechanical</td>
+			<td>Electrical + Mechanical</td>
+		</tr>
+		<tr role="row">
+			<td>Braking distance(12.4 mph)</td>
+			<td>2 meters</td>
+			<td>4 meters</td>
+			<td>4 meters</td>
+			<td>4 meters</td>
+			<td>4 meters</td>
+			<td>4 meters</td>
+			<td>4 meters</td>
+		</tr>
+		<tr role="row">
+			<td>Shock absorption</td>
+			<td>N/A</td>
+			<td>Front + Rear</td>
+			<td>Front + Rear</td>
+			<td>Front</td>
+			<td>Front</td>
+			<td>Front</td>
+			<td>Front</td>
+		</tr>
+		<tr role="row">
+			<td>Front Tire(inch)</td>
+			<td>10 Pneumatic</td>
+			<td>8 Solid</td>
+			<td>8 Solid</td>
+			<td>8 Solid</td>
+			<td>8 Solid</td>
+			<td>8 Solid</td>
+			<td>8 Solid</td>
+		</tr>
+		<tr role="row">
+			<td>Rear Tire(inch)</td>
+			<td>10 Pneumatic</td>
+			<td>7.5 Solid</td>
+			<td>7.5 Solid</td>
+			<td>7.5 Solid</td>
+			<td>7.5 Solid</td>
+			<td>7.5 Solid</td>
+			<td>7.5 Solid</td>
+		</tr>
+		<tr role="row">
+			<td>Max.Weight</td>
+			<td>100kg</td>
+			<td>100kg</td>
+			<td>100kg</td>
+			<td>100kg</td>
+			<td>100kg</td>
+			<td>100kg</td>
+			<td>100kg</td>
+		</tr>
+		<tr role="row">
+			<td>App/Bluetooth</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Varies</td>
+			<td>Varies</td>
+		</tr>
+		<tr role="row">
+			<td>LED Screen</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Varies</td>
+			<td>Varies</td>
+		</tr>
+		<tr role="row">
+			<td>Visibility</td>
+			<td>Headlight + Rear light</td>
+			<td>Headlight + Rear light</td>
+			<td>Headlight + Rear light</td>
+			<td>Headlight + rear reflector</td>
+			<td>Headlight + rear reflector</td>
+			<td>Headlight + Rear light</td>
+			<td>Headlight + Rear light</td>
+		</tr>
+		<tr role="row">
+			<td>Dimension(LxWxH)</td>
+			<td>Unfolded: 112 x 47 x 120 cm<br />
+			Folded: 112 x 47 x 53 cm</td>
+			<td>Unfolded: 102 x 43 x 113 cm<br />
+			Folded: 113 x 43 x 40 cm</td>
+			<td>Unfolded: 102 x 43 x 113 cm<br />
+			Folded: 113 x 43 x 40 cm</td>
+			<td>Unfolded: 102 x 43 x 113 cm<br />
+			Folded: 113 x 43 x 40 cm</td>
+			<td>Unfolded: 102 x 43 x 113 cm<br />
+			Folded: 113 x 43 x 40 cm</td>
+			<td>Unfolded: 102 x 43 x 113 cm<br />
+			Folded: N/A</td>
+			<td>Unfolded: 102 x 43 x 113 cm<br />
+			Folded: N/A</td>
+		</tr>
+		<tr role="row">
+			<td>Water Resistance(IP)</td>
+			<td>54</td>
+			<td>54</td>
+			<td>54</td>
+			<td>54</td>
+			<td>54</td>
+			<td>54</td>
+			<td>54</td>
+		</tr>
+	</tbody>
+</table>

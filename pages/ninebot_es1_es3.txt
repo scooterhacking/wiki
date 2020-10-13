@@ -1,0 +1,4 @@
+====== Ninebot ES1/ES3 ======
+Ninebot ES1 and Ninebot ES3 are the first generation of scooters made by Segway in the Ninebot ES lineup. They are essentially the exact same scooter, the sole difference being that the ES3 comes equipped with a secondary external battery pack ensuring a longer autonomy.
+
+A declination of this unit destined to the free-floating scooter market has also been manufactured, under the model name SNSC1.1. These units can be seen both with or without an external battery pack and they lack the folding mechanism present on both retail ES1 and ES3 models.

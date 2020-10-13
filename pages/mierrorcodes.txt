@@ -1,0 +1,24 @@
+====== Xiaomi M-series Error codes ======
+
+^Code^Description^^Additional information^^|
+^10|No communication between BLE and ESC||Check the connection between BLE and ESC|||
+^11|Motor phase A current out of range|| |||
+^12|Motor phase B current out of range|| |||
+^13|Motor phase C current out of range|| |||
+^14|Throttle handle position out of range||Throttle might be stuck, faulty or disconnected|||
+^15|Brake handle position out of range||Brake handle might be stuck, faulty or disconnected|||
+^18|Motor sensor read abnormal|| |||
+^21|No communication with internal BMS||Check data connector between internal battery and ESC, replace the battery|||
+^22|Inernal BMS config invalid||Replace internal BMS or battery|||
+^23|Internal BMS not activated (has default S/N)||Replace internal BMS or battery/change SN|||
+^24|Charger voltage abnormal|| |||
+^26|Flash save error||Try to flash ESC with ST-Link/replace ESC|||
+^27|ESC config invalid||Try to flash ESC with ST-Link/replace ESC|||
+^28|MOSFET status abnormal|| |||
+^29|MOSFET low status abnormal|| |||
+^35|ESC not activated, has default S/N|| |||
+^39|Battery temperature abnormal|| |||
+^40|Controller temperature abnormal|| |||
+
+\\
+

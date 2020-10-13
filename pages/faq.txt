@@ -1,0 +1,131 @@
+Welcome to the ScooterHacking FAQ, press **Ctrl-F **and use keywords to quickly find a question.
+
+<font inherit/inherit;;#e74c3c;;inherit>**Please note that this is page is still in it's early state but is actively expanding to cover more questions.**</font>
+
+====== Brand-specific ======
+
+===== Ninebot =====
+
+Q: What does error X/Y/Z mean and how to solve it?\\
+A: You can check out a full list of Ninebot error codes [[:nberrorcodes|here (click)]]
+
+Q: How to unlock the speed of my Ninebot Max?\\
+A: There are two options - SN/Region change, which doesn't change the firmware of the scooter, or CFW, which as the name implies, modifies the firmware of your scooter.
+
+Q: What should I do when the app says that my scooter is bound to another account?\\
+A: Change the serial number.
+
+Q: Why can't I see the light control options in the Ninebot app? (Ninebot ES)\\
+A: Because your scooter is not identified as an ES2. Change your serial number to an ES2/4 one.
+
+Q: How to change the serial number of my scooter?\\
+A: [[https://bit.ly/2U2URdB|ES (click)]] [[https://scooterhack.in/maxunlock|Max (click)]]
+
+Q: Where can I find CFW for my Ninebot scooter?\\
+A: [[https://esx.cfw.sh/|ES (click)]] [[https://max.cfw.sh/|Max (click)]]
+
+Q: How to go back to stock firmware? Where can I find stock firmware?\\
+A: Download a stock firmware file from [[https://files.scooterhacking.org/|here]] and flash it using your app of choice.
+
+Q: I have BLE555 and I can't downgrade, why?\\
+A: BLE555 can only be st-link'ed as of moment of writing. You can find a guide on how to do that [[https://bit.ly/BLE555_downgrade|here (click)]]
+
+Q: I flashed wrong firmware and now my scooter won't turn on/turns off immediately, what can I do?\\
+A: ST-Link, [[https://www.youtube.com/watch?v=hf_KrEb76ZY|ES (click)]] [[https://bit.ly/2SaYn4s|Max (click)]]
+
+Q: How to convert my rental Ninebot Max for personal use?\\
+A: If it's an SNSC2.0, [[https://www.scooterhacking.org/forum/viewtopic.php?t=266|here's a guide (click)]]
+
+Q: How to convert my rental Ninebot ES for personal use?\\
+A: Use IAP [[https://scooterhack.in/iapguide|(guide)]] or ST-Link [[https://bit.ly/2VUPRsE|(guide)]]
+
+Q: How to convert my Ninebot Max Plus (SNSC2.3/SNSC2.4) or Max Pro (SNSC2.2) for personal use?\\
+A: ScooterHacking does not publicly support these models.
+
+Q: Can I flash CFW from an iPhone (iOS)?\\
+A: No, only via Windows or Android.
+
+Q: What's the recommended tire pressure for the Ninebot Max?\\
+A: [[https://i.imgur.com/YcyQI4N.jpg|Here's a table (click)]]
+
+Q: How to mod my Ninebot Max to go over 35 km/h?\\
+A: Bring up the voltage to 48V by using a second battery in parallel or by replacing the stock one.
+
+Q: Who is Nord?\\
+A: [[https://i.imgur.com/AjUh0ZX.png|(click)]]
+
+Q: How to convert a bin, encoded bin or a ZIP into other file types?\\
+A: Use [[https://tools.scooterhacking.org/xiaotea/|XiaoTea (click)]]
+
+Q: How to use IAP?\\
+A: [[https://scooterhack.in/iapguide|Here's a guide (click)]]
+
+Q: How to unlock an E-series scooter? (E22/E25/E45)\\
+A: [[https://scooterhack.in/eseriesunlock|Here's a guide (click)]]
+
+Q: Can I add inflatable tires to my Ninebot ES?\\
+A: Only to the rear and only by replacing the entire wheel.
+
+Q: Where can I find Ninebot specs?\\
+A: [[:nbesx|ES (click)]], [[:nbmax|Max (click)]], [[:nbeseries|E-series (click)]]
+
+Q: What do serial numbers mean?\\
+A: Look at the wiki page of the scooter model in question.
+
+Q: My scooter slows down to 27 km/h when below ~80% battery, why?\\
+A: That's a known issue on first generation motors. To see which generation motor you have, look [[:nbmax#identifying_motor_version|here (click)]]
+
+Q: Should I install a mudguard support on my Ninebot Max/Max Lite?\\
+A: While the Max mudguard is stronger than the Xiaomi ones, it can still break after a while. It is recommended to install a mudguard support.
+
+Q: I want to change my Ninebot Max'es serial number but it doesn't work.\\
+A: Conventional SN changing methods were disabled in DRV145, if you want to change the SN downgrad to DRV126.
+
+Q: Can I make my non-folding scooter foldable?\\
+A: It is technically possible but it requires cutting two big holes in the deck and buying a foldable fork, so it's not worth it.
+
+===== Xiaomi =====
+
+Q: What's the recommended tire pressure for Xiaomi scooters?\\
+A: [[https://i.imgur.com/symdcj6.png|Here's a table (click)]].
+
+Q: Where can I find CFW for my model?\\
+A: [[https://bit.ly/3neo2Y0|M365 (click)]], Pro (currently broken), [[https://pro2.cfw.sh/|Pro 2 (click)]], [[https://1s.cfw.sh/|1S/Essential (Lite)(click)]]
+
+Q: How to go back to stock firmware? Where can I find stock firmware?\\
+A: Download a stock firmware file from [[https://files.scooterhacking.org/|here]] and flash it using your app of choice.
+
+Q: What does error X/Y/Z mean and how to solve it?\\
+A: You can check out a full list of Xiaomi error codes [[:nberrorcodes|here (click)]]
+
+Q: What are the downsides of solid tires?\\
+A: Vibrations can cause permanent damage to the battery.
+
+Q: What should I do after installing a pro dashboard on my m365?\\
+A: Flash pro DRV firmware.
+
+Q: Should I install a mudguard support?\\
+A: If you have an M365 or an M365 Pro then yes. If it's a 1S, Pro 2 or an Essential then the stock one is good enough.
+
+===== Okai/Electisan =====
+
+Q: My scooter shuts down after 2 minutes, why?\\
+A: It's a BMS feaure to prevent you from converting it.
+
+===== Other =====
+
+====== Site-wide acronyms ======
+
+ESC - Control board (controller)\\
+BLE - Bluetooth (dashboard)\\
+BMS - Battery management system\\
+CFW - Custom firmware
+
+====== Apps ======
+
+[[https://scooterhack.in/iapce|IAP]] - A multi-function scooter utility for Windows that works via Bluetooth or serial.\\
+[[http://bit.ly/338ANtz|XiaoFlasher]] - An Android app made for flashing CFW and changing serial numbers on Xiaomi and Ninebot devices.\\
+[[http://bit.ly/338ANtz|NineFlasher]] - another name for XiaoFlasher\\
+[[https://bit.ly/34kwmN9|ESdownG]] - An Android app made for flashing CFW on Ninebot scooters.\\
+[[https://bit.ly/2GoXLp4|M365 downG]] - An Android app made for flashing CFW on Xiaomi scooters.
+

@@ -1,0 +1,95 @@
+===== Ninebot battery SN anatomy =====
+
+[[https://i.imgur.com/mOi3bin.png|Visual diagram]]
+
+Example SN: **<font inherit/inherit;;#7f8c8d;;inherit>4</font><font inherit/inherit;;#8e44ad;;inherit>WWE</font><font inherit/inherit;;#f1c40f;;inherit>Q</font><font inherit/inherit;;#27ae60;;inherit>20</font>D<font inherit/inherit;;#3498db;;inherit>5</font><font inherit/inherit;;#c0392b;;inherit>C</font><font inherit/inherit;;#f39c12;;inherit>0420</font>**
+  * **<font inherit/inherit;;#7f8c8d;;inherit>Gray -</font>**Compatible model
+  * **<font inherit/inherit;;#8e44ad;;inherit>Purple -</font>**Version/Edition
+  * **<font inherit/inherit;;#f1c40f;;inherit>Yellow -</font>**Manufacturing line at the factory
+  * <font inherit/inherit;;#27ae60;;inherit>**Green - **</font>Year of production
+  * **Black - **Month of production
+  * **<font inherit/inherit;;#3498db;;inherit>Blue -</font>**Day of production
+  * <font inherit/inherit;;#c0392b;;inherit>**Red - **</font>Product revision
+  * **<font inherit/inherit;;#f39c12;;inherit>Orange -</font>**Unique unit ID
+
+==== Compatible model ====
+
+**4 - **Represents a battery compatible with the Ninebot E/ES series scooters.
+
+**5 - **Represents a battery compatible with the Ninebot Max series scooters.
+
+**6 - **Represents a Ninebot Max battery used in non-foldable rental units.
+
+
+==== Version ====
+
+If the version ID starts with a **W**, then it's a **external **battery on an ES, or an intenal on a MAX.
+
+If the version ID starts with a **V**, then it's a **internal **battery on the ES.
+
+
+==== Year of production ====
+
+Represents the year in which a battery was made. 20 - 2020, 19 - 2019 etc.
+
+==== Month of production ====
+
+Represents a month in which a battery was made.
+
+**A**
+ - January, **B **- February **C **- March **D **- April **E **- May **F **- June
+
+**G **- July **H **- August **I **- September **J**** **- October **K **- November **L **- December
+
+==== Day of production ====
+
+Represents a day in which a battery was made.
+
+^  Day  ^  Character in the SN  |
+|  **1**    |  **1**    |
+|  **2**    |  **2**    |
+|  **3**    |  **3**    |
+|  **4**    |  **4**    |
+|  **5**    |  **5**    |
+|  **6**    |  **6**    |
+|  **7**    |  **7**    |
+|  **8**    |  **8**    |
+|  **9**    |  **9**    |
+|  **10**    |  **A**    |
+|  **11**    |  **B**    |
+|  **12**    |  **C**    |
+|  **13**    |  **D**    |
+|  **14**    |  **E**    |
+|  **15**    |  **F**    |
+|  **16**    |  **G**    |
+|  **17**    |  **H**    |
+|  **18**    |  **I**    |
+|  **19**    |  **J**    |
+|  **20**    |  **K**    |
+|  **21**    |  **L**    |
+|  **22**    |  **M**    |
+|  **23**    |  **N**    |
+|  **24**    |  **O**    |
+|  **25**    |  **P**    |
+|  **26**    |  **Q**    |
+|  **27**    |  **R**    |
+|  **28**    |  **S**    |
+|  **29**    |  **T**    |
+|  **30**    |  **U**    |
+|  **31**    |  **V**    |
+
+\\
+
+
+==== Product revision ====
+
+Represents the battery revision. **A **represents rev. 1, **B **represents rev. 2, **C **rev. 3 etc.
+
+==== Unique unit ID ====
+
+Incremental counter identifying every battery made each day.
+
+For example 123 means the 123rd battery made on a particular day.
+
+\\
+

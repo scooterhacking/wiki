@@ -1,0 +1,24 @@
+====== Navigate scooters by brand ======
+
+This index classifies all documented e-scooters, sorted by brand and then by models or sub-categories.
+
+  * Xiaomi-Ninebot
+      * [[:nbesx|Ninebot ESx/SNSC1.X]]
+      * [[:nbeseries|Ninebot E-Series]]
+      * [[:nbmax|Ninebot Max/SNSC2.X]]
+      * [[:nbtseries|Ninebot T-Series]]
+      * [[:mi365|Xiaomi M365]]
+      * [[:mi365pro|Xiaomi M365 Pro]]
+  * Okai
+      * [[:f350|Electisan F350]]
+      * [[:es100|ES-100]]
+      * [[:es200|ES-200]]
+      * [[:es300|ES-300]]
+      * [[:es400|ES-400]]
+      * [[:lime|Lime]]
+  * Other brands (feel free to edit when completed)
+      * Zero
+      * Aerlang
+      * Jump Bikes
+      * iWalk eBike
+

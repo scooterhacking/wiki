@@ -1,0 +1,2 @@
+====== Ninebot Scooters official documentation ======
+{{pdfjs 900px>:nbdoc.pdf}}

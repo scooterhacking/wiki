@@ -1,0 +1,10 @@
+====== Ninebot ESx Dashboard ST Link flash ======
+
+
+The Ninebot ES dashboard can be reset to factory/OEM settings by flashing Original Firmware (OFW) using an ST Link programmer.
+
+[[https://www.youtube.com/watch?v=Kba7yK9NV6c|ST Link dashboard flash tutorial video]]
+
+[[https://hackmd.io/s/Bki2fcWwE|ST Link dashboard flash tutorial]]
+
+[[https://files.scooterhacking.org/esx/fw/ble/|Download Original Dashboard Firmware (OFW)]]

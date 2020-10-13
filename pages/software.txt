@@ -1,0 +1,22 @@
+====== Software ======
+
+===== Flashing software =====
+
+==== Ninebot ====
+
+[[:downg|DownG Android apps]]
+
+[[https://sctrhck.ml/ninebotflasher|Ninebot-Flasher]]
+
+[[https://sctrhck.ml/ninebotfun|NinebotFun]]
+
+[[https://iap.scooterhacking.org/index.html|Ninebot IAP]]
+
+==== Xiaomi ====
+
+[[:downg|DownG Android apps]]
+
+[[https://sctrhck.ml/ninebotfun|NinebotFun]]
+
+[[https://iap.scooterhacking.org/index.html|Ninebot IAP]]
+
