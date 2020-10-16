@@ -10,17 +10,17 @@ Click on a scooter model to show a preview.
 ^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.x]]^[[https://upload.wikimedia.org/wikipedia/commons/7/72/Ninebot_by_Segway_Kickscooter_ES2.jpg|ES4]] (for comparison)|
 ^Max speed|20/25/30km/h|20/30km/h|20/25 km/h|30km/h|
 ^Range|65km|40km|65km|45km|
-^Battery (Wh)|551|367|551|374|
+^Battery (Wh)|551|367|551/1004 (optional)|374|
 ^Ramovable battery|  No  ||  Varies  |  Only external  |
-^3-pin charging connector|  Yes  |  No  |  Yes  |  No  |
+^3-pin charging connector|  Yes  |  No  |  Varies  |  No  |
 ^Voltage|  36-42V  ||||
-^Net weight|19kg|17.5kg|19kg|14kg|
+^Net weight|19kg|17.5kg|19+ kg|14kg|
 ^Charging time (hrs)|6|6.5|6|7|
 ^Power (nominal)|  350  |||300|
 ^Power (peak)|  700  |||800|
 ^Motor type|  Rear Hub  |||  Front Hub  |
 ^Max angle (%)|  20  |||15|
-^Brakes|  Electrical rear Drum front  |||  Electrical front brake Mechanical rear foot brake  |
+^Brakes|  Electrical rear Drum front  ||  Electrical rear, drum front, drum rear on the Plus series  |  Electrical front brake Mechanical rear foot brake  |
 ^Braking distance (20km/h)|  2 meters  |||  4 meters  |
 ^Shock absorption|  N/A  ||Varies|  Front Rear  |
 ^Front Tire (inch)|  10 Pneumatic  |||  8 Solid  |
@@ -29,12 +29,9 @@ Click on a scooter model to show a preview.
 ^App/Bluetooth|  Yes  ||  Varies  |  Yes  |
 ^LED screen|  Yes  ||  Varies  |  Yes  |
 ^Visibility|  Headlight Rear light  ||||
-^Underglow lights|  No  |||  Yes  |
+^"Mood lights" (RGB LEDs)|  No  ||  Varies, head-mounted LED strip  |  Yes, underglow  |
 ^Dimension (LxWxH)|   \\ Unfolded: 112 x 47 x 120 cm \\   \\ Folded: 112 x 47 x 53 cm  ||   \\ Unfolded: 112 x 47 x 120 cm \\   \\ Folded: N/A  |  Unfolded: 102 x 43 x 113 cm \\   \\ Folded: 113 x 43 x 40 cm  |
 ^Water Resistance (IP)|  54  ||||
-
-\\
-
 
 ===== Hacking =====
 
