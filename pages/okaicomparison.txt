@@ -1,0 +1,32 @@
+<font inherit/inherit;;#cc3333;;inherit>**Please note that this is an early release and more content will be added over time**</font>
+
+====== Okai ES-series scooters comparison table ======
+
+Click on the model name to see a preview
+
+^Scooter model^[[https://imgur.com/a/9VEocYL|ES100]]^[[https://imgur.com/a/qtGwWWV|ES200]]^[[https://imgur.com/a/VEAq775|ES300]]^[[https://imgur.com/a/ndg6TRC|ES400]]^[[https://imgur.com/a/dDQI3lS|ES400B]]|
+^Max speed|  20-30 kph (config)  |||||
+^Max range (adv)|  60 km  ||  55+ km  |||
+^Battery (Wh)|  460.8  ||  768  |  460.8/768 (revision)  |  705.6  |
+^Ramovable battery|  No (optional on the ES200)  ||  Yes  |||
+^Voltage|  36  ||  48  |||
+^Net weight|  23 kg  |  21 kg  |  nd, around 27 kg  |  29 kg  |  34 kg  |
+^Power (nominal)|  350W  |||||
+^Power (peak)|  700W  |||||
+^Motor type|  Front BLDC hub  ||  Rear BLDC hub  |||
+^Max angle (%)|  15  ||  20  |||
+^Brakes|  front kers, rear drum  ||  Dual drum, rear kers  |||
+^Shock absorption|  Front, different types  |||  Front hydraulic  ||
+^Front Tire (inch)|  8/10 (version)  |  10  ||  12  ||
+^Rear Tire (inch)| ::: | ::: ||  9  ||
+^Max payload|  100 kg  |||||
+^LED screen|  Full LED display  |||||
+^Indicators|  No  ||||  Yes  |
+^Visibility|  Front/Rear lights, optional reflectors  |||||
+^Dimension (LxWxH)|  1155x500x1188mm  |  1170x500x1210mm  |  1155x505x1220mm  |  1200x505x1220mm  |  1200x521x1220mm  |
+^Water Resistance|  IP67  |||||
+
+nd - no data
+
+\\
+
