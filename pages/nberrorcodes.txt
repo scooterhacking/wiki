@@ -16,6 +16,7 @@
 |22|Internal BMS config invalid|Replace internal BMS or battery; [[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=173|attempt a fix]], or, flash CFW with error raising disabled.|System warning|1|
 |23|Internal BMS not activated (has default S/N)|Replace internal BMS or battery; [[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=173|attempt a fix]], or, flash CFW with error raising disabled.  |System warning  |1  |
 |24|Supply voltage out of range| |Battery mod warning|2|
+|25|Communication failure during ESC fimware update|Hard-reset scooter|System error|3|
 |26|Flash save error|Try to flash ESC with ST-Link ([[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=40|ESx]], [[https://www.scooterhacking.org/forum/viewtopic.php?f=26&t=213|Max]]), replace ESC|System error|3|
 |27|ESC config invalid|Try to flash ESC with ST-Link ([[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=40|ESx]], [[https://www.scooterhacking.org/forum/viewtopic.php?f=26&t=213|Max]]) / change SN ([[https://bit.ly/ESx-Activation|ESx]], [[https://bit.ly/max-unlock|Max]])|System warning|1|
 |28|Motor driver mos up-bridge short circuit|Check motor|Hardware error|3|
@@ -26,8 +27,8 @@
 |36|2+4 connector failure or external battery charging wire failure.| |Hardware error|3|
 |37|Charging base failure or built-in battery charging wire failure.| |Hardware error|3|
 |38|Charging overcurrent|Incorrect power supply|Hardware error|3|
-|39|Internal battery overheat| |Hardware error|3|
-|40|ESC overheat| |Hardware error|3|
+|39|Internal battery overheat| |Hardware error/battery mod warning|2|
+|40|ESC overheat|Let the scooter cool down / check temperature sensors|Hardware error|3|
 |41|External battery overheat| |Hardware error|3|
 |42|No communication with external BMS|Inspect external battery connectors, tighten up external battery screws|Hardware error|3|
 |43|External BMS config invalid|Replace external BMS or battery; [[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=173|attempt a fix]]|System warning|1|
@@ -38,8 +39,6 @@
 |48|External battery protection board damaged|Replace external battery or BMS|Hardware error|3|
 |49|Internal BMS firmware version mismatch|Change internal BMS firmware version|System warning|2|
 |50|External BMS firmware version mismatch|Change external BMS firmware version|System warning|2|
-
-[[https://github.com/etransport/ninebot-docs/wiki/ES2ESC#error-codes|Original source]]
 
 \\
 
