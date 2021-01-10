@@ -1,0 +1,325 @@
+
+
+**<font 18px/inherit;;inherit;;inherit>Welcome to the 'Ninebot Update Logs' wiki page.</font>** \\
+This page will be constantly updated with new content.\\
+Please note that due to a lack of documentation regarding old updates, some logs might be missing.
+
+===== Firmware update logs =====
+
+==== ESx ====
+
+=== DRV/ESC ===
+
+DRV164\\
+1. Optimize vehicle dynamic performance.\\
+2. Improve firmware stability.
+
+DRV162\\
+1. Optimize the riding experience while climbing.\\
+2. Fix the problem that the brake may fail in some cases.\\
+3. Support the recognition of Ninebot Engine Speaker.\\
+4. Improve firmware stability.
+
+DRV151\\
+1. Optimize the feel of braking.
+
+DRV150\\
+1. Optimize the feel of braking.
+
+DRV147\\
+1. Increase the initial braking force
+
+DRV145\\
+1. Improve braking performance
+
+DRV139\\
+1. According to the max speed requirement issued by the National Technology Standard Institute, please upgrade the firmware of your Ninebot KickScooter ES.
+
+DRV133\\
+1. Optimize charging protection when dual batteries are inserted.
+
+=== BLE ===
+
+BLE109\\
+1. Encrypt bluetooth communication data.
+
+BLE107\\
+1. Allow displaying error codes while charging
+
+=== BMS ===
+
+BMS149\\
+1. Optimize battery performance
+
+BMS146\\
+1. Optimized the discharge protection strategy
+
+BMS141\\
+1. Optimized standby battery consumption
+
+BMS136\\
+1. Optimize the charging protection when dual batteries are inserted.
+
+==== Max ====
+
+=== DRV/ESC ===
+
+DRV154\\
+1. To adapt to German regulations, disabled the software lock function of German models.\\
+2. Optimized vehucle power performance.\\
+3. Improve firmware stability
+
+DRV151\\
+1. Adapt to European regulations 17128, Disabled the cruise control function for European models, updated the walk mode function (the headlights or taillights cannot be turned off in walk mode), the scooter cannot be turned off when the speed is over 4 km/h.\\
+2. New button control function of front light switch for German models.\\
+3. Optimize braking performance and improve the stability of braking function.\\
+4. Improve firmware stability.
+
+DRV145\\
+1. Optimize the experience\\
+2. Bluetooth speaker adaption
+
+DRV126\\
+1. Improve the system safety of scooters
+
+=== BLE ===
+
+BLE113\\
+1. Optimize the riding experience of scooters
+
+=== BMS ===
+
+BMS156\\
+1. Optimize firmware compatibility.\\
+2. Improve firmware stability.
+
+BMS155\\
+1. Optimize battery performance.\\
+2. Optimize charging logic
+
+BMS153\\
+1. Optimize battery performance.
+
+==== E-series ====
+
+=== DRV/ESC ===
+
+DRV255\\
+1. Adapt to European regulations 17128, Disabled the cruise control function for European models, updated the walk mode function.\\
+2. Improve firmware stability.
+
+DRV250\\
+1. Optimize the riding experience
+
+=== BLE ===
+
+BLE209\\
+1. Improve firmware sability
+
+==== Air T15 ====
+
+=== DRV/ESC ===
+
+DRV116\\
+1. Due to legal reasons, the Air T15D cancels the cruise control function and App lock function; the front lights and tail lights are on and can't be turned off by default.\\
+2. Due to legal reasons, the Air T15E cancels the cruise control function; the front lights and tail lights flash in walk mode.\\
+3. Improved firmware stability.
+
+DRV114\\
+1. Optimize the safety mechanism of motor temperature control.\\
+2. Optimize the battery temperature control safety mechanism.\\
+3. Improve the safety of vehicle software control
+
+=== BLE ===
+
+BLE113\\
+1. Optimize the maximum length of the vehicle name to 13 characters.
+
+=== BMS ===
+
+BMS117\\
+1. Optimize battery firmware performance
+
+===== App update logs =====
+
+**5.3.2 (Chinese)** \\
+1.Improved post categorization in Moments.\\
+2.Fixed a few bugs and improved user experience.\\
+——————-\\
+Recent updates\\
+1. Added categories in Moments to personalize user experience.\\
+2. Improved Ninebot eScooter and eMoped AirLock experience (for HUAWEI mobiles only).\\
+3. Added current phone location on ‘Find my vehicle’ page for Ninebot eScooter and eMoped.\\
+Happy new year!
+
+**5.3.1 (Chinese)** \\
+1. Improved Ninebot eScooter and eMoped AirLock experience (for HUAWEI mobiles only).\\
+2. Added current phone location on‘Find my vehicle’page for Ninebot eScooter and eMoped.\\
+3. Fixed a few bugs and improved app user experience.
+
+**5.3.0 (Chinese)** \\
+1.Added categories in Moments to personalize user experience.\\
+2.Supports Ninebot Mecha Kit.\\
+3.Supports Ninebot Engine Speaker functions and firmware update.\\
+4.Improve Ninebot KickScooter Air Lock experience (for HUAWEI mobiles only).
+
+**5.2.15 (Chinese)** \\
+1. Supports insurance purchase for Ninebot eScooter and eMoped series (available in mid-November).\\
+2. Optimized user experience in Community FAQ.\\
+3. Supports new models of Ninebot eScooter series and eMoped B series.\\
+4. Supports new Ninebot KickScooter models.\\
+5. Fixed several bugs.
+
+**5.2.13 (Chinese)** \\
+1. Improve user experience of some features.\\
+2. Support new Ninebot KickScooter products.\\
+3. Fixed a few bugs.
+
+**5.2.12 (Chinese)** \\
+1. Optimize online customer service and make sure all messages from customer representatives are sent successfully. Solve video streaming problems.\\
+2. Optimize the AirLock experience. Add an unlocking failure reminder when the Bluetooth is connected but the user is outside the unlocking distance.\\
+3. Ninebot eScooter speed limit is adjustable for different gears (the dashboard firmware should be 1.3.3 and above).\\
+4. Add an issue feedback system when the Bluetooth connection fails and optimize user experience.\\
+5. Supports new KickScooter Max models.
+
+**5.2.10 (Chinese)** \\
+1. Supports Ninebot S-Max.\\
+2. Fixed a few bugs.
+
+**5.2.9 (Chinese)** \\
+1. Password unlocking feature added for Ninebot eScooter (for dashboard version 1.3.3 and above).\\
+2. Improved User experience in after-sales service.\\
+3. Optimized the activation process.\\
+4. Improved Bluetooth connection stability.\\
+5. Fixed a few bugs.
+
+**5.2.8 (Chinese)** \\
+1. Optimize performance.\\
+2. Solve the crash problem in some cases.\\
+3. Fix some bugs.
+
+**5.2.5 (Chinese)** \\
+1. Circle function optimization.\\
+2. Optimization of vehicle functions.\\
+3. Fix some bugs.
+
+**5.2.4 (Chinese)** \\
+1. Nine electric function optimization.\\
+2. Circles optimization.\\
+3. Known bug fixes.
+
+**5.2.2 (Global)** \\
+1. Improved post categorization in Moments.\\
+2. Fixed a few bugs and improved user experience.\\
+—–\\
+Recent updates\\
+Added categories in Moments to personalize user experience.
+
+**5.2.2 (Chinese)** \\
+1. Circle upgrade recommendation system.\\
+2. Electric optimization on the 9th.\\
+3. Newly add a battery and connect with Bluetooth to open the bucket to guide.
+
+**5.2.1 (Chinese)** \\
+1. faster device sync.\\
+2. Optimized Gokart function\\
+3. New filters in the what's new section.
+
+**5.2.1 (Global/Chinese)** \\
+1. Fixed a few bugs and improved user experience.
+
+**5.2.0 (Chinese)** \\
+App fully upgraded to the latest version to fully optimize the travel experience. Segway-Ninebot will continue to optimize and upgrade to provide you with better services.\\
+*Please uninstall the old version after update\\
+\\
+1. Adapt to the new car Ninebot GoKart Pro.\\
+2. Optimize the function of eMoped Airlock and car search, adapt to the new color of eMoped.\\
+3. Fix known bugs.
+
+**5.2.0 (Global/Chinese)** \\
+1. Added categories in Moments to personalize user experience.\\
+2. Supports Ninebot Engine Speaker functions and firmware update.\\
+3. Improve Ninebot KickScooter AirLock experience (for HUAWEI mobiles only).\\
+4. Bugs fixed.
+
+**5.1.8 (Global/Chinese)** \\
+1. Optimized user experience in Community FAQ.\\
+2. Supports new Ninebot KickScooter models.\\
+3. G30D and G30LD: cancelled vehicle lock/unlock via the app.\\
+4. Air T15D: cancelled atmosphere light settings.\\
+5. Fixed several bugs.
+
+**5.1.7 (Global/Chinese)** \\
+1. Improve Email login user experience.\\
+2. Improve user experience of some features.\\
+3. Fixed a few bugs.
+
+**5.1.6 (Global/Chinese)** \\
+1. Optimize online customer service for the Asia-Pacific Region and make sure all messages from customer representatives are sent successfully. Solve video streaming problems.\\
+2. When the verification code cannot be received successfully, the user can use the reverse verification function.\\
+3. Add an issue feedback system when the Bluetooth connection fails and optimize user experience.\\
+4. Support new KickScooter Max models.
+
+**5.1.5 (Global/Chinese)** \\
+1. Optimized vehicle activation process.\\
+2. Improved Bluetooth connection stability.\\
+3. Fixed a few bugs.
+
+**5.1.4 (Global/Chinese)** \\
+1. Support new Ninebot KickScooter products.\\
+2. Ranking optimization.\\
+3. New features in the privacy settings.\\
+4. New feature in the push settings.\\
+5. iOS14 version supported.\\
+6. Fixed a few bugs and improved user experience.
+
+**5.1.3 (Global/Chinese)** \\
+1. Moments function optimization.\\
+2. Optimization of vehicle functions.\\
+3. Fixed some bugs.
+
+**5.1.2 (Global/Chinese)** \\
+1. Circle function optimization.\\
+2. Optimization of vehicle functions.\\
+3. Fixed some bugs.
+
+**5.0.9 (Global/Chinese)** \\
+1. Optimized Gokart function.\\
+2. New filters in the what's new section.\\
+3. Fixed some bugs.
+
+**5.0.8 (Global/Chinese)** \\
+1. To provide you with a better experience, we have brought you a brand new V5 version of the App. The V4 version will be stopped for maintenance within a few months; please download the new version and uninstall the V4 version of the App.\\
+2. Vehicle services:\\
+-Vehicle activation: One-click activation for novice instruction\\
+-Vehicle connection: check vehicle status, upgrade firmware\\
+-Vehicle settings: light effects, speed mode, Bluetooth remote control\\
+-Riding trajectory: help you record travel routes\\
+3. Circle interaction:\\
+-Dynamic sharing: Share your cycling life with riders around the world and find your friends with the same interests in the circle\\
+-Leaderboard: PK with riders all over the world and see who is NO.1\\
+4. Community Q & A:\\
+-Global riders help you solve problems and make your riding process smoother\\
+5. Support new vehicles.\\
+6. Optimize performance.\\
+7. Fixed some bugs.
+
+**5.0.7 (Global/Chinese)** \\
+1. Improved user experience.\\
+2. Fixed some issues.
+
+**4.6.2 (Global/Chinese)** \\
+1. Adapt to the new product G30D.\\
+2. Optimize performance.
+
+**4.6.1 (Global/Chinese)** \\
+1. Optimized encrypted Bluetooth protocol.\\
+2. Several bugs fixed.
+
+**4.5.9 (Global/Chinese)** \\
+1. Several bugs fixed.
+
+**4.5.8 (Global/Chinese)** \\
+1. Compatible with new encrypted Bluetooth protocol.\\
+2. Several bugs fixed.
+
