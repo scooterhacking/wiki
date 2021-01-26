@@ -142,10 +142,18 @@ BMS117\\
 
 ===== App update logs =====
 
+**5.3.4 (Chinese)** \\
+1.Fixed known issues and optimized user experience\\
+——————\\
+Recent updates\\
+1. Added categories in Moments to personalize user experience.\\
+2. Improved Ninebot eScooter and eMoped AirLock experience (for HUAWEI mobiles only).\\
+3. Added current phone location on ‘Find my vehicle’ page for Ninebot eScooter and eMoped.
+
 **5.3.2 (Chinese)** \\
 1.Improved post categorization in Moments.\\
 2.Fixed a few bugs and improved user experience.\\
-——————-\\
+——————\\
 Recent updates\\
 1. Added categories in Moments to personalize user experience.\\
 2. Improved Ninebot eScooter and eMoped AirLock experience (for HUAWEI mobiles only).\\
@@ -207,6 +215,13 @@ Happy new year!
 1. Nine electric function optimization.\\
 2. Circles optimization.\\
 3. Known bug fixes.
+
+**5.2.3 (Global)** \\
+1. Adapt to Ninebot Bluetooth Fingerprint U-lock\\
+2. Fixed a few bugs and improved user experience.\\
+------\\
+Recent updates\\
+Added categories in Moments to personalize user experience.
 
 **5.2.2 (Global)** \\
 1. Improved post categorization in Moments.\\
