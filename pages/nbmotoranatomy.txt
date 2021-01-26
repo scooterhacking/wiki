@@ -1,0 +1,85 @@
+===== Ninebot Max motor SN anatomy =====
+
+Example SN: **<font inherit/inherit;;#7f8c8d;;inherit>9J</font><font inherit/inherit;;#9b59b6;;inherit>A</font><font inherit/inherit;;#27ae60;;inherit>J</font><font inherit/inherit;;#f1c40f;;inherit>L</font><font inherit/inherit;;#009999;;inherit>21</font><font inherit/inherit;;#000000;;inherit>D</font><font inherit/inherit;;#3498db;;inherit>U</font><font inherit/inherit;;#c0392b;;inherit>A</font><font inherit/inherit;;#f39c12;;inherit>0420</font>**
+  * **<font inherit/inherit;;#7f8c8d;;inherit>Gray</font> - **Model
+  * **<font inherit/inherit;;#8e44ad;;inherit>Purple</font> - (suspected) **compatible platform
+  * **<font inherit/inherit;;#27ae60;;inherit>Green</font>**- Drum brake
+  * **<font inherit/inherit;;#f1c40f;;inherit>Yellow</font> - **Manufacturing line at the factory
+  * **<font inherit/inherit;;#009999;;inherit>Cyan</font> - **Year of production
+  * **Black - **Month of production
+  * **<font inherit/inherit;;#2980b9;;inherit>Blue</font> - **Day of production
+  * **<font inherit/inherit;;#c0392b;;inherit>Red</font> - **Product revision
+  * **<font inherit/inherit;;#f39c12;;inherit>Orange</font> - **Unique unit ID
+==== Motor model ====
+
+**5Z **Is a gen 1 rental motor made for the SNSC2.0 and 2.1 scooter models.  \\ **6Z - **Is a gen 1 retail motor.  \\ **6M - **Is a gen 1 rental motor made for the SNSC2.2 and 2.3 scooter models.  \\ **9J - **Is a gen 2 retail motor.
+
+==== Drum brake ====
+
+If the 4th SN character is an **H**, the motor includes the optional drum brake made for rental scooters.  \\
+
+If said character is a **J**, the motor doesn't have the brake.
+
+==== Year of production ====
+
+Represents the year in which a motor was made. 21 - 2021, 20 - 2020, 19 - 2019 etc.
+
+==== Month of production ====
+
+Represents a month in which the motor was made.
+
+**A**   - January, **B **- February **C **- March **D **- April **E **- May **F **- June
+
+**G **- July **H **- August **I **- September **J**- October **K **- November **L **- December
+
+==== Day of production ====
+
+Represents a day in which the motor was made.
+
+^Day^Character in the SN|
+|**1** |**1** |
+|**2** |**2** |
+|**3** |**3** |
+|**4** |**4** |
+|**5** |**5** |
+|**6** |**6** |
+|**7** |**7** |
+|**8** |**8** |
+|**9** |**9** |
+|**10** |**A** |
+|**11** |**B** |
+|**12** |**C** |
+|**13** |**D** |
+|**14** |**E** |
+|**15** |**F** |
+|**16** |**G** |
+|**17** |**H** |
+|**18** |**I** |
+|**19** |**J** |
+|**20** |**K** |
+|**21** |**L** |
+|**22** |**M** |
+|**23** |**N** |
+|**24** |**O** |
+|**25** |**P** |
+|**26** |**Q** |
+|**27** |**R** |
+|**28** |**S** |
+|**29** |**T** |
+|**30** |**U** |
+|**31** |**V** |
+
+==== Product revision ====
+
+Represents the motor revision. **A **represents rev. 1, **B **represents rev. 2, **C **rev. 3 etc.
+
+==== Unique unit ID ====
+
+Incremental counter identifying every motor made each day.
+
+For example 123 means the 123rd motor made on a particular day.
+
+ \\
+
+\\
+
