@@ -24,17 +24,11 @@ Click on a scooter model to show a preview.
 ^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |
 ^Water Resistance cert.|IPX5|  IP54  ||||||
 
-\\
-
-
 ====== Hacking ======
 
-The M187, M365 and M365 Pro scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooers due to their similar popularity and protocols.
+All post-ES808 scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooers due to their similar popularity and protocols.
 
 The QiCycle EUNI ES808 isn't supported due to it's discontinued state and lack of popularity.
-
-The M365 1S, Pro 2 and Lite models aren't supported by custom firmware generators made for the previous versions. No custom firmware supports these models as of August 2020.
-
 
 ===== Resources =====
 
@@ -50,13 +44,20 @@ The M365 1S, Pro 2 and Lite models aren't supported by custom firmware generator
 
 [[https://play.google.com/store/apps/details?id=app.peretti.m365tools|M365 Tools]] (Android)
 
+[[https://scooterhack.in/utility|ScooterHacking Utility]] (Android)
+
 [[https://tools.scooterhacking.org/xiaotea/|XiaoTea toolkit]]
 
 [[https://play.google.com/store/apps/details?id=com.m365downgrade|m365 DownG]]
 
-[[https://files.scooterhacking.org/m365/fw/|M365 firmware files]]
+[[https://files.scooterhacking.org/firmware/m365/|M365 firmware files]]
 
-[[https://files.scooterhacking.org/m365pro/fw/|M365 Pro firmware files]]
+[[https://files.scooterhacking.org/firmware/pro/|M365 Pro firmware files]]
+
+[[https://files.scooterhacking.org/firmware/pro2/|M365 Pro 2 firmware files]]
+
+[[https://files.scooterhacking.org/firmware/1s/|M365 1S firmware files]]
+
 
 ===== Serial number anatomy =====
 
@@ -82,6 +83,10 @@ Look at the first 5 digits of the serial number. Below you will se a list of kno
 **16133** - M365, Black color, European version
 
 **16132** - M365, Black color, European version
+
+**25702** - Mi Electric Scooter Lite - German version
+
+**25600** - Mi Electric Scooter Lite - Global version
 ==== Checking battery version by serial number ====
 
 Find your 13-character battery serial number under "Battery info" in the Mi Home app or in any third-party app.
@@ -98,10 +103,12 @@ List of known battery versions:
 
 **3GBG **- Mi Electric Scooter Lite battery. Non-reinforced welds and soldering. (V1)
 
-
+**4XFG **- Mi Electric Scooter Pro 2 battery. Reinforced soldering & welds.
 ==== Identifying hook version by serial number ====
 
 Scooter model 21074 with a serial number below 15107 and model 16133 with SNs between 541209 and 544518 have the non-reinforced hook which is prone to braking.
 
 All other scooter models are equipped with the newer, reinforced hook.
+
+\\
 
