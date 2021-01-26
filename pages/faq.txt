@@ -67,7 +67,7 @@ Q: Can I add inflatable tires to my Ninebot ES?\\
 A: Only to the rear and only by replacing the entire wheel.
 
 Q: Where can I find Ninebot specs?\\
-A: [[:nbesx|ES (click)]], [[:nbmax|Max (click)]], [[:nbeseries|E-series (click)]]
+A: [[:nbesx|ES (click)]], [[:nbmax|Max (click)]], [[:nbeseries|E-series (click)]], [[:nbtseries|T15 (click)]]
 
 Q: What do serial numbers mean?\\
 A: Look at the wiki page of the scooter model in question.
@@ -84,13 +84,22 @@ A: Conventional SN changing methods were disabled in DRV145, if you want to chan
 Q: Can I make my non-folding scooter foldable?\\
 A: It is technically possible but it requires cutting two big holes in the deck and buying a foldable fork, so it's not worth it.
 
+Q: What's the recommended MPC in CFW?\\
+A: [[https://i.imgur.com/C4vFcaP.png|ESx (click)]] [[https://i.imgur.com/7rYDNBX.png|Max (click)]]
+
+Q: Can I flash my G30L with G30 firmware?\\
+A: Yes
+
+Q: How to get cruise control back after updating?\\
+A: You can either use a third-party app or change the serial number ("region") - [[https://scooterhack.in/maxunlock|Max (click)]], [[https://scooterhack.in/eseriesunlock|E-series (click)]], [[https://scooterhack.in/tseriesunlock|T-series (click)]]
+
 ===== Xiaomi =====
 
 Q: What's the recommended tire pressure for Xiaomi scooters?\\
 A: [[https://i.imgur.com/symdcj6.png|Here's a table (click)]].
 
 Q: Where can I find CFW for my model?\\
-A: [[https://bit.ly/3neo2Y0|M365 (click)]], Pro (currently broken), [[https://pro2.cfw.sh/|Pro 2 (click)]], [[https://1s.cfw.sh/|1S/Essential (Lite)(click)]]
+A: [[https://bit.ly/3neo2Y0|M365 (click)]], [[https://pro.cfw.sh/|Pro (click)]], [[https://pro2.cfw.sh/|Pro 2 (click)]], [[https://1s.cfw.sh/|1S/Essential (Lite)(click)]]
 
 Q: How to go back to stock firmware? Where can I find stock firmware?\\
 A: Download a stock firmware file from [[https://files.scooterhacking.org/|here]] and flash it using your app of choice.
@@ -114,6 +123,9 @@ A: It's a BMS feaure to prevent you from converting it.
 
 ===== Other =====
 
+Q: How can I unlock the speed of my Aerlang H6?\\
+A: There should be a cable going from the controller, back to the same controller. Disconnect it.
+
 ====== Site-wide acronyms ======
 
 ESC - Control board (controller)\\
@@ -127,5 +139,6 @@ CFW - Custom firmware
 [[http://bit.ly/338ANtz|XiaoFlasher]] - An Android app made for flashing CFW and changing serial numbers on Xiaomi and Ninebot devices.\\
 [[http://bit.ly/338ANtz|NineFlasher]] - another name for XiaoFlasher\\
 [[https://bit.ly/34kwmN9|ESdownG]] - An Android app made for flashing CFW on Ninebot scooters.\\
-[[https://bit.ly/2GoXLp4|M365 downG]] - An Android app made for flashing CFW on Xiaomi scooters.
+[[https://bit.ly/2GoXLp4|M365 downG]] - An Android app made for flashing CFW on Xiaomi scooters.\\
+[[https://scooterhack.in/utility|ScooterHacking Utility]] - A multi-purpose Android app developed by ScooterHacking
 
