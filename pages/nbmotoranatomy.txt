@@ -3,7 +3,7 @@
 Example SN: **<font inherit/inherit;;#7f8c8d;;inherit>9J</font><font inherit/inherit;;#9b59b6;;inherit>A</font><font inherit/inherit;;#27ae60;;inherit>J</font><font inherit/inherit;;#f1c40f;;inherit>L</font><font inherit/inherit;;#009999;;inherit>21</font><font inherit/inherit;;#000000;;inherit>D</font><font inherit/inherit;;#3498db;;inherit>U</font><font inherit/inherit;;#c0392b;;inherit>A</font><font inherit/inherit;;#f39c12;;inherit>0420</font>**
   * **<font inherit/inherit;;#7f8c8d;;inherit>Gray</font> - **Model
   * **<font inherit/inherit;;#8e44ad;;inherit>Purple</font> - (suspected) **compatible platform
-  * **<font inherit/inherit;;#27ae60;;inherit>Green</font>**- Drum brake
+  * **<font inherit/inherit;;#27ae60;;inherit>Green</font>**- Additional features
   * **<font inherit/inherit;;#f1c40f;;inherit>Yellow</font> - **Manufacturing line at the factory
   * **<font inherit/inherit;;#009999;;inherit>Cyan</font> - **Year of production
   * **Black - **Month of production
@@ -12,13 +12,13 @@ Example SN: **<font inherit/inherit;;#7f8c8d;;inherit>9J</font><font inherit/inh
   * **<font inherit/inherit;;#f39c12;;inherit>Orange</font> - **Unique unit ID
 ==== Motor model ====
 
-**5Z **Is a gen 1 rental motor made for the SNSC2.0 and 2.1 scooter models.  \\ **6Z - **Is a gen 1 retail motor.  \\ **6M - **Is a gen 1 rental motor made for the SNSC2.2 and 2.3 scooter models.  \\ **9J - **Is a gen 2 retail motor.
+**5Z **Is a gen 1 rental motor made for the SNSC2.0 and 2.1 scooter models. \\ **6Z - **Is a gen 1 retail motor. \\ **6M - **Is a gen 1 rental motor made for the SNSC2.2 and 2.3 scooter models. \\ **9J - **Is a gen 2 retail motor.
 
-==== Drum brake ====
+==== Additional features ====
 
-If the 4th SN character is an **H**, the motor includes the optional drum brake made for rental scooters.  \\
+If the 4th SN character is an **H**, the motor includes the optional drum brake made for rental scooters.
 
-If said character is a **J**, the motor doesn't have the brake.
+If said character is a **J**, the motor comes in the standard version without any additional upgrades.
 
 ==== Year of production ====
 
@@ -28,7 +28,7 @@ Represents the year in which a motor was made. 21 - 2021, 20 - 2020, 19 - 2019 e
 
 Represents a month in which the motor was made.
 
-**A**   - January, **B **- February **C **- March **D **- April **E **- May **F **- June
+**A**  - January, **B **- February **C **- March **D **- April **E **- May **F **- June
 
 **G **- July **H **- August **I **- September **J**- October **K **- November **L **- December
 
@@ -78,8 +78,6 @@ Represents the motor revision. **A **represents rev. 1, **B **represents rev. 2,
 Incremental counter identifying every motor made each day.
 
 For example 123 means the 123rd motor made on a particular day.
-
- \\
 
 \\
 

@@ -11,7 +11,7 @@ Requests are formed as follow: api.cfw.sh/<font inherit/inherit;;inherit;;#2980b
 |Ninebot Max|[[http://api.cfw.sh/max|Online]]|max|
 |Ninebot E2x|WIP|//e2x // (might change before release)|
 |Xiaomi M365|Outdated|N/A (non-migrated)|
-|Xiaomi M365 Pro|Outdated|N/A (non-migrated)|
+|Xiaomi M365 Pro|[[https://api.cfw.sh/pro|Online]] (beta)|pro|
 |Xiaomi 1S|[[http://api.cfw.sh/1s|Online]] (beta)|1s|
 |Xiaomi M365 Pro 2|[[http://api.cfw.sh/pro2|Online]] (beta)|pro2|
 
@@ -20,34 +20,44 @@ Requests are formed as follow: api.cfw.sh/<font inherit/inherit;;inherit;;#2980b
 To build your parameter chain, you can use any of the available GET parameters listed below.\\
 Some parameters requiring more details about their working behavior will have their own table of values.
 
-**✅: patch in production | ❌: no assignee/non-applicable | ⏳: work in progress | ⌛ : the patch is undergoing tests/dev branch only**
+**✅: live on production branch | ❌: no assignee/non-applicable | ⏳: work in progress | ⌛ : the patch is undergoing tests/dev branch only**
 
-^GET parameter^Display name^Type^Default value^Accept. values^Description^ESx^Max^1S^Pro2|
-|version|Firmware version|string|DRVxxx|DRVxxx|Base version. See [[:cfwbuilder#drv_versions_table|the below table]]. **VALID PARAMETER REQUIRED FOR FILE DOWNLOAD.** |  ✅  |  ✅  |  ✅  |  ✅  |
-|output|Output file|string|zip2|zip2; zip; enc; bin| |  ✅  |  ✅  |  ✅  |  ✅  |
-|name|Filename|string|None|<any ASCII string up to 40chars>|Replaces the time-based part of the filename by any custom name.|  ✅  |  ✅  |  ✅  |  ✅  |
-|version_spoofing|Version spoofing|bool|None|<any string>|Sets DRV version higher to prevent an update from overwriting it.|  ✅  |  ✅  |  ✅  |  ✅  |
-|region|Scooter region|string|auto|us, eu, de|Enforces firmware region and disables S/N parsing. Also makes sure the ESC accepts S/N change requests ("auto").|  **❌**    |  ✅  |  **⏳**    |  **⏳**    |
-|motor_power_constant|MPC|int|51575|10000→65535|Deprecated way of increasing output power. Won't be added to future patchers.|  ✅  |  **✅**    |  **❌**    |  **❌**    |
-|speed_normal_kmh|Max speed|int|(per model)|10→65|Sets Sports max speed for no region/US region.|  **⌛**    |  ✅  |  **❌**    |  **❌**    |
-|speed_normal_kmh_eu|Max speed (EU)|int|27|10→65|Sets Drive max speed for US region and Sports max speed for EU region.|  **❌**    |  ✅  |  ✅  |  ✅  |
-|speed_normal_kmh_de|Max speed (DE)|int|22|10→65|Sets Drive max speed for EU region and Sports max speed for DE region.|  **❌**    |  ✅  |  ✅  |  ✅  |
-|speed_normal_battery|Sports battery current|int|(per model)|5000→65535|Sets battery current limit for all Sports modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|speed_drive_battery|Drive battery current|int|(per model)|5000→65535|Sets battery current limit for all Drive modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|speed_eco_battery|Eco battery current|int|(per model)|5000→65535|Sets battery current limit for Eco mode.|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|direct_power_control|Direct power control state|string|None|See [[:cfwbuilder#direct_power_control_state_table|the below table]].|Sets DPC toggle method.|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|direct_power_control_curve|Direct power control curve type|string|None|flat; quadratic|Sets DPC curve type.|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|no_kers|No KERS|bool|None|<any string>|Disables energy recovery when the throttle is inactive. Clonk-free.|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|error_raising_level|Error raising level|int|0|0→3|[[https://wiki.scooterhacking.org/doku.php?id=nberrorcodes|https://wiki.scooterhacking.org/doku.php?id=nberrorcodes]]|  **⏳**    |  ✅  |  ✅  |  ✅  |
-|no_brake_light_flash|Static brake light|bool|None|<any string>|Enforces German brake light behavior for other regions.|  **❌**    |  ✅  |  **⏳**    |  **⏳**    |
-|cruise_control_delay|Cruise control delay|int|5|0→10|How many seconds it takes for cruise control to kick in.|  ✅  |  ✅  |  ✅  |  ✅  |
-|cruise_control_nobeep|No cruise control beep|bool|None|<any string>| |  **⏳**    |  ✅  |  **⏳**    |  **⏳**    |
-|motor_start_speed|Motor start speed|int|5|0→10|Minimum speed in km/h before the motor will start.|  ✅  |  ✅  |  ✅  |  ✅  |
-|boot_workmode|Force boot power mode|int|None|0: Drive; 1: Eco; 2: Sports|Enforces selected power mode at boot.|  **⌛**    |  ✅  |  **⌛**    |  **⌛**    |
-|remove_charging_mode|Remove charging mode|bool|None|<any string>|ESC will ignore input from the charging line, the scooter will be rideable during charge.|  ✅  |  ✅  |  ✅  |  ✅  |
-|stay_on_locked|Stay on while locked|bool|None|<any string>|Disables auto shutdown when the scooter is locked so it stays on forever.|  ✅  |  ✅  |  ✅  |  ✅  |
-|no_overspeed_limit|No overspeed limit|bool|None|<any string>|Removes hard-coded speed limits (and beeping).|  **❌**    |  ✅  |  ✅  |  ✅  |
-|bms_uart_76800|Change ESC↔BMS baud rate to 76800|bool|None|<any string>|Only if you use the compatible open source BMS!|  ✅  |  ✅  |  ✅  |  ✅  |
+^GET parameter^Display name^Type^Default value^Accepted values^Description^ESx^Max^1S^Pro2^Pro1|
+|version|Firmware version|string|DRVxxx|DRVxxx|Base version. See [[:cfwbuilder#drv_versions_table|the below table]]. **VALID PARAMETER REQUIRED FOR FILE DOWNLOAD.** |  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|output|Output file|string|zip2|See [[:cfwbuilder#output_file_formats_table|the below table]].|If you want to use another output format for the custom firmware.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|name|Filename|string|None|<any ASCII string up to 40chars>|Replaces the time-based part of the filename by any custom name.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|version_spoofing|Version spoofing|bool|None|<any string>|Sets DRV version higher to prevent an update from overwriting it.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|region|Scooter region|string|auto|us, eu, de|Enforces firmware region and disables S/N parsing. Also makes sure the ESC accepts S/N change requests ("auto").|  **❌**    |  ✅  |  **⏳**    |  **⏳**    |  **❌**    |
+|motor_power_constant|MPC|int|51575|10000→65535|Deprecated way of increasing output power. Won't be added to future patchers.|  ✅  |  **✅**    |  **❌**    |  **❌**    |  **❌**    |
+|speed_normal_kmh|Max speed|int|(per model)|10→65|Sets Sports max speed for no region/US region.|  **⌛**    |  ✅  |  **❌**    |  **❌**    |  ✅  |
+|speed_normal_kmh_eu|Max speed (EU)|int|27|10→65|Sets Drive max speed for US region and Sports max speed for EU region.|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
+|speed_normal_kmh_de|Max speed (DE)|int|22|10→65|Sets Drive max speed for EU region and Sports max speed for DE region.|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
+|speed_normal_battery|Sports battery current|int|(per model)|5000→65535|Sets battery current limit for all Sports modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|speed_drive_battery|Drive battery current|int|(per model)|5000→65535|Sets battery current limit for all Drive modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|speed_eco_battery|Eco battery current|int|(per model)|5000→65535|Sets battery current limit for Eco mode.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|speed_normal_phase|Sports phase current|int|(per model)|10000→65535|Sets phase current limit for Sport mode|**⏳**   |  ✅  |  **❌**    |  **❌**    |  ✅  |
+|speed_drive_phase|Drive phase current|int|(per model)|10000→65535|Sets phase current limit for Drive mode|**⏳**   |  ✅  |  **❌**    |  **❌**    |  ✅  |
+|direct_power_control|Direct power control state|string|off|See [[:cfwbuilder#direct_power_control_state_table|the below table]].|Direct Power Control changes the throttle algorithm from speed to power-based, like in a thermal-engine vehicle. No speed limit applies while using DPC.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|direct_power_control_curve|Direct power control curve type|string|flat|flat; quadratic|Sets DPC curve type.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|no_kers|No KERS|bool|None|<any string>|Disables energy recovery when the throttle is inactive. Clonk-free.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|wheel_speed_const|Wheel Speed Multiplier|int|8":390; 10": 315|200→500|Don't change if you use stock tires|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|wheel_size|Wheel size in inches|int|8.5|0→30|Wheel size in inches, default 8.5", don't change if you use stock tires|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|error_raising_level|Error raising level|int|0|0→3|[[https://wiki.scooterhacking.org/doku.php?id=nberrorcodes|https://wiki.scooterhacking.org/doku.php?id=nberrorcodes]]|  **⏳**    |  ✅  |  ✅  |  ✅  |  **❌**    |
+|brake_limit|Lever virtual limit|int|110|0→130|Sets brake lever virtual limit|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_i_min|Minimum phase current|int|8000|1000→65000|Sets minimum phase current|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_i_max|Maximum phase current|int|30000|1000→65000|Sets maximum phase current|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_current_raising_coefficient|Brake current raising coefficient|int|500|0→16000|How fast current will be applied. Affecting brake speed up rate|**❌**   |✅  |✅  |✅  |✅  |
+|min_brake_speed|Minimum speed for applying brake|int|3|0→65|Minimum speed at which electronic brake can be applied|  **⏳**    |  ✅  |  **⏳**    |  **⏳**    |  ✅  |
+|no_brake_light_flash|Static brake light|bool|None|<any string>|Enforces German brake light behavior for other regions.|  **❌**    |  ✅  |  **⏳**    |  **⏳**    |  ✅  |
+|cruise_control_delay|Cruise control delay|int|5|0→10|How many seconds it takes for cruise control to kick in.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|cruise_control_nobeep|No cruise control beep|bool|None|<any string>| |  **⏳**    |  ✅  |  **⏳**    |  **⏳**    |  **⏳**    |
+|motor_start_speed|Motor start speed|int|5|0→10|Minimum speed in km/h before the motor will start.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|boot_workmode|Force boot power mode|int|3|0: Drive; 1: Eco; 2: Sports; 3: Don't patch|Enforces selected power mode at boot.|  **⌛**    |  ✅  |  **⌛**    |  **⌛**    |  **⏳**    |
+|remove_charging_mode|Remove charging mode|bool|None|<any string>|ESC will ignore input from the charging line, the scooter will be rideable during charge.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|stay_on_locked|Stay on while locked|bool|None|<any string>|Disables auto shutdown when the scooter is locked so it stays on forever.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|no_overspeed_limit|No overspeed limit|bool|None|<any string>|Removes hard-coded speed limits (and beeping).|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
+|bms_uart_76800|Change ESC↔BMS baud rate to 76800|bool|None|<any string>|Only if you use the compatible open source BMS!|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|m365_compat|Pro1 FW on classic BLE|bool|None|<any string>|Changes dashboard message type from "Pro" to "Regular" (for 4-dot M365 dashboard only!).|  **❌**    |  **❌**    |  **❌**    |  **❌**    |  ✅  |
 
 Please note that all parameters might not be listed.
 
@@ -55,15 +65,17 @@ Please note that all parameters might not be listed.
 
 Current DRV firmware versions used throughout the production branch.
 
-If the Version spoofing patch is in use, the version number will be shifted up by 400.
-
 **Ninebot ESx**: DRV120 ; DRV133 ; DRV139 ; DRV150 ; DRV151(default)
 
 **Ninebot Max**: DRV126
 
 **Xiaomi 1S**: DRV221
 
-**Xiaomi Pro 2**: DRV223
+**Xiaomi Pro 1**: DRV155
+
+**Xiaomi Pro 2**: DRV223 (default), DRV224
+
+If the **Version spoofing **patch is in use, the version number retrieved by apps will be shifted up by 400. This requires no modification to the "version" field so make sure to only use the above values**.**
 ===== Direct power control state table =====
 
 Case sensitive.

@@ -142,6 +142,21 @@ BMS117\\
 
 ===== App update logs =====
 
+**5.4.0 (Chinese)** \\
+1. Annual data release of Segway-Ninebot in 2020.\\
+2. 2020 personal annual data release, come to see your achievements.\\
+3. New year skin, New Year activities and a series of new year benefits are coming!\\
+4. Optimized voting experience, N2 level users can initiate a vote.\\
+5. Optimize the track recording accuracy of Ninebot eScooter & eMoped series\\
+6. New Ninebot eMoped C30Lite model adaptation.\\
+7. The newly added Ninebot Mecha Kit supports the chassis of Ninebot MiniPlus\\
+8. Fix known problems and optimize user experience\\
+——————\\
+Recent updates\\
+1. Added categories in Moments to personalize user experience.\\
+2. Improved Ninebot eScooter and eMoped AirLock experience (for HUAWEI mobiles only).\\
+3. Added current phone location on ‘Find my vehicle’ page for Ninebot eScooter and eMoped.
+
 **5.3.4 (Chinese)** \\
 1.Fixed known issues and optimized user experience\\
 ——————\\
@@ -219,7 +234,7 @@ Happy new year!
 **5.2.3 (Global)** \\
 1. Adapt to Ninebot Bluetooth Fingerprint U-lock\\
 2. Fixed a few bugs and improved user experience.\\
-------\\
+——\\
 Recent updates\\
 Added categories in Moments to personalize user experience.
 

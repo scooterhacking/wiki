@@ -1,2 +1,4 @@
-====== Ninebot Scooters official documentation ======
-{{pdfjs 900px>:nbdoc.pdf}}
+====== Ninebot scooters communication protocol ======
+
+{{pdfjs 900px>:ninebot_es_scooter_protocol_918.pdf}}
+

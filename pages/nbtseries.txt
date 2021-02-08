@@ -6,8 +6,13 @@ FCC documents for the Ninebot Air T15 and Air T15 Pro were filed on the 12th of 
 
 The Air T15 Kickstarter campaign started on the 19th of May, 2020.
 
-
-===== T15 specs =====
+==== T15 specs ====
 
 {{https://i.imgur.com/8Sf9UkC.png?direct&680x749}}
+
+==== Serial number prefix list ====
+
+**C** - Air T15, 20 km/h\\
+**E **- Air T15E, 20 km/h\\
+**F** - Air T15D, 20 km/h
 

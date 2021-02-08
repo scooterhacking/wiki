@@ -78,8 +78,9 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 
 **Prefix letters (**<font inherit/inherit;;#e67e22;;inherit>orange</font>**)**
 
-**E22, E22D** - D/I\\
+**E22** - D\\
 **E22E** - G\\
+**E22D **- I\\
 **E25 **- V\\
 **E25D **- Y\\
 **E25E **- X\\
@@ -87,7 +88,7 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **E45** - R\\
 **E45D **- O\\
 **E45E** - M\\
-**E45 **- Q (**unknown version**)
+**E45 **- Q (**30 kph**)
 
 **Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
 

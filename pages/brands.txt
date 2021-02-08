@@ -15,8 +15,9 @@ This index classifies all documented e-scooters, sorted by brand and then by mod
       * [[:es200|ES-200]]
       * [[:es300|ES-300]]
       * [[:es400|ES-400]]
-      * [[:lime|Lime]]
+      * [[:okaicomparison|Comparison]]
   * Other brands (feel free to edit when completed)
+      * [[:lime|Lime]]
       * Zero
       * Aerlang
       * Jump Bikes

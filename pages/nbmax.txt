@@ -7,35 +7,40 @@ The same rough design is carried over the whole line, the scooter always includi
 
 Click on a scooter model to show a preview.
 
-^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.x]]^[[https://upload.wikimedia.org/wikipedia/commons/7/72/Ninebot_by_Segway_Kickscooter_ES2.jpg|ES4]] (for comparison)|
-^Max speed|20/25/30km/h|20/30km/h|20/25 km/h|30km/h|
-^Range|65km|40km|65km|45km|
-^Battery (Wh)|551|367|551/1004 (optional)|374|
-^Ramovable battery|  No  ||  Varies  |  Only external  |
-^3-pin charging connector|  Yes  |  No  |  Varies  |  No  |
-^Voltage|  36-42V  ||||
-^Net weight|19kg|17.5kg|19+ kg|14kg|
-^Charging time (hrs)|6|6.5|6|7|
-^Power (nominal)|  350  |||300|
-^Power (peak)|  700  |||800|
-^Motor type|  Rear Hub  |||  Front Hub  |
-^Max angle (%)|  20  |||15|
-^Brakes|  Electrical rear Drum front  ||  Electrical rear, drum front, drum rear on the Plus series  |  Electrical front brake Mechanical rear foot brake  |
-^Braking distance (20km/h)|  2 meters  |||  4 meters  |
-^Shock absorption|  N/A  ||Varies|  Front Rear  |
-^Front Tire (inch)|  10 Pneumatic  |||  8 Solid  |
-^Rear Tire (inch)|  10 Pneumatic  |||  7.5 Solid  |
-^Max payload|  100kg  ||||
-^App/Bluetooth|  Yes  ||  Varies  |  Yes  |
-^LED screen|  Yes  ||  Varies  |  Yes  |
-^Visibility|  Headlight Rear light  ||||
-^"Mood lights" (RGB LEDs)|  No  ||  Varies, head-mounted LED strip  |  Yes, underglow  |
-^Dimension (LxWxH)|   \\ Unfolded: 112 x 47 x 120 cm \\   \\ Folded: 112 x 47 x 53 cm  ||   \\ Unfolded: 112 x 47 x 120 cm \\   \\ Folded: N/A  |  Unfolded: 102 x 43 x 113 cm \\   \\ Folded: 113 x 43 x 40 cm  |
-^Water Resistance (IP)|  54  ||||
+^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.4]]|
+^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25 km/h  ||||
+^Range|  65km  |  40km  |  60km (up to 100km on 1004Wh)  ||  55km (<100km on 1004 Wh)  ||
+^Battery (Wh)|  551  |  367  |  551/1004 (optional)  ||||
+^Ramovable battery|  No  ||  No  |  Yes  |||
+^3-pin charging connector|  Yes  |  No  |  Yes  |  No  |||
+^Voltage|  36-42V  ||||||
+^Net weight|  19kg  |  17.5kg  |  20kg  |  24.6kg  |  27.5kg  ||
+^Charging time (hrs)|  6  |  6.5  |  6  |  4h (external 5A charger)  |||
+^Power (nominal)|  350  ||||||
+^Power (peak)|  700  ||||||
+^Motor type|  Rear Hub  ||||||
+^Max angle (%)|  20  ||  14  ||||
+^Brakes|  Electrical rear Drum front  ||  Electrical rear, drum front, optional rear drum  |  Electrical rear, drum front, drum rear (optional on 2.2, stock on the rest)  |||
+^Braking distance (20km/h)|  2 meters  ||||||
+^Shock absorption|  N/A  ||||  Front  ||
+^Front Tire (inch)|  10 Pneumatic  ||||||
+^Rear Tire (inch)|  10 Pneumatic  ||||||
+^Max payload|  100kg  ||||||
+^App/Bluetooth|  Yes  ||  Varies  ||||
+^LED screen|  Yes  ||  Yes, unless replaced  |  Varies depending on the configuration  |||
+^Visibility|  Headlight, rear light, reflectors on some models  ||||||
+^"Mood lights" (RGB LEDs)|  No  |||  Optional  |||
+^Indicators|  No  |||||  Yes  |
+^NFC|  No  |||  Optional  |||
+^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\   \\ Folded: 112x47x53cm  |    \\ Unfolded: 110x47x115cm \\   \\ Folded: 110x46x53cm \\   |   \\ Unfolded: 112x47x120 cm \\   \\ Folded: N/A  |  No data, about the same as 2.0/2.1  |||
+^Water resistance|  IPX4  ||  Vehicle and controller - IPX5, battery and internal charger - IPX7  |  Vehicle - IPX4, battery and controller - IPX7  |||
 
 ===== Hacking =====
 
-Ninebot Max and SNSC2.X scooters are supported by many apps and developers and are as popular in the hacking scene as Xiaomi scooters (they use a very similar protocol).
+Ninebot Max and SNSC2.0/2.1 scooters are supported by many apps and developers and are as popular in the hacking scene as Xiaomi scooters (they use a very similar protocol).
+
+ScooterHacking.org DOES NOT publicly support the 2.2-2.4 range of scooters to decrease theft rate.
+
 
 ===== Serial number anatomy =====
 
@@ -65,13 +70,21 @@ The ESC serial number consists of 14 characters
 
   * **N4G**  represents a **consumer**  version of the scooter(G30/D/P/LP)
   * **N4L**  represents a **rental **version of the scooter(SNSC2.0)
-  * **N4Z**  represents a **rental**  version of the scooter with removable battery (SNSC2.3)
+  * **N4Z**  represents a **rental**  version of the Ninebot Max Plus first gen. (SNSC2.3)
+  * **NAG**  represents a **rental**  version of the Max Pro in the US variant (SNSC2.2A)
 ==== Product versions (SN prefixes) ====
 
-  * **S **is limited to 30 km/h
-  * **C **is limited to 25 km/h
-  * **E**  is limited to 20 km/h
-  * **N **is a Ninebot Max Lite serial prefix, limited to 30 km/h
+  * **S **is limited to 30 km/h (G30P)
+  * **C **is limited to 25 km/h (G30)
+  * **E**  is limited to 20 km/h (G30D blue)
+  * **P **is limited to 20 km/h (G30D yellow)
+  * **N **is a Ninebot Max Lite (G30LP) serial prefix, limited to 30 km/h
+  * **A **is a Ninebot Max Lite (G30LE) serial prefix, limited to 25 km/h
+  * **O **is a Ninebot Max Lite (G30LE) serial prefix, limited to 25 km/h
+  * **M **is a Ninebot Max Lite (G30LD) serial prefix, limited to 20 km/h
+  * **2 **is a Ninebot Max Pro, US spec (SNSC2.2A) serial prefix, limited to 25 km/h
+  * **C **  (N4YC) is a Seat Mó (G30D) serial prefix, limited to 20 km/h
+  * **1**  (NTG1) is an Audi EKS (G30D) serial prefix, limited to 20 km/h
 === Known rental SN prefixes & mfg lines ===
 
   * **YL - **Lyft
@@ -83,6 +96,7 @@ The ESC serial number consists of 14 characters
   * **BG - **Bolt (Taxify)
   * **AC - **Qick
   * **UD - **Bolt (Taxify)
+  * **2C - **Lyft (SNSC2.2A)
 === Golden serial number ===
 
 If you change your serial number to **N4GSD1111Cxxxx **  (replace x-es with your current SN's numbers) and restart the scooter, it will unlock the full potential of the stock firmware.
@@ -90,6 +104,8 @@ If you change your serial number to **N4GSD1111Cxxxx **  (replace x-es with your
 ===== Identifying motor version =====
 
 Find your motor's serial number [[https://i.imgur.com/detHsir.png|printed on the side of the motor]].
+
+Check out our full [[:nbmotoranatomy|Ninebot Max motor anatomy (click)]]
 
   * If the motor SN starts with a **6**, then it's the **older**  version, which will slow down below 70% battery.
   * If the motor SN starts with a **9**, then it's the **newer**  version, which will retain it's 30 km/h vmax until the battery level drops below 10%

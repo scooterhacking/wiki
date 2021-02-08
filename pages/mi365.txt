@@ -22,7 +22,9 @@ Click on a scooter model to show a preview.
 ^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  ||||
 ^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  |
 ^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |
-^Water Resistance cert.|IPX5|  IP54  ||||||
+^Water Resistance cert.|IPX5|    \\ IP54 \\    ||||||
+
+[[https://imgur.com/a/dTTN824|Click here for Mercedes AMG Petronas Edition Pro 2 scooter pics]]
 
 ====== Hacking ======
 
@@ -57,7 +59,6 @@ The QiCycle EUNI ES808 isn't supported due to it's discontinued state and lack o
 [[https://files.scooterhacking.org/firmware/pro2/|M365 Pro 2 firmware files]]
 
 [[https://files.scooterhacking.org/firmware/1s/|M365 1S firmware files]]
-
 
 ===== Serial number anatomy =====
 
