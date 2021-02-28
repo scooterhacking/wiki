@@ -22,7 +22,7 @@ Click on a scooter model to show a preview.
 ^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  ||||
 ^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  |
 ^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |
-^Water Resistance cert.|IPX5|    \\ IP54 \\    ||||||
+^Water Resistance cert.|IPX5|   \\ IP54  ||||||
 
 [[https://imgur.com/a/dTTN824|Click here for Mercedes AMG Petronas Edition Pro 2 scooter pics]]
 
@@ -83,7 +83,19 @@ Look at the first 5 digits of the serial number. Below you will se a list of kno
 
 **16133** - M365, Black color, European version
 
-**16132** - M365, Black color, European version
+**21074** - M365, Black color, European version
+
+**16132** - M365, White color, European version
+
+**21073** - M365, White color, European version
+
+**16349** - M365, Black color, American version
+
+**16348** - M365, White color, American version
+
+**18832 - **M365 Pro, Chinese version
+
+**21886 - **M365 Pro, European version
 
 **25702** - Mi Electric Scooter Lite - German version
 
@@ -105,6 +117,14 @@ List of known battery versions:
 **3GBG **- Mi Electric Scooter Lite battery. Non-reinforced welds and soldering. (V1)
 
 **4XFG **- Mi Electric Scooter Pro 2 battery. Reinforced soldering & welds.
+
+**4XCG - **Mi Electric Scooter Pro 1 battery (EU version). Reinforced soldering & welds.
+
+**4XAA - **Mi Electric Scooter Pro 1 battery (CN version). Reinforced soldering & welds.
+
+**2JEG** - Mi Electric Scooter 1S battery (EU version) with resistors on the BMS
+
+
 ==== Identifying hook version by serial number ====
 
 Scooter model 21074 with a serial number below 15107 and model 16133 with SNs between 541209 and 544518 have the non-reinforced hook which is prone to braking.

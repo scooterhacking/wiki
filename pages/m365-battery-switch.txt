@@ -1,0 +1,44 @@
+====== Simple Internal/External battery switcher for m365/Pro1 ======
+
+<font 16px/inherit;;inherit;;inherit>**Easy way to switch batteries between internal, external or both at the same time**</font>
+
+Difficulty: Easy
+
+Bill of materials:
+
+  * 1 pair of Amass MT-30 male and female combo
+  * 1 pair of Amass XT-30 male and female combo
+  * 1 pcs of MT30 male for every external battery
+  * 16AWG silicone insulated copper wire, 3 colors recommended, 30cm each
+  * 4mm heatshrink tube
+
+If you find yourself needing more power, speed or range from your m365 scooter, you might have considered running an external battery. But how to connect it? One way is parallel to the stock internal one, which will get you more range, but same speed, another way is in series with the stock internal, but that method needs two independent chargers and meticulous balance monitoring, and in the end it's still limited by the internal battery capacity.
+
+There is a simple way of achieving nearly every possible setup you could possibly need.
+
+==== Cable assembly ====
+
+Connect MT30 female to XT30 male and female as shown on the picture below, all negatives should be common, one XT30 positive connects to positive on MT30, the other XT30 positive connects to GND (not negative!) on the MT30. Use 16AWG wiring and heatshrink tubes to isolate contacts on both XT30s, use extension cap supplied with MT30 to secure the contacts on it without heatshrinking them.
+
+Disassemble scooter, by undoing 17 M3x10 bolts on the bottom cover and disconnect internal battery. Remove the ingress protector for the motor cable, and lead the two XT30 inside, keeping the MT30 outside. Secure the hole with duct tape or gasket maker to prevent water from leaking in.
+
+Connect XT30 female to the ESC, and battery to the XT30 male part of the new cable. Assemble the bottom cover back.
+
+Now the scooter won't turn on, this is normal, there's one last piece of the puzzle that needs to be completed.
+
+Use leaded solder and flux to short + and GND pins on the MT30 male which should still remain with everything installed in place. Once done, plug it in the MT30 female outside the motor cable hole, checking once again that you're shorting two positive cables, not touching negative contact at all. Connection should be followed with a spark and the scooter should turn on.
+
+==== Connecting external battery ====
+
+Solder the + and - of your external battery to the + and GND of additional MT30 connector. Now to connect internal battery, use the shorted MT30 male, and to connect external, simply remove it, and connect the MT30 male of the external pack in its place. This way, the external pack won't see or interact with the internal battery at all, and the scooter will be powered directly from it.
+
+With the RX/TX cable from the internal battery in place, the esc might return error 24, if your external one has more voltage, simply cook a cfw with voltage alert set beyond the max voltage of the external pack.
+
+To connect both batteries in parallel, both should be equalized to same voltage first. Now connect + and - of the external battery to the + and - respectively of the MT30 male connector, additionally, short + and GND on it. This will join both batteries together to the ESC.
+
+Serial connection is however not possible with this method.
+
+==== Final touches ====
+
+Push the MT30 male/female combo (if internal battery is selected), behind the strap of the bag used for external bag, when unused. Also to prevent accidental shorts, put hot glue or gasket maker on it.
+

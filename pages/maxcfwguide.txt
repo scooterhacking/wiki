@@ -1,0 +1,410 @@
+Greetings,
+
+at this page we will look at the site "**[[https://max.cfw.sh/|max.cfw.sh]]**" a **C**ustom**F**irm**w**are-Generator, that has been created **by SH for the max. **
+
+If you like their work, then please donate them a coffee, they'll be happy about it!
+
+**Remember, everything your set or do here happens <font inherit/inherit;;#ff0000;;inherit>at your risk</font>. __This guide is here to help you understand the risk and implications of each patch.__ **
+
+And yes, I'm aware this guide may seem much, but it's worth to be read, as you can learn some things here! That's why it has been split up into some parts. Stay tuned.
+
+----
+
+First things first, you need to set in your mind for what your max will be used in your everyday life:
+
+**What kind of routes do I drive? (Steep or flat)**
+
+**How's my driving style?**
+
+After you've set the answers for those questions in your mind, we may proceed to explain how this site and configurations work.
+
+**[[https://max.cfw.sh/|Let's open the Generator up!]]**
+
+{{:sh0.jpg?nolink&389x500|sh0.jpg}}
+
+<font 18px/inherit;;inherit;;inherit>**1. Vanilla**</font>
+
+{{:sh01.jpg?nolink&500x152|sh01.jpg}}
+
+Here you'll find a "**Vanilla**" option at first sight of the page.
+
+This is the firmware that shipped with your scooter. It doesn't contain any additions.
+
+Vanilla means in normal/stock, a version without any additional features. You always can flash this file if you feel like going back to stock via SHU, SC or IAP as a .zip/.bin.enc file.
+
+<font 18px/inherit;;inherit;;inherit>**2. Changelog**</font>
+
+{{:sh02.jpg?nolink&500x36|sh02.jpg}}
+
+Already mostly known, here is where the changes of the site's alteration in means as a Patch/Firmware/Versions. Here you can take a look at the changes visually and sorted, with just one click away.
+
+<font 18px/inherit;;inherit;;inherit>**3. Presets**</font>
+
+{{:sh03.jpg?nolink&500x260|sh03.jpg}}
+
+Here's where the set Preset's of the site are being shown, that are being offered by us. You can choose them, but I would recommend making your very own cfw, that suits your needs.
+
+You also can save your actual config for the next time.
+
+The browser you've chosen to generate your CFW will remember your config via the "save" button. One click at "Load" and the previous config will be loaded. A click at "clear" resets the set config from before.
+
+<font 18px/inherit;;inherit;;inherit>**4. Compatibility patches**</font>
+
+{{:sh04.jpg?nolink&500x256|sh04.jpg}}
+
+This tab will be of high interest, for those who want to use **maneuvering **of every kind, because this option enables the CFW to be in mind in an altered firmware state.
+
+**Always check compatibility patches to maneuver between region changes.**
+
+Normally after setting a switching to an American serial number the max. speed should be enabled. If you still are unable to reach a max. speed of 33 km/h (1 Gen) or 40 km/h (2 Gen) it's suggested, that you try a magic s/n or the speed boost option via SHU, which also alters to a magic s/n. This ensures, that the speeds that have been listed before, will be reached.
+
+**__Remove Charging Mode__ **
+
+This removes the charging mode from stock firmware, which allows using non-official batteries / additional batteries via a y-cable. If you happen to own one and want to use it, then please set a check here.
+
+__**Version spoofing**__
+
+The firmware will trick apps into thinking it's already up-to-date so that they can't override your custom firmware.
+
+This does not prevent a downgrade to stock firmware using third-party apps.
+
+It is recommended to avoid official updates to avoid being locked out of using ScooterHacking apps. Official safe & compatible updates files are provided in the ScooterHacking Utility app or on firmware repos.
+
+__**Show battery percentage on idle**__
+
+__**{{:sh05.jpg?nolink&500x49|sh05.jpg}}**__
+
+Shows your battery status when in an idle-state, this only happens when reaching below 2 km/h and not using CamiBLE555. (A dashboard firmware)
+
+<font 18px/inherit;;inherit;;inherit>**5. Remember last mode**</font>
+
+{{:sh06.jpg?nolink&500x229|sh06.jpg}}
+
+Here you can choose at which mode your max will start from now on. You can choose between Eco, Drive, Sport, or on the last chosen Mode via "Remember last mode".
+
+<font 18px/inherit;;inherit;;inherit>**6. Power & Speed**</font>
+
+{{:anotherone.png?nolink&500x32}}
+
+Power, throttle & speed limits tweaking
+
+<font 18px/inherit;;inherit;;inherit>**7. Current/Ampere**</font>
+
+{{:shbbc.png?nolink&500x202}}
+
+Here's where the amperes will be set. Generally speaking:
+
+**Less amperage, less power = more range**
+
+**More amperage, more power = less range**
+
+You also can decide here, how many amperes in each mode will flow in.
+
+For Sports mode, the value must be just high enough to carry your weight to the maximum speed your battery/motor setup can allow, but not too high not to drain the battery too fast or make the voltage drop too low when pressing the gas, which could end up lowering top speed.
+
+<font 18px/inherit;;inherit;;inherit>**8. Max Speed**</font>
+
+{{:sh111.jpg?nolink&500x185|sh111.jpg}}
+
+There are three types of serial numbers available on the max:
+
+A "**US**" (**American**), (**WW**) (**European**) and "**DE**" (**German**) The **G30P** has the "**US**" one, the **G30** a **WW** and the **G30D** a "**DE**" one.
+
+In a event of Manuvering the state of the actual serial number will be changed temporarily between the selected one you've chosen, until you reboot it. Then it'll return to the original set serial number, that has been set by you.
+
+<font 18px/inherit;;inherit;;inherit>**9. DPC and Curves**</font>
+
+{{:sh09.jpg?nolink&499x203|sh09.jpg}}
+
+The default throttle is scaled from 0 km/h to your set speed limit for said mode/region.
+
+**Example:** On stock firmware, US region, Sports mode, your throttle is mapped from 0km/h to 33km/h.
+
+Direct Power Control allows you to control the power sent to the motor instead of the speed, like in a thermal engine vehicle.
+
+For vulgarization purposes, let's say the throttle will then be scaled from 0A to your set current limit for said mode. Current limits are not affected by regions.
+
+**Example:** Using Direct Power Control on Sports modes and default current values, your throttle is mapped from 0A to 25A.
+
+Using the quadratic curve, you will have more control over the lower end of the current curve.
+
+**Since Direct Power Control changes the governing unit to current, any speed limit set for the current mode and/or region will be overridden when activated.**
+
+<font 18px/inherit;;inherit;;inherit>**10. Current raising coefficient**</font>
+
+{{:sh10.jpg?nolink&499x77|sh10.jpg}}
+
+When the new throttle's value & current target have been processed - either through speed-based or DPC -, the scooter will smooth out the transition to that new target.\\
+Increasing that coefficient will lead to a faster transition.
+
+<font 18px/inherit;;inherit;;inherit>**11. Motor start speed**</font>
+
+{{:sh11.jpg?nolink&499x94|sh11.jpg}}
+
+Pretty much self-explanatory, here you can choose when the motor will start to kick in from a range from 0 km/h to 10 km/h.
+
+<font 18px/inherit;;inherit;;inherit>**12. Brake lever parameters**</font>
+
+{{:sh12.jpg?nolink&499x220|sh12.jpg}}
+
+Lever virtual limit allows you to scale back the lever's virtual endpoint if your brake lever doesn't travel its full course.\\
+You can also set braking currents here.
+
+<font 18px/inherit;;inherit;;inherit>**13. KERS (Kinetic Energy Recovering System)**</font>
+
+{{:sh13.jpg?nolink&500x198|sh13.jpg}}
+
+KERS kicks in when both the throttle and brake are inactive.\\
+You can set its strength in-app (Weak, Medium, Strong), but the firmware doesn't natively allow you to get rid of it.
+
+Using the "No KERS" option, the KERS current will be lowered just enough to keep the wheel in-circuit yet give a freewheeling effect.
+
+<font 18px/inherit;;inherit;;inherit>**14. Current rasing coefficient**</font>
+
+{{:sh14.jpg?nolink&500x76|sh14.jpg}}
+
+Same stuff as step 10, but that now it influences, how the e-brake from the motor should react.
+
+<font 18px/inherit;;inherit;;inherit>**15. Brakelight modes and Frequencies**</font>
+
+{{:sh15.jpg?nolink&500x126|sh15.jpg}}
+
+Here is where you set how your brake light will behave. You can choose between modes such as Default, Static, Reversed or Strobe. You also can choose how often the light should flash via the value.
+
+<font 18px/inherit;;inherit;;inherit>**16. Cruise Control**</font>
+
+{{:sh16.jpg?nolink&499x232|sh16.jpg}}
+
+Also self-explanatory, here you can set when cruise control will kick in in seconds, when cruise control wasn't disabled. It's also possible, to deactivate it completely, when set.
+
+**Also, important to know is: When you're planing to use DPC with curves, it's highly suggested turning cruise control off, as the curves aren't limitable.**
+
+In short: The combination of DPC with cruise control is useless, as this creates a paradox, because your max now works in a **power-based algorithm** instead of a **speed-based algorithm**.
+
+Please avoid using DPC with cruise control. Thank you.
+
+<font 18px/inherit;;inherit;;inherit>**17. Advanced**</font>
+
+{{:sh17.jpg?nolink&500x161|sh17.jpg}}
+
+Always stick to Level 1, so that important errors aren't suppressed unnecessarily. You surely want to know what's wrong with your max, and how you can fix it. Generally, leave it unselected. Only use level 2/3 for non-official batteries or stealth-mode.
+
+{{:sh18.jpg?nolink&500x47|sh18.jpg}}
+
+**__No overspeed alarm__ **
+
+If it so happens, that you own a second-generation motor or a modded battery setup, leave a checkmark here. This will retain from your max making that obnoxious beeping alarm over 35 km/h.
+
+{{:sh19.jpg?nolink&500x40|sh19.jpg}}
+
+__**Stay on when scooter locked**__
+
+When you plan to use the electronic locking, and you don't want that the scooter doesn't turn off after some hours, then leave a checkmark here.
+
+{{:sh20.jpg?nolink&500x41|sh20.jpg}}
+
+__**Change ESC BMS baud rate to 76800**__
+
+This changes the baud value to 76800, which powers the controller to works with other types of battery management systems (BMS). When in use, checkmark it.
+
+{{:sh21.jpg?nolink&500x87|sh21.jpg}}
+
+__**Wheel speed multiplier**__
+
+The standard value for the max's wheels always is 10.0. If you happen to own a different size of wheels, you can change the value in inches accordingly.
+
+<font 18px/inherit;;inherit;;inherit>__**18. Finished Time to cook**__</font>
+
+The very last step, that allows you to create your very own CFW.
+
+{{:sh22.jpg?nolink&500x162|sh22.jpg}}
+
+Now you just need to select an application that you plan to use to flash it:
+
+{{:sh23.jpg?nolink&500x432|sh23.jpg}}
+
+----
+
+<font 20px/inherit;;inherit;;inherit>__**Important stuff:**__</font>
+
+<font 18px/inherit;;inherit;;inherit>**Current:**</font>
+
+It's highly recommended sticking to a max. usage of 35A as Current, because this complies to the max. recommended Amperage. The motor of the max only holds this much of the peak at a long run. Everything that goes above this Amperage or Wattage isn't recommended and happens at own risks.
+
+You have the choice between 25A-35A, set it as you like your acceleration.
+
+Don't forget: Higher Amperage also draws more power from the battery, which also can mean less range.
+
+<font 18px/inherit;;inherit;;inherit>**DPC and Curves:**</font>
+
+You can set **DPC **as following:
+
+**Completely deactivated, speed based:**
+
+**{{:sh24.jpg?nolink&500x30|sh24.jpg}}**
+
+**Activatable via App ([[https://play.google.com/store/apps/details?id=sh.cfw.utility&hl=de&ah=hSb8OGG9VgPRKag3l5-U4ie0cSk|SHU ]]or [[https://rollerplausch.com/threads/ios-app-scooter-companion-testflight-release-gm-flashen-mehr-fuer-xiaomi-1s-pro2-ninebot-g30d.1377/|SC]])**
+
+**{{:sh25.jpg?nolink&499x54|sh25.jpg}}**
+
+When chosen and needed: Just use the App.
+
+After rebooting, depending on your CFW, a legal speed restriction will be set again. Repeat the first step to gain DPC once again.
+
+**Activatable via brake handle:**
+
+{{:sh26.jpg?nolink&500x51|sh26.jpg}}
+
+When chosen and needed: Hold brake handle and power button at the same time for a moment. Then you'll have DPC on. After rebooting, depending on your CFW, a legal speed restriction will be set again. Repeat the first step to gain DPC once again.
+
+**Always on:**
+
+**{{:sh27.jpg?nolink&500x53|sh27.jpg}}**
+
+If set, DPC will be always set on. Not recommended, if you live in a country with strict speed limitations or want to use maneuvering.
+
+<font 18px/inherit;;inherit;;inherit>**Curves:**</font>
+
+//Cruise control needs to be deactivated, when one of the curves has been chosen with DPC://
+
+<font 16px/inherit;;inherit;;inherit>Flat**:**</font>
+
+{{:sh28.jpg?nolink&500x136|sh28.jpg}}
+
+{{:sh29.jpg?nolink&500x130|sh29.jpg}}
+
+That's the flat curve, it goes straight from 0% to 100%. That's the curves every max has as a stock setting out-of-the box. Doesn't interfere the speed limits. Function well with "switchable" options
+
+<font 16px/inherit;;inherit;;inherit>Quadratic:</font>
+
+{{:sh32.jpg?nolink&500x137|sh32.jpg}}
+
+{{:sh33.jpg?nolink&500x141|sh33.jpg}}
+
+This is the quadratic curve, it goes from 0% to 100% in a delayed manner. It raises slow at the beginning and achieves its real 100% somewhere in the middle, until it reaches its real 100%. This has the benefit, that you can drive smoother from now on, as the gas throttle can be dosed at a better rate than before. Functions well with "switchable" options.
+
+**Brake lever parameters:**
+
+{{:sh12.jpg?nolink&499x220|sh12.jpg}}
+
+This option allows your max to manage the behavior of your motor's e-brake. Between the values of 0-130 you can choose, how sensitive the brake handle should react when attended.
+
+More Amperage in the phase current results a stronger and faster stance, less Amperage a weaker and slower stance.
+
+The e-brake is located in the motor (rear wheel). These brake lever parameters influence, how the rear wheel reacts and brakes electronically.
+
+----
+
+<font 18px/inherit;;inherit;;inherit>__**48V Mod:**__</font>
+
+If it so happens that you plan to a get **48V/13S** Mod and you want to use it:
+
+**Configure as following:**
+
+{{:shmoment.png?nolink&500x198}}
+
+{{:shmoment1.png?nolink&500x183}}
+
+Information*
+
+*It's also to notice, that 48V/13S already has 25 amperes. Don't forget, it's only recommended to go to a max. of 27A or at best 24A. That's why i recommend you to go to a safe amperage of 24A.
+
+{{:sh37.jpg?nolink&500x141|sh37.jpg}}
+
+or
+
+{{:sh38.jpg?nolink&500x142|sh38.jpg}}
+
+{{:sh39.jpg?nolink&500x184|sh39.jpg}}
+
+**Protip: As you don't have Manuvering anymore, due to having an American serial number always in use and being "hooked" onto it, it's recommended to use switchable, register with curves of your choice as a alternative to manuevering. *****__KERS needs to be off__**  , otherwise error 15 will be thrown mid-drive. Please always set NoKers for that matter.
+
+{{:sh40.jpg?nolink&500x125|sh40.jpg}}
+
+When set to, the brake light lights always lights up in a static manner.
+
+{{:sh41.jpg?nolink&500x230|sh41.jpg}}
+
+{{:sh42.jpg?nolink&499x282|sh42.jpg}}
+
+{{:sh43.jpg?nolink&500x50|sh43.jpg}}
+
+**Set the rest as you like it, then it's time to cook up your CFW!**
+
+**{{:sh44.jpg?nolink&499x163|sh44.jpg}}**
+
+Now just change the region to "US" permanently via [[https://play.google.com/store/apps/details?id=sh.cfw.utility&hl=de&ah=hSb8OGG9VgPRKag3l5-U4ie0cSk|SHU]], [[https://rollerplausch.com/threads/ios-app-scooter-companion-testflight-release-gm-flashen-mehr-fuer-xiaomi-1s-pro2-ninebot-g30d.1377/|SC]] or [[https://iap.scooterhacking.org/|IAP]] and flash your CFW via an application of your choice.
+
+Now you can drive with your 48V/13S without further problems! Have fun! :)
+
+----
+
+__**Current / Ampere values (Examples):**__
+
+^Amperes|
+|20|
+|**25 (Standard)** |
+|30|
+|**__35 (max. rec.)__ ** |
+
+Advice: If you weigh above** 100KG** i highly suggest you to stay below a Amperage of 32, as you are overstressing your max's internal components (as the motor phase cables f. ex) with your weight already. Setting the amperage below 32A helps to prevent, that fatal damage can be created.
+
+Ergo: Max. **32A above 100KG**, and if possible please go to 30A or 25A, thanks.
+
+__**Brake handle parameters (Examples):**__
+
+^Virtual brake handle limiter^Min. Phase Current^Max. Phase Current|
+|130 (110%)|1|1|
+|**120 (100%; Standard)** |**6** |**35** |
+|0 (0%)|50|50|
+|Recommendations|-|-|
+|  2. Gen Recommendation 120^8|**38-40** |
+|  48V Recommendation 120^10-12|**42-45** |
+
+Brake handle parameters do not have general recommedantions, but the ones above can be followed. Set them as you like. They'll change your max's brake behaviour.
+
+Virtual brake handle values are similiar with the gas throttle values, as they decide, when the e-brake kicks in.
+
+Min. Phasecurrent is the Amperage value (A), how many amperes will go through the e-brake by touching the brake slightly. (Beginning from 1%)
+
+Max. Phasecurrent ist the Amperage value (A), how many amperes will go through the e-brake by touch the brake handle to its full extent. (100%)
+
+Test yourself out with safe values and find your golden middle. Always take the standard value as the base.
+
+<font 16px/inherit;;inherit;;inherit>__**Never brake at full battery charge, just under 95%.**__</font>
+
+E-scooters in general as the max doesn't handle KERS while braking with a battery state above 95%. When you try to brake neverthanless, you're overcharging the battery over 100% which **causes severe components damage**.
+
+**Always set KERS to low or off** for that case. Never or just slightly brake and freewheel at the beginning of your ride, this ensures, that you still will have fun with your max!
+
+<font 14px/inherit;;inherit;;inherit>**__Current raising co-efficient (Examples):__**</font>
+
+^mA per Step|
+|0-|
+|**300/500 (Standard)** //recommend until 3500 (36V) or 7000 (48V)// |
+|- 16000|
+
+This value destinates how fast the mA will be applicated in steps.
+
+It'll intefere the accleration- and e-brake, depending on how you set it.
+
+Setting this wont cause any harm to your max, but decides how fast you will accelerate or brake electrionically in mA (steps).
+
+__**Brake light settings (Examples):**__
+
+^Modes^Frequency^Behaviours|
+^Default|235|G30's/G30P's Behaviour (Flashes while braking)|
+^Static|255|G30D's Behaviour (Always on)|
+^Reverse|254|Same behaviour as a car brake light|
+^Strobo|0-255|(250 active Stroboeffect, 172 passive, 0 off etc)|
+
+The Brake light frequencies values determines from 0-255 how often the light will be switch on or off in "PWM".
+
+----
+
+//**A one by one transcript by Noel from [[https://rollerplausch.com/|Rollerplausch ]]from german into english ([[https://bit.ly/2N8uKBo|https://bit.ly/2N8uKBo]]) created for this beloved community of Scooterhacking. **  //
+
+**//You want to donate, after everything went well for you? Just click __[[https://www.scooterhacking.org/donate/hi.html|here]].__  //**
+
+\\
+

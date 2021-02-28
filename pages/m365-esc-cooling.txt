@@ -1,0 +1,19 @@
+====== Xiaomi M365 ESC/ECU cooling mod ======
+
+**<font 18px/inherit;;inherit;;inherit>Simple way of solving complex engineering fail</font>**
+
+If you're running custom firmware, you might have noticed that the ESC (indicated by the TECU sensor in m365 dashboard) might be getting rather toasty, reaching 55°C just after couple of seconds. Popular opinion would be, that the ESC is driven too hard, but that's actually not the case. The issue comes from poor contact between MOSFETs of the ESC and the enclosure.
+
+If you performed ESC modding, as a part of trace cut procedure, you probably noticed that the MOSFET packages are separated from the enclosure by a layer of polyamide (Kapton) tape. This is important, as the packages cannot touch bare metal due to different potentials, which would led to short circuit. But Kapton tape isn't the best heat conductor either, so how to ensure proper heat transfer while isolating the MOSFETs from the enclosure?
+
+There are 3 ways actually
+
+  * **Thermal paste**  - Arctic Silver or Thermal Grizzly Kryonaut are known to be very conductive. But there is a catch. Kryonaut is silicone based compound, and as such, it's not electrically conductive, but what if vibrations of the scooter causes the layer between the MOSFET and the enclosure to be too thin? Once enough of the paste gets to the sides, it's bare metal on bare metal again. And short circuit happens.
+  * **Thermal pad**  - Much better alternative for this use is a thermal patch or pad. Those can be also highly thermally conductive, while ensuring proper electrical isolation. Use the link from above for 5W/mK pad
+  * **Screw-in**  - Most complex method, which involves drilling the enclosure with 3mm holes, their threading, and using M3x5 bolts to secure the MOSFETs to the enclosure. This secures most effective heat transfer, but the complexity of it makes it not that worth it compared to single thermal pad
+My personal preference would be combination of paste and pad, as there's only small pressure against the enclosure, I'd advise to put small blob of Kryonaut on each MOSFET package, and at the same time, put 5W/mK 1mm pad inbetween.
+
+Don't forget to reapply thermal compound between the enclosure and the scooter body.
+
+Once the ESC is put back together, you should see around 15-25°C drop in temps under load.
+

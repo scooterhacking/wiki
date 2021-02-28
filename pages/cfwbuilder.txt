@@ -25,6 +25,7 @@ Some parameters requiring more details about their working behavior will have th
 ^GET parameter^Display name^Type^Default value^Accepted values^Description^ESx^Max^1S^Pro2^Pro1|
 |version|Firmware version|string|DRVxxx|DRVxxx|Base version. See [[:cfwbuilder#drv_versions_table|the below table]]. **VALID PARAMETER REQUIRED FOR FILE DOWNLOAD.** |  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |output|Output file|string|zip2|See [[:cfwbuilder#output_file_formats_table|the below table]].|If you want to use another output format for the custom firmware.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|voltage|Voltage|integer|36|36;48|Voltage set|   |  ✅  |   |   |  ✅  |
 |name|Filename|string|None|<any ASCII string up to 40chars>|Replaces the time-based part of the filename by any custom name.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |version_spoofing|Version spoofing|bool|None|<any string>|Sets DRV version higher to prevent an update from overwriting it.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |region|Scooter region|string|auto|us, eu, de|Enforces firmware region and disables S/N parsing. Also makes sure the ESC accepts S/N change requests ("auto").|  **❌**    |  ✅  |  **⏳**    |  **⏳**    |  **❌**    |
@@ -32,23 +33,26 @@ Some parameters requiring more details about their working behavior will have th
 |speed_normal_kmh|Max speed|int|(per model)|10→65|Sets Sports max speed for no region/US region.|  **⌛**    |  ✅  |  **❌**    |  **❌**    |  ✅  |
 |speed_normal_kmh_eu|Max speed (EU)|int|27|10→65|Sets Drive max speed for US region and Sports max speed for EU region.|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
 |speed_normal_kmh_de|Max speed (DE)|int|22|10→65|Sets Drive max speed for EU region and Sports max speed for DE region.|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
-|speed_normal_battery|Sports battery current|int|(per model)|5000→65535|Sets battery current limit for all Sports modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|speed_drive_battery|Drive battery current|int|(per model)|5000→65535|Sets battery current limit for all Drive modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|speed_eco_battery|Eco battery current|int|(per model)|5000→65535|Sets battery current limit for Eco mode.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|speed_normal_phase|Sports phase current|int|(per model)|10000→65535|Sets phase current limit for Sport mode|**⏳**   |  ✅  |  **❌**    |  **❌**    |  ✅  |
-|speed_drive_phase|Drive phase current|int|(per model)|10000→65535|Sets phase current limit for Drive mode|**⏳**   |  ✅  |  **❌**    |  **❌**    |  ✅  |
-|direct_power_control|Direct power control state|string|off|See [[:cfwbuilder#direct_power_control_state_table|the below table]].|Direct Power Control changes the throttle algorithm from speed to power-based, like in a thermal-engine vehicle. No speed limit applies while using DPC.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|direct_power_control_curve|Direct power control curve type|string|flat|flat; quadratic|Sets DPC curve type.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|p_sports|Sports battery current|int|(per model)|5000→65535|Sets battery current limit for all Sports modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|p_drive|Drive battery current|int|(per model)|5000→65535|Sets battery current limit for all Drive modes.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|p_eco|Eco battery current|int|(per model)|5000→65535|Sets battery current limit for Eco mode.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|i_sports|Sports phase current|int|(per model)|10000→65535|Sets phase current limit for Sport mode|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|i_drive|Drive phase current|int|(per model)|10000→65535|Sets phase current limit for Drive mode|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|direct_power_control|Direct power control state|string|off|See [[:cfwbuilder#direct_power_control_state_table|the below table]].|Direct Power Control changes the throttle algorithm from speed to power-based, like in a thermal-engine vehicle. No speed limit applies while using DPC.|  **⏳**    |  ✅  |  **⌛**    |  **⌛**    |  ✅  |
+|direct_power_control_curve|Direct power control curve type|string|flat|flat; quadratic|Sets DPC curve type.|  **⏳**    |  ✅  |  **⌛**    |  **⌛**    |  ✅  |
+|current_raising_coefficient|Current raising coefficient|int|300|0→16000|How fast current will be applied. Affecting throttle speed up rate.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |no_kers|No KERS|bool|None|<any string>|Disables energy recovery when the throttle is inactive. Clonk-free.|  **⏳**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|kers_min_spped|Minimum speed for engaging KERS|int|6|0→65|Sets minimum threshold for KERS activation|  ✅  |  ✅  |  **❌**    |  **❌**    |  **❌**    |
 |wheel_speed_const|Wheel Speed Multiplier|int|8":390; 10": 315|200→500|Don't change if you use stock tires|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
-|wheel_size|Wheel size in inches|int|8.5|0→30|Wheel size in inches, default 8.5", don't change if you use stock tires|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
+|wheel_size|Wheel size in inches|int|8.5|0→30|Wheel size in inches, default 8.5", don't change if you use stock tires|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |error_raising_level|Error raising level|int|0|0→3|[[https://wiki.scooterhacking.org/doku.php?id=nberrorcodes|https://wiki.scooterhacking.org/doku.php?id=nberrorcodes]]|  **⏳**    |  ✅  |  ✅  |  ✅  |  **❌**    |
-|brake_limit|Lever virtual limit|int|110|0→130|Sets brake lever virtual limit|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|brake_i_min|Minimum phase current|int|8000|1000→65000|Sets minimum phase current|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|brake_i_max|Maximum phase current|int|30000|1000→65000|Sets maximum phase current|  **❌**    |  ✅  |  ✅  |  ✅  |  ✅  |
-|brake_current_raising_coefficient|Brake current raising coefficient|int|500|0→16000|How fast current will be applied. Affecting brake speed up rate|**❌**   |✅  |✅  |✅  |✅  |
-|min_brake_speed|Minimum speed for applying brake|int|3|0→65|Minimum speed at which electronic brake can be applied|  **⏳**    |  ✅  |  **⏳**    |  **⏳**    |  ✅  |
+|brake_limit|Lever virtual limit|int|110|0→130|Sets brake lever virtual limit|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_i_min|Minimum phase current|int|8000|1000→55000|Sets minimum phase current|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_i_max|Maximum phase current|int|30000|1000→55000|Sets maximum phase current|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_current_raising_coefficient|Brake current raising coefficient|int|500|0→16000|How fast current will be applied. Affecting brake speed up rate|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
+|brake_min_speed|Minimum speed for applying brake|int|3|0→255|Minimum speed at which electronic brake can be applied|  **⏳**    |  ✅  |  **⏳**    |  **⏳**    |  ✅  |
 |no_brake_light_flash|Static brake light|bool|None|<any string>|Enforces German brake light behavior for other regions.|  **❌**    |  ✅  |  **⏳**    |  **⏳**    |  ✅  |
+|brake_light_mode|Brake light behavior|string|default|default;static \\ ;reversed;strobe|Sets brake light behavior|  **❌**    |  **❌**    |  ✅  |  ✅  |  **❌**    |
 |cruise_control_delay|Cruise control delay|int|5|0→10|How many seconds it takes for cruise control to kick in.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |cruise_control_nobeep|No cruise control beep|bool|None|<any string>| |  **⏳**    |  ✅  |  **⏳**    |  **⏳**    |  **⏳**    |
 |motor_start_speed|Motor start speed|int|5|0→10|Minimum speed in km/h before the motor will start.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
@@ -57,9 +61,54 @@ Some parameters requiring more details about their working behavior will have th
 |stay_on_locked|Stay on while locked|bool|None|<any string>|Disables auto shutdown when the scooter is locked so it stays on forever.|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
 |no_overspeed_limit|No overspeed limit|bool|None|<any string>|Removes hard-coded speed limits (and beeping).|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
 |bms_uart_76800|Change ESC↔BMS baud rate to 76800|bool|None|<any string>|Only if you use the compatible open source BMS!|  ✅  |  ✅  |  ✅  |  ✅  |  ✅  |
-|m365_compat|Pro1 FW on classic BLE|bool|None|<any string>|Changes dashboard message type from "Pro" to "Regular" (for 4-dot M365 dashboard only!).|  **❌**    |  **❌**    |  **❌**    |  **❌**    |  ✅  |
+|m365_compat|Pro1 FW on classic BLE|string|off|on;off|Changes dashboard message type from "Pro" to "Regular" (for 4-dot M365 dashboard only!).|  **❌**    |  **❌**    |  **❌**    |  **❌**    |  ✅  |
+|compat_patches|Removes SN check|bool|None|<any string>|Removes disability to change serial number on some ESCs|  **❌**    |  ✅  |  ✅  |  ✅  |  **❌**    |
 
 Please note that all parameters might not be listed.
+
+\\
+
+
+===== DRV versions table =====
+
+Current DRV firmware versions used throughout the production branch.
+
+**Ninebot ESx**: DRV120 ; DRV133 ; DRV139 ; DRV150 ; DRV151(default)
+
+**Ninebot Max**: DRV126
+
+**Xiaomi 1S**: DRV221
+
+**Xiaomi Pro 2**: DRV223
+
+If the **Version spoofing **patch is in use, the version number retrieved by apps will be shifted up by 400. This requires no modification to the "version" field so make sure to only use the above values**.**
+===== Direct power control state table =====
+
+Case sensitive.
+
+**None/"off":** Doesn't change default firmware behavior. For all currently supported firmware versions, the throttle function forces its register value at 0, making DPC inaccessible.
+
+**"reg":** Allows switching between DPC and speed-based throttle by writing either 1 or 0 to register 0x76. The register doesn't retain its value after reboot and defaults at 0/off. For the end-user, this would mainly be intended for use within an app such as GM Free.
+
+**"dyn":** With this patch, holding the brake lever upon boot (like you'd do for error 15) enables DPC. The regular startup sequence keeps the speed-based throttle.
+
+**"on":** DPC is always on.
+===== Output file formats table =====
+
+Case sensitive.\\
+Defaults to "**zip2**" if not provided.
+
+**"bin": **Barebone final product, binary output. For devs only.
+
+**"enc":** Encoded version of the binary. The bare minimum you need to flash a Ninebot scooter, more difficult to use on Xiaomi which has a different encoding rule. Used on Ninebot IAP and Ninebot-Flasher. [missing references about encoding - separate page needed]
+
+**"zip":** [[:downg#zip_files|CamiAlfa's DownG ZIP]]. Still used by BotoX and many third-party websites, but still does the job for scooters of older generations. Mostly used by Android flashing apps.
+
+**"zip2": **An alteration of the original DownG ZIP format containing parameters of the firmware and a broader selection of scooter "dev" variables to choose from. [missing references about zip2 - separate page needed]
+
+Most apps should support both versions of DownG ZIP, but using **zip2** is recommended especially on newer scooters to prevent a file from being flashed when it shouldn't - DownG ZIP only having M365 and ES/SNSC as dev variables. It also returns the actual content of the firmware in a human-readable form (//params.txt//), preventing mistakes from happening.
+
+Both ZIP formats will be delivered with an archive comment consisting of the full request URL, the patcher branch and revision identifiers, as well as a copy of the human-readable parameters. **This data is crucial for debugging purposes and must be kept intact!**
 
 ===== DRV versions table =====
 

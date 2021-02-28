@@ -1,0 +1,50 @@
+====== Xiaomi M365 motor cooling mods ======
+
+====   With great power comes great responsibility   ====
+
+Brushless DC motors are very efficient beasts, boasting 80-90% efficiency, converting electrical current into mechanical power. However even 90% efficiency means 10% is being lost as heat, and with more and more power pushed into the motor, heat becomes an issue.
+
+To put it into perspective, say you're running 30A into your m365 pro motor. That's 30A * 36V, 1.08kW. In most optimal circumstances, that's 108W in heat. High-end desktop CPUs run approximately that value, when being fully utilized, so you can imagine how much heat that is.
+
+To get rid of this heat, we have an advantage of rotating body (motor casing), which can shift air through heat dissipation unit, cooling down the whole system.
+
+The easiest and decently efficient method is mounting small heatsinks onto the casing itself
+
+===== Level 1 - Mounting radiators on the motor body =====
+
+Bill of materials:
+
+  * 11pcs of 25x25x5mm heatsinks from aliexpress: https://www.aliexpress.com/item/1005002085860039.html
+  * or if you prefer more expensive black ones: https://www.aliexpress.com/item/32455526086.html
+  * Kafuter K-5205 2W/mK thermal glue: [[https://www.aliexpress.com/item/4000418293775.html|https://www.aliexpress.com/item/4000418293775.html]]
+
+If the items are sold out for you, search aliexpress using the same keywords, you should find replacements.
+
+Once the sinks arrive, put a half-pea sized blob of thermal adhesive on their flat side and glue 6pcs of them on the right side of the motor casing as shown below. Use the motor indents as an indication of the rough positioning. The sinks should not be too low, due to limited headroom near the axle.
+
+Do the same on the other side, but mind the plastic cover and the auto schrader valve, which reduces the area, so only 5pcs will fit. Perform one or two full rotations of the motor by hand to ensure the sinks are not brushing against the for anywhere. Let it cure for 24 hours.
+
+And you're done.
+
+This level of cooling, despite looking basic, already provides 15°C temp reduction with moderate speeds on the outer casing.
+
+===== Level 2 - Mounting radiators on the fork =====
+
+Bill of materials:
+
+  * 8pcs 37x37x24mm heatsinks: [[https://www.aliexpress.com/item/32620574057.html|https://www.aliexpress.com/item/32620574057.html]]
+
+If L1 is not cutting it for you, and the motor is still hot to touch, you can take advantage of the heat transfer through the axle to the fork. This means you need to sacrifice the plastic covers in order to mount large radiator in their place. Use larger 37x37x24mm radiators, four of them arranged in a square, for a total of 74x74x24 on each side. Older CPU radiator can be also used in place.
+
+The sinks should be mounted approx 5mm above the 18mm nut securing the motor to the fork, to ensure that the motor can be still loosened without issues.
+
+Additionally, you can add thermal paste (not glue!) on the axle threading and the nut, enhancing heat transfer even more
+
+===== Level 3 - Evaporative (swamp) cooler =====
+
+The above methods are fine if there's good amount of airflow around the motor area, and the ambient temps are low, but what about riding in summer, when the outside temperatures reach 40°C and the air is just as hot?
+
+This is where evaporative cooling comes into play. Water sucks a lot of heat out, when it's being turned into gas/water vapour. This method is rather simple, just spray distilled water on the motor case when it gets hot in summer. The water will be slowly turning into steam, and in the process, will drain the heat out of the motor.
+
+[WIP]
+

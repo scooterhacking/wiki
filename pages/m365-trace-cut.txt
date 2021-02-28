@@ -1,0 +1,100 @@
+====== Trace cut, mosfet upgrade and trace reinforcing guide ======
+
+**For M365 v1.5 and earlier ESC **
+===== Prerequisities: =====
+
+  * <font inherit/inherit;;inherit;;transparent>Decent soldering skills</font>
+  * <font inherit/inherit;;inherit;;transparent>Leaded solder, 60/40, 63/37 or equivalent</font>
+  * <font inherit/inherit;;inherit;;transparent>Soldering iron with regulated output</font>
+  * <font inherit/inherit;;inherit;;transparent>Thin flat screwdriver for adjusting voltage</font>
+  * <font inherit/inherit;;inherit;;transparent>Reasonably accurate DMM</font>
+  * <font inherit/inherit;;inherit;;transparent>1.5-2.5mm wick, Gootwick recommended</font>
+  * <font inherit/inherit;;inherit;;transparent>Lab power supply, capable of at least 55V output</font>
+  * <font inherit/inherit;;inherit;;transparent>Side cutters</font>
+
+===== Materials required: =====
+
+  * <font inherit/inherit;;inherit;;transparent>6pcs IRFB4110PbF or equivalent</font>
+  * <font inherit/inherit;;inherit;;transparent>15-13AWG solid core copper wire</font>
+  * <font inherit/inherit;;inherit;;transparent>20-24AWG stranded colored wires for attaching step down</font>
+  * <font inherit/inherit;;inherit;;transparent>1000uF 100V Jamicon cap</font>
+  * <font inherit/inherit;;inherit;;transparent>33uF 100V any other brand</font>
+  * <font inherit/inherit;;inherit;;transparent>100V TPS7A4001 LDO board from Aliexpress: https://www.aliexpress.com/item/32926165539.html</font>
+
+===== Trace reinforcing =====
+
+<font inherit/inherit;;inherit;;transparent>Remove all 17 M3x10 bolts securing the bottom plate. Remove battery, and disconnect and remove ESC box. Take out the PCB out of the enclosure by unclipping 6 clips on all sides of the enclosure, careful not to pinch your fingers. The upper lid should come off, exposing the bare PCB.</font>
+
+<font inherit/inherit;;inherit;;transparent>Remove the paper cover on its back, and the trace reinforcing procedure can start.</font>
+
+<font inherit/inherit;;inherit;;transparent>Suck as much as possible solder out of the main trace, as well as the uppermost top one, using 1.5-2.5mm wick. This is done by setting your soldering iron to 350C and slowly moving the wick across the trace until all solder has been removed.</font>
+
+<font inherit/inherit;;inherit;;transparent>Cut and tin 13-15AWG solid core copper wire in the length of the main trace. At first, solder one end of it, then the other. Now tin the main trace with leaded solder, fill it at about 50% pitch, so that the entirety of the solid core wire is flooded in solder, across its whole length.</font>
+
+<font inherit/inherit;;inherit;;transparent>When done, do the same on the top trace, using 15AWG solid core instead.</font>
+
+<font inherit/inherit;;inherit;;transparent>Finally, connect the middle pin of each MOSFET to the main trace, using 15AWG wire. First, tin the pin using leaded solder, so that it will stick properly, then cut it just before the main trace, so that it’s possible to flood it entirely in solder.</font>
+
+<font inherit/inherit;;inherit;;transparent>Please see the attached picture for how the end result should look like in approximation.</font>
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_6.jpg?nolink&640x475}}
+
+===== Mosfet upgrade =====
+
+<font inherit/inherit;;inherit;;transparent>If you’re unsure and/or lack the equipment or skills needed for proper MOSFET extraction (hotplate needed), then there’s easier way which achieves generally the same results, which is much safer to attempt, rather than pull traces off the board by pulling on MOSFET legs too early.</font>
+
+<font inherit/inherit;;inherit;;transparent>Use side cutters to cut all 6 MOSFETs as close to their package as possible. Then, use leaded solder to tin the legs which now remain. Straighten out legs on the board, so that new package can be soldered on top. Cut the legs on your new IRFB4110, just before the point where the width increases, then tin the bottom side of those legs. Now, solder them on the remaining legs on the PCB, starting with the side contacts first, and then finishing up with the center one. Once done, ensure all MOSFETs are soldered on properly, by pushing them upwards slightly, to check if all the legs are properly attached.</font>
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_16.jpg?nolink&640x480}}
+
+===== Trace cut =====
+
+Use dremel with 5mm grinding bit to slowly and carefully grind away the positive pad leading from XT30 connector to the capacitor. Alternatively, you can use sharp knife or exacto knife to cut it, but make sure the connection is securely severed.
+
+===== Capacitor upgrade =====
+
+<font inherit/inherit;;inherit;;transparent>Cut out the legs of the 1000uF 63V cap first, then heat the underside of the contacts to pull out the remaining leg pins. Use wick and suck out the lead-free solder from the bottom side of the board, for those contacts. You should end up with two, slightly tinned holes, where the original cap was.</font>
+
+<font inherit/inherit;;inherit;;transparent>Now install Jamicon cap. Bend its negative leg, minding its polarity and insert them into the respective hole. Cut, so that about 5mm sticks out, then put solder around it. Finally cut the remains which stick out. The positive pole will connect straight to positive from XT30 (not where the capacitor originally was).</font>
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_10.jpg?nolink&640x480}}
+
+===== LDO board installation =====
+
+<font inherit/inherit;;inherit;;transparent>As the U4 cannot take more than 56V, stepdown or preregulator needs to be installed. But first we need to adjust it.</font>
+
+<font inherit/inherit;;inherit;;transparent>Start by soldering wires to it, 20-24AWG silicone recommended. VIN, VOUT and GND is enough in this case. Set your lab PSU to 12V first, current limited to 0.1A, and connect it to the board. Connect DMM on VOUT and GND, checking the output.</font>
+
+<font inherit/inherit;;inherit;;transparent>Now start turning the variable resistor. Once the voltage starts to climb up from 2.8V (default value), beyond 12V, adjust the PSU voltage to 55V and continue rotating the variable resistor. At the end of the range, the slope is exponential, so after 24V turn more carefully after you manage to arrive to 48V more or less. Disconnect PSU and reconnect it, to make sure the LDO will end up on the same voltage, as during adjustment. Once everything checks out, put a small blob of hot melt glue on top of the variable resistor, to make sure it won’t change value with vibrations.</font>
+
+<font inherit/inherit;;inherit;;transparent>Now solder it to the board. VOUT should go to the positive, where the 1000uF cap was originally connected, VIN and GND should be connected to XT30 pins. Once done with soldering, put a piece of kapton tape on the positive on the capacitor side.</font>
+
+<font inherit/inherit;;inherit;;transparent>-</font>
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_11.jpg?nolink&640x480}}
+<font inherit/inherit;;inherit;;transparent>-</font>
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_15.jpg?nolink&640x480}}
+
+===== 2 nd cap upgrade =====
+
+Repeat the process of cap removal and replacement also for small 63V 33uF located close to the main input cap. Replace it with 100V 33uF
+
+===== Final testing =====
+
+Connect 36V 0.2A on the XT30 input. Check voltage between VOUT of the step down and GND, while raising voltage up to 60V. The voltage should not go beyond 48V. If it doesn’t, then you can start assembly.
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_4.jpg?nolink&474x640}}
+
+===== Assembly =====
+
+<font inherit/inherit;;inherit;;transparent>Remove the kapton tape from the aluminium case, and replace it with 0.5mm thermal pad, across its whole length. 0.5mm is enough to keep enough pressure from the lid. Additionally, you can also apply small amount of thermal compound (Kryonaut) on the MOSFETs bottom, to enhance heat transfer through the pad even more.</font>
+
+<font inherit/inherit;;inherit;;transparent>Use kapton tape for the bottom of the LDO board, insulating all contacts from the ESC enclosure, then cut a small hole in it, where the center rectangle is on the board, and put a blob of thermal adhesive there (Kafuter 5205 recommended). Stick it to the ESC enclosure, as seen on the picture, and let it cure for about 8-10 hours.</font>
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/tracecut/tracecut_13.jpg?nolink&640x480}}
+
+<font inherit/inherit;;inherit;;transparent>Once this is done, begin reassembly, minding all the parts that should come in together (outer silicone ring too).</font>
+
+<font inherit/inherit;;inherit;;transparent>**Now your ESC should be able to withstand voltages up to 100V without any additional external modifications! **</font>
+
+//Released exclusively for ScooterHacking community, as CC-BY-SA 3.0 by Tidings//
+

@@ -7,7 +7,7 @@ The same rough design is carried over the whole line, the scooter always includi
 
 Click on a scooter model to show a preview.
 
-^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.4]]|
+^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]|
 ^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25 km/h  ||||
 ^Range|  65km  |  40km  |  60km (up to 100km on 1004Wh)  ||  55km (<100km on 1004 Wh)  ||
 ^Battery (Wh)|  551  |  367  |  551/1004 (optional)  ||||
@@ -32,7 +32,7 @@ Click on a scooter model to show a preview.
 ^"Mood lights" (RGB LEDs)|  No  |||  Optional  |||
 ^Indicators|  No  |||||  Yes  |
 ^NFC|  No  |||  Optional  |||
-^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\   \\ Folded: 112x47x53cm  |    \\ Unfolded: 110x47x115cm \\   \\ Folded: 110x46x53cm \\   |   \\ Unfolded: 112x47x120 cm \\   \\ Folded: N/A  |  No data, about the same as 2.0/2.1  |||
+^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\   \\ Folded: 112x47x53cm  |   \\ Unfolded: 110x47x115cm \\   \\ Folded: 110x46x53cm  |   \\ Unfolded: 112x47x120 cm \\   \\ Folded: N/A  |  No data, about the same as 2.0/2.1  |||
 ^Water resistance|  IPX4  ||  Vehicle and controller - IPX5, battery and internal charger - IPX7  |  Vehicle - IPX4, battery and controller - IPX7  |||
 
 ===== Hacking =====
@@ -40,7 +40,6 @@ Click on a scooter model to show a preview.
 Ninebot Max and SNSC2.0/2.1 scooters are supported by many apps and developers and are as popular in the hacking scene as Xiaomi scooters (they use a very similar protocol).
 
 ScooterHacking.org DOES NOT publicly support the 2.2-2.4 range of scooters to decrease theft rate.
-
 
 ===== Serial number anatomy =====
 

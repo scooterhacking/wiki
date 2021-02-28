@@ -33,12 +33,13 @@ Ninebot ESx and SNSC1.X scooters are supported by many apps and developers and a
 
 ==== Resources ====
 
-  * [[http://esx.scooterhacking.org|Custom firmware toolkit]]
+  * [[https://esx.cfw.sh/|Custom firmware toolkit]]
   * [[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=15|Basic rental/retail conversion or clone parts flash]]
   * [[:nberrorcodes|Error codes]]
   * [[https://iap.scooterhacking.org|Ninebot IAP]] (Windows flasher and utility, BLE and UART)
   * [[https://play.google.com/store/apps/details?id=eScooter.m365Info&hl=en_US|NineFlasher]] (Android flasher)
   * [[https://play.google.com/store/apps/details?id=adriandp.ninedash&hl=en_US|NineDash]] (Android utility to serve as a Ninebot app replacement)
+  * [[https://scooterhack.in/utility|ScooterHacking Utility]] (Multi-purpose Android app for Ninebot scooters)
 
 ==== Technical & development resources ====
 
@@ -52,7 +53,7 @@ Ninebot ESx and SNSC1.X scooters are supported by many apps and developers and a
 
 ==== ESC serial number anatomy ====
 
-**<font inherit/inherit;;#f39c12;;inherit>We also have battery</font><font inherit/inherit;;#f39c12;;inherit>SN anatomy, available here:</font>**  [[http://bit.ly/nb-battery-anatomy|(link)]]
+**<font inherit/inherit;;#f39c12;;inherit>We also have battery</font><font inherit/inherit;;#f39c12;;inherit>SN anatomy, available here:</font>** [[http://bit.ly/nb-battery-anatomy|(link)]]
 
 **[[https://i.imgur.com/iI7kjLG.png|Visual diagram]]**
 
@@ -60,7 +61,7 @@ The ESC serial number consists of 14 characters. All ES series serial numbers st
 
 Example serial number: **N2G<font inherit/inherit;;#f39c12;;inherit>T</font><font inherit/inherit;;#7f8c8d;;inherit>X</font><font inherit/inherit;;#8e44ad;;inherit>19</font><font inherit/inherit;;#27ae60;;inherit>39</font><font inherit/inherit;;#e74c3c;;inherit>C</font><font inherit/inherit;;#3498db;;inherit>0123</font>**
 
-**Black** - Product identifier
+**Black**  - Product identifier
 
 <font inherit/inherit;;#f39c12;;inherit>**Orange**</font>- Product version (SN prefix)
 
@@ -113,4 +114,6 @@ F/E – Black ES1
 **Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
 
 Determines which line at the factory was used to make a particular scooter.
+
+\\
 
