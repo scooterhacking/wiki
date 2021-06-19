@@ -1,0 +1,65 @@
+====== M365 Classic/Pro ECU [ESC1] ======
+
+ECU used in Xiaomi m365 and m365 pro
+
+==== Version history ====
+
+1.3 and lower – ST14xxx or mixed, U4 TPS54160\\
+1.4 – ST15810\\
+1.5 – some boards now feature NCEP85T14, tinned B+\\
+2.1 – major overhaul, NCEP85T14, tinned traces, U4 SY8502 (up to 85V), **PRO only** \\
+3.0 – same as 2.1 with reinforced traces from factory, and no PCB markings, **PRO only**
+==== Specification ====
+
+FETs used: ST14810, ST15810, NCEP85T14, NCE8596A (clone only)\\
+Driver: MT8006A\\
+Input capacitance: 63V 1000uF, 63V 33uF, 100V 100nF
+
+==== Connectors ====
+
+  * Interface
+      * PAP03-V [B038-PASK] – BMS, rear light
+      * PAP05-V [B058-PASK] – Motor halls
+      * PAP04-V [B048-PASK] – BLE
+  * Power
+      * Amass XT-30 PCB Female – Battery input
+
+==== Resources ====
+
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/14driver.jpg|Circuit diagram for 1.4]] \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/21driver.pdf|Circuit diagram for 2.1]] \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/pinout.png|Connector pin-out]] \\
+ \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/SY8502FCC.pdf|SY8502 datasheet]] \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/MT8006A.pdf|MT8006 datasheet]] \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/tps54160.pdf|TPS54160 datasheet]] \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/STP15810.pdf|ST 15810 datasheet]] \\
+[[https://cloud.scooterhacking.org/tidings/wiki/esc1/pdf/NCEP85T14.pdf|NCEP85T14 datasheet]] \\
+ \\
+[[https://www.tme.eu/pl/en/katalog/raster-signal-connectors-2-00mm_112949/?visible_params=2,426,416,6,77,9,7,412,418,1322,516,419,1247,18,2555,32,1605,413,743,11,2467,2546&mapped_params=2:475;9:1436382;416:1509841;426:1443403;|PAP connectors and SPHD pins on TME]]
+
+==== Known issues / modification ideas ====
+
+  * TPS54160 [1.5 and below] only accepts 56V safely, for more input voltage, trace cut method must be implemented, see [[:m365-trace-cut|here]]
+  * SY8502 [2.1 and above] accepts up to 85V input, 65V safely
+  * TO220 MOSFET packages are poorly thermally connected to the case, see [[:m365-esc-cooling|here]] for possible improvements
+  * B+ rail has poor electrical conductivity, see [[:m365-trace-cut|here]] for a fix
+  * Phase connectors are known to be improperly crimped, it’s advisable to solder wires directly and attach MT30 or MT60 for better contact
+  * Excessive braking current can burn MOSFET packages, due to active brake implementation
+
+==== Photos ====
+
+1.4/1.5 \\ {{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/15_front.jpg?nolink&600x444|cloud.scooterhacking.org_tidings_wiki_esc1_photos_15_front.jpg}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/15_back.jpg?nolink&600x405|cloud.scooterhacking.org_tidings_wiki_esc1_photos_15_back.jpg}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/14_back.jpg?nolink&600x427|cloud.scooterhacking.org_tidings_wiki_esc1_photos_14_back.jpg}}
+
+2.1/3.0
+
+{{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/21_real_front.jpg?nolink&600x426|cloud.scooterhacking.org_tidings_wiki_esc1_photos_21_real_front.jpg}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/30_front.jpg?nolink&600x442|cloud.scooterhacking.org_tidings_wiki_esc1_photos_30_front.jpg}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/30_back.jpg?nolink&600x408|cloud.scooterhacking.org_tidings_wiki_esc1_photos_30_back.jpg}}
+

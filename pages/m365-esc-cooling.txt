@@ -2,6 +2,11 @@
 
 **<font 18px/inherit;;inherit;;inherit>Simple way of solving complex engineering fail</font>**
 
+Bill of materials:
+
+  * 5W/mK thermal pad: [[https://www.aliexpress.com/item/4001288242190.html|https://www.aliexpress.com/item/4001288242190.html]]
+  * (optional) Thermal Grizzly Kryonaut
+
 If you're running custom firmware, you might have noticed that the ESC (indicated by the TECU sensor in m365 dashboard) might be getting rather toasty, reaching 55°C just after couple of seconds. Popular opinion would be, that the ESC is driven too hard, but that's actually not the case. The issue comes from poor contact between MOSFETs of the ESC and the enclosure.
 
 If you performed ESC modding, as a part of trace cut procedure, you probably noticed that the MOSFET packages are separated from the enclosure by a layer of polyamide (Kapton) tape. This is important, as the packages cannot touch bare metal due to different potentials, which would led to short circuit. But Kapton tape isn't the best heat conductor either, so how to ensure proper heat transfer while isolating the MOSFETs from the enclosure?
@@ -16,4 +21,8 @@ My personal preference would be combination of paste and pad, as there's only sm
 Don't forget to reapply thermal compound between the enclosure and the scooter body.
 
 Once the ESC is put back together, you should see around 15-25°C drop in temps under load.
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/esc-cooling/1.jpg?600x388}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/guides/img/esc-cooling/2.jpg?nolink&600x194}}
 

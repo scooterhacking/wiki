@@ -6,12 +6,15 @@ Please note that due to a lack of documentation regarding old updates, some logs
 
 ===== Firmware update logs =====
 
+You can download stock firmware files [[https://files.scooterhacking.org/firmware/|here (click)]]
+
 ==== ESx ====
 
 === DRV/ESC ===
 
 DRV164\\
-1. Optimize vehicle dynamic performance.\\
+1. Optimize vehicle dynamic performance. **(first edit)** \\
+1. Optimize vehicle power safety performance and adjust maximum speed. **(second edit)** \\
 2. Improve firmware stability.
 
 DRV162\\
@@ -40,6 +43,11 @@ DRV133\\
 
 === BLE ===
 
+BLE110\\
+1. Improved the stability of Bluetooth communication\\
+2. Optimized throttle and brake performance in some cases\\
+3. Improved firmware stability
+
 BLE109\\
 1. Encrypt bluetooth communication data.
 
@@ -48,8 +56,13 @@ BLE107\\
 
 === BMS ===
 
+BMS158\\
+1. Added leakage current protection function\\
+2. Optimized firmware compatibility\\
+3. Improved firmware stability
+
 BMS149\\
-1. Optimize battery performance
+1. Optimized battery performance
 
 BMS146\\
 1. Optimized the discharge protection strategy
@@ -84,6 +97,11 @@ DRV126\\
 
 === BLE ===
 
+BLE114\\
+1. Improved the stability of Bluetooth communication\\
+2. Optimized throttle and brake performance in some cases\\
+3. Improved firmware stability
+
 BLE113\\
 1. Optimize the riding experience of scooters
 
@@ -113,8 +131,47 @@ DRV250\\
 
 === BLE ===
 
+BLE212\\
+1. Improved the stability of Bluetooth communication.\\
+2. Optimized throttle and brake performance in some cases.\\
+3. Improved firmware stability.
+
 BLE209\\
 1. Improve firmware sability
+
+==== F-series ====
+
+**DRV/ESC**
+
+DRV548\\
+1. Optimization of remaining electricity and remaining mileage algorithm\\
+2. Fix the inconsistency of some models\\
+3. Optimize the error prompt experience in some abnormal states\\
+4. Optimize low power display, less than 20% red light is always on, less than 10% red light flashes\\
+5. Fix known problems and improve firmware stability
+
+DRV537\\
+1. Optimized the experience of vehicle charging.\\
+2. Optimized the algorithm of remaining power and remaining mileage.\\
+3. Improved firmware stability.
+
+DRV536\\
+1.Optimize the riding experience at low speeds.\\
+2.Improve firmware compatibility.
+
+DRV534\\
+1.Optimize experience and improve firmware stability.
+
+DRV533\\
+1. Solved the problem of error 10 in some cases.\\
+2. Optimized the experience and improved firmware stability.
+
+**BLE**
+
+BLE307\\
+1. Optimize low power display, red light below 20% will be on normally and red light below 10% will flash\\
+2. Optimize the error prompt experience in some abnormal states\\
+3. Improve firmware stability
 
 ==== Air T15 ====
 
@@ -132,6 +189,11 @@ DRV114\\
 
 === BLE ===
 
+BLE114\\
+1. Improved the stability of Bluetooth communication.\\
+2. Optimized throttle and brake performance in some cases.\\
+3. Improved firmware stability.
+
 BLE113\\
 1. Optimize the maximum length of the vehicle name to 13 characters.
 
@@ -141,6 +203,48 @@ BMS117\\
 1. Optimize battery firmware performance
 
 ===== App update logs =====
+
+You can download .apk files for the global app [[https://files.scooterhacking.org/apps/ninebot/|here (click)]]\\
+You can download .apk files for the Chinese app [[https://files.scooterhacking.org/apps/others/ninebot (chinese)/|here (click)]]
+
+**5.6.4 (Chinese)** \\
+1. Custom settings on speed limit enabled for KickScooter E22/E25/E45\\
+2. Multiple renew options for Segway Smart Services\\
+3. Rewards offered on Ninebot Referrer in menu "My".\\
+4. The delivery rate of push notifications increased\\
+5. Club features updated.\\
+6. Fixed known problems and optimized user experience.
+
+**5.6.3 (Chinese)** \\
+1. Fixed known problems and optimized user experience
+
+**5.6.2 (Chinese)** \\
+1. Added widgets on your phone to check the vehicle status directly\\
+2. Club and Even features optimized\\
+3. Fixed known issues and optimized user experience
+
+**5.6.1.1 (Chinese)** \\
+1. Support Ninebot KickScooter F-series models\\
+2. Fixed known problems and optimized user experience
+
+**5.6.0 (Chinese)** \\
+1.Added support for Ninebot eMoped A-Series and eScooter N-Series models\\
+2. New Ninebot ttrue intelligence 2.0 features\\
+3. New family account and small program key for common car users, easy sharing of vehicle use, and multiple person induction unlocking support\\
+4. New desktop widget to view the vehicle status on the desktop\\
+5. New Ninebot eMoped series knock-knock double click the dashboard to turn off the headlight function\\
+6. The part of Ninebot eScooter vehicles support the function of charging power limitations, which adapts to various charging power.\\
+7. Estimation of remaining charge time for Ninebot eScooter vehicles\\
+8. Ninebot vehicles support home mode and delay to tun off the vehicle's headlights\\
+9. Add auto firmware upgrade function, whether you open the table has the final say.\\
+10. Optimized Ninebot one button repain, you can choose the nearby stores\\
+11. Fixed known problems and optimized user experience
+
+**5.5.0 (Chinese)** \\
+1. Added 'nearby' feature. You can find friends, moments updates, activities and clubs nearby.\\
+2. Added new features in clubs. You can create activities and clubs by yourself.\\
+3. Added 'Ninebot Space' feature. Get ready to be surprised and enjoy fun with millions of users worldwide.\\
+4. Fixed known problems and optimized user experience.
 
 **5.4.0 (Chinese)** \\
 1. Annual data release of Segway-Ninebot in 2020.\\
@@ -205,6 +309,9 @@ Happy new year!
 4. Add an issue feedback system when the Bluetooth connection fails and optimize user experience.\\
 5. Supports new KickScooter Max models.
 
+**5.2.11 (Global)** \\
+1. Fix known problems and optimize user experience.
+
 **5.2.10 (Chinese)** \\
 1. Supports Ninebot S-Max.\\
 2. Fixed a few bugs.
@@ -216,10 +323,21 @@ Happy new year!
 4. Improved Bluetooth connection stability.\\
 5. Fixed a few bugs.
 
+**5.2.9 (Global)** \\
+1. Features optimization on Segway eMoped and Segway eScooter series.\\
+2. The SN and VIN can be copied and pasted now.\\
+3. Fixed known problems and optimized user experience.
+
 **5.2.8 (Chinese)** \\
 1. Optimize performance.\\
 2. Solve the crash problem in some cases.\\
 3. Fix some bugs.
+
+**5.2.7 (Global)** \\
+1. Fixed known problems and optimized user experience
+
+**5.2.6 (Global)** \\
+1. Fixed known problems and optimized user experience
 
 **5.2.5 (Chinese)** \\
 1. Circle function optimization.\\

@@ -1,0 +1,49 @@
+====== Ninebot E-Bike A200 error codes ======
+
+^  Code  ^  Description  ^  Additional information  |
+^  E0  |  ECU communication error  |     |
+^  E1  |  Backup battery abnormal  |     |
+^  E2  |  RTC clock error  |     |
+^  E3  |  File system error  |     |
+^  E4  |  I2C communication error  |     |
+^  E5  |  GNSS communication error  |     |
+^  E6  |  4G modem communication error  |     |
+^  E7  |  Bluetooth communication error  |     |
+^  E8  |  NFC communication error  |     |
+^  E9  |  G-sensor communication errror  |     |
+^  10  |  Communication error between the controller and dashboard  |  Check the controller, the dashboard and the connecting cables.  |
+^  11  |  Motor A phase current error  |  Check the motor controller and motor wires.  |
+^  12  |  Motor B phase current error  |  Check the motor controller and motor wires.  |
+^  13  |  Motor C phase current error  |  Check the motor controller and motor wires.  |
+^  14  |  Throttle Hall sensor error  |  Please check the throttle handle, dashboard and the connecting cables  |
+^  15  |  Brake switch 1 error  |  Please check the brake lever, dashboard and the connecting cables.  |
+^  16  |  Brake switch 2 error  |  Please check the brake lever, dashboard and the connecting cables.  |
+^  18  |  Motor Hall sensor error  |  Check the motor, the motor controller and the connecting cables.  |
+^  19  |  Battery voltage abnormal  |  Please check the battery, motor controller and the connecting cables.  |
+^  20  |  Default BMS SN  |  Change BMS SN  |
+^  21  |  Battery communication error  |     |
+^  22  |  BMS password error  |     |
+^  23  |  Battery discharging MOS temperature error  |     |
+^  24  |  Battery cells temperature error  |     |
+^  25  |  Battery charging MOS temperature error  |     |
+^  26  |  BMS communication error  |     |
+^  27  |  Flash save error  |  Check motor controller.  |
+^  28  |  Dashboard displays PN code by default  |     |
+^  29  |  Repeater displays PN code by default  |     |
+^  30  |  Default ESC SN  |  Change ESC SN  |
+^  31  |  Vehicle password error  |     |
+^  33  |  ESC temperature abnormal  |     |
+^  34  |  Motor temperature abnormal  |     |
+^  35  |  Gyroscope communication error  |     |
+^  36  |  Gyroscope data error  |     |
+^  38  |  Torque sensor error  |     |
+^  40  |  Speed sensor error  |     |
+^  41  |  Battery hatch lock communication error  |     |
+^  42  |  ESC incompatible with hatch lock  |     |
+^  43  |  Battery hatch unlock error  |     |
+^  44  |  Monitoring chip communication error  |     |
+^  60  |  IoT communication timeout  |     |
+^  61  |  IoT encryption error  |     |
+
+\\
+

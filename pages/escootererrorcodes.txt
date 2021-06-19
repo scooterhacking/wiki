@@ -1,0 +1,45 @@
+====== Ninebot E-Moped error codes ======
+
+^  Error  ^  Description  ^  Additional information  ^  Affected hardware  |
+^  E0  |  ECU communication error  |  -  |  IoT  |
+^  E1  |  Backup battery abnormal  |  -  |  IoT  |
+^  E2  |  RTC clock error  |  -  |  IoT  |
+^  E3  |  File system error  |  -  |  IoT  |
+^  E4  |  I2C communication error  |  -  |  IoT  |
+^  E5  |  GNSS communication error  |  -  |  IoT  |
+^  E6  |  4G modem communication error  |  -  |  IoT  |
+^  E7  |  Bluetooth communication error  |  -  |  IoT  |
+^  E8  |  NFC communication error  |  -  |  IoT  |
+^  E9  |  G-sensor communication errror  |  -  |  IoT  |
+^  10  |  ESC communication error.  |  Check the connection between dashboard and ESC.  |  ESC/Dashboard  |
+^  11  |  Motor controller undervoltage protection  |  Charge the battery  |  Drive  |
+^  12  |  Motor Hall failure  |  Check the motor, motor controller and the connecting cables  |  Drive  |
+^  13  |  MOS tube malfunction  |  Check the motor, motor controller and the connecting cables  |  Drive  |
+^  14  |  Throttle malfunction  |  Check the throttle handle, motor controller and the connecting cables  |  ESC/Dasboard  |
+^  15  |  Brake malfunction  |  Check the brake handle, motor controller and the connecting cables  |  ESC/Dasboard  |
+^  16  |  An error occurred when saving the configuration  |  Replace the ESC  |  ESC  |
+^  17  |  Dashboard communication error  |  Check dashboard cables  |  Dashboard  |
+^  18  |  Dashboard temperature abnormal  |  -  |  Dashboard  |
+^  19  |  Battery 1 temperature abnormal  |  -  |  BMS  |
+^  20  |  Battery 1 communication error  |  Check battery cables and connectors  |  BMS  |
+^  21  |  BMS of battery 1 has default SN  |  Change BMS 1 SN  |  BMS  |
+^  22  |  Battery 1 password error  |  -  |  BMS  |
+^  23  |  Battery 2 temperature error  |  -  |  BMS  |
+^  24  |  Battery 2 communication error  |  Check battery cables and connectors  |  BMS  |
+^  25  |  BMS of battery 2 has default SN  |  Change BMS 2 SN  |  BMS  |
+^  26  |  Battery 2 password error  |  -  |  BMS  |
+^  27  |  Battery 1 update error  |  -  |  BMS  |
+^  28  |  Battery 2 update error  |  -  |  BMS  |
+^  31  |  ESC has default serial number  |  Change ESC SN  |  ESC  |
+^  32  |  ESC password error  |  -  |  ESC  |
+^  33  |  Firmware save error  |  The dashboard firmware upgrade has failed  |  Dashboard  |
+^  34  |  ESC temperature abnormal  |  -  |  ESC  |
+^  35  |  Communication Failure between Dashboard and ESC.  |  Check the connection between dashboard and ESC. \\ ESC is possibly soft-bricked; try to flash ESC with ST-Link  |  ESC/Dasbiard  |
+^  38  |  Electric lock malfunction  |  Check whether the cables are short-circuited or broken  |  ESC  |
+^  39  |  Seat unlocked  |  -  |  ESC  |
+^  41  |  Handlebar unlocked  |  Turn on the scooter and move the handlebars to the left  |  Dashboard  |
+^  42  |  Rear storage box unlocked  |  -  |  ESC  |
+^  47  |  Battery compartment unlocked  |  -  |  ESC  |
+
+\\
+

@@ -1,0 +1,48 @@
+====== PMSM motors used by Ninebot/Xiaomi ======
+
+lorem ipsum
+
+===== Xiaomi =====
+
+==== M365 Classic ====
+
+=== S/N format ===
+
+  * DA36V250W
+  * XW36V250W
+      * 2.43kg without tire, silver finish
+  * SWX36V250W
+      * 2.34kg without tire, black finish
+
+=== Parameters ===
+
+Phase-to-phase winding resistance: 0.361mOhm \\ RPM/V: 18.55 \\ Poles/Pole pairs: 30/15 \\ Magnetic slots: 27 \\ Copper wire diameter: 0.5mm \\ Magnet thickness: 25mm \\ Stator diameter: 100mm \\ Ball bearing used: 698zz (SKF 6001-2Z as direct replacement) \\ Axle: 98mm length, 12mm width
+
+Rim size: 154mm (6.06", fits 152mm) \\ Circumference: 71cm with 8.5" tire
+
+=== Photos ===
+
+{{https://cloud.scooterhacking.org/tidings/wiki/motors/m365_swxxw.jpg?nolink&480x640|cloud.scooterhacking.org_tidings_wiki_motors_m365_swxxw.jpg}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/motors/m365_stator.jpg?nolink&480x640|cloud.scooterhacking.org_tidings_wiki_motors_m365_stator.jpg}}
+
+==== M365 Pro 1 ====
+
+=== S/N format ===
+
+  * TBA
+
+=== Parameters ===
+
+Phase-to-phase winding resistance: TBC mOhm \\ RPM/V: TBC \\ Poles/Pole pairs: 30/15 \\ Magnetic slots: 27 \\ Copper wire diameter: 0.5mm \\ Magnet thickness: 30mm \\ Stator diameter: 100mm \\ Ball bearing used: 698zz (SKF 6001-2Z as direct replacement) \\ Axle: 98mm length, 12mm width
+
+Rim size: 154mm (6.06", fits 152mm) \\ Circumference: 71cm with 8.5" tire
+
+=== Photos ===
+
+{{https://cloud.scooterhacking.org/tidings/wiki/motors/m365pro1_2.jpg?nolink&480x640}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/motors/m365pro1_1.jpg?nolink&480x360}}
+
+{{https://cloud.scooterhacking.org/tidings/wiki/motors/m365pro1_3.jpg?480x640}}
+

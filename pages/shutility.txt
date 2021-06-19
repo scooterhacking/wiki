@@ -1,0 +1,46 @@
+====== ScooterHacking Utility app ======
+
+ScooterHacking utility (shu) is a free, homegrown application for Android phones, used for reading and flashing BLE, ESC and BMS firmwares.
+
+Google Play link: [[https://utility.cfw.sh|https://utility.cfw.sh]]
+
+APK direct download: [[https://utility.cfw.sh/apk|https://utility.cfw.sh/apk]]
+
+===== Compatibility =====
+
+As of 1st March 2021, the app is compatible with following models
+
+  * Xiaomi M365
+  * Xiaomi M365 Pro
+  * Xiaomi 1s
+  * Xiaomi Lite/Essential
+  * Xiaomi M365 Pro 2
+  * Ninebot Max G30
+  * Ninebot Max G30D
+  * Ninebot ES1/ES2/ES4
+  * Ninebot E22/E25/E45
+  * Ninebot T15
+
+{{https://cloud.scooterhacking.org/tidings/wiki/shu/1.png?direct&300}}
+{{https://cloud.scooterhacking.org/tidings/wiki/shu/2.png?direct&300}}
+
+Main screen shows basic information about the connected vehicle
+
+Below, flashing options are presented
+
+  * **Show params** - displays parameters of currently loaded ZIP file
+  * **Load ZIP** - opens file manager to let user select source ZIP file
+  * **Load Original** - flashes original, vanilla, DRV and BLE
+  * **Load Custom** - opens CFW manager and lets user generate cfw directly
+  * **FLASH** - begins flashing procedure
+
+{{https://cloud.scooterhacking.org/tidings/wiki/shu/3.png?direct&300}}
+
+Tools section is divided into options:
+  * **Change Region** - allows to change serial number for the connected vehicle
+  * **Commands** - allows acting on registers to enable KERS, DPC, lock, reboot, and others
+  * **Automate** - sends a user-specified command on connection (for example, DPC reg activation)
+  * **Lock** - locks the scooter in always on mode, ebrake is applied to prevent theft
+  * **Cruise Control** - activates time-delayed cruise control, unless it has been disabled in firmware
+  * **Direct power control (DPC)** - activates DPC reg for firmware with "Switchable, register" or "Switchable, brake" DPC option enabled
+  * **Always on tail light** - forces tail light always ON

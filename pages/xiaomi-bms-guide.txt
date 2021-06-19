@@ -1,0 +1,3 @@
+====== Xiaomi BMS Flashing guide ======
+
+{{pdfjs 900px>:cloud.scooterhacking.org\\topol\\Guides\\M365_BMS\\Guide.pdf}}

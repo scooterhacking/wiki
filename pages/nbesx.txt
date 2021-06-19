@@ -10,7 +10,7 @@ Click on a scooter model to show a preview.\\
 ^Voltage|  36-42V  |||||||||
 ^Net weight|19kg|14kg|12kg|13kg|  11kg  |  11.3kg  |14kg|11kg|13kg|
 ^Charging time (hrs)|6|7|3.5|7|  3.5  |  6 (L)/3.5 (LD)  |7|3.5|7|
-^Power (nominal)|350|300|300|250/300 (revision)|250|250W|  300  ||300|
+^Power (nominal)|350|300|300|250/300 (revision)|250|250W|  300  |||
 ^Power (peak)|700|800|700|600/700 (revision)|500|500W|800|700|800|
 ^Motor type|Rear Hub|  Front Hub  ||||||||
 ^Max angle (%)|20|15|10|15|  10  |  7  |15|10|15|
@@ -110,6 +110,8 @@ U – Black ES2L
 C – Black ES3
 
 F/E – Black ES1
+
+A **(N6GA) **- Black ES3 Plus (Costco)
 
 **Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
 

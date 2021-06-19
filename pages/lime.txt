@@ -6,25 +6,26 @@ We're gathering as much information as possible, but some aspets of the scooters
 
 Click on a scooter model to see a preview.
 
-^  Scooter model  ^  [[https://imgur.com/a/kjAvty7|Lime-S 1.0]]   ^  [[https://imgur.com/a/8OomudD|Ninebot SN1.0BLK]]   ^  [[https://imgur.com/a/DopNZ5E|Sx2.5]]   ^  [[https://imgur.com/a/cwJ9eC1|Lime-S 3.0]]   ^  [[https://imgur.com/gallery/DCVAk0G|M1.1]]   ^  [[https://imgur.com/a/BfZpIZx|X1.3]]   ^  [[https://imgur.com/a/rCMypFl|Gen.4]]   |
-^  Max speed (rated)  |  24  |  25  |  25  |  20/24 (region)  |||  25  |
-^  Battery (Wh)  |  460.8  |  371  |  317  |  572  |  460.8  |  324  |  414/468  |
-^  Battery (mAh)  |  12800  |  10200  |  8800  |  15900  |  12800  |  9000  |  11500/13000  |
-^  Number of batteries  |  1  |  2  |  1  |||||
-^  Voltage  |  36-42  |||||||
-^  Net weight (kg)  |  ~15  |  14  |  17  |  22.5  |  20  |  ~20  |  27.7  |
-^  Power (nominal)  |  250W  |  300W  |  250W/300W (revision)  |  250W  |||  350  |
-^  Motor type  |  Front/Rear hub (revision)  |  Front hub  ||  Rear hub  ||||
-^  Brakes  |  Rear drum  |  Electrical front, rear foot  |  Rear drum  |  Front drum  |  Dual drum (front, rear)  |||
-^  Removable battery  |  No  |||||  Yes  ||
-^  Shock absorption  |  Front spring  |  None/Front spring (revision)  |  Front spring  |  Front dual telescopic  ||||
-^  Front tire (inch)  |  8  |  8  |  8  |  10  |||  12  |
-^  Rear tire (inch)  |  8  |  7.5  |  8  |  10  ||||
-^  Screen type  |  Varies  |  Speed/battery  |  Speed/battery  |  Advanced  |  Speed/battery  |  Speed/battery  |  [[https://i.imgur.com/ppV84ku.png|Simple]]   |
-^  Ambient lights  |  No  |  Green underglow  |  No  |  3-color strip below the display  |||  nd  |
-^  IoT generation  |  Gen 1 **or**   LBCAT-S v1 (revision)  |  LBCAT-S v1  |  LBCAT-S v2  |  LIME-V3-US / LIME-V3-EU (region)  ||||
-^  IoT/ESC integration  |  No  |||||||
-^  Dimensions (height/width/length) (mm)  |  1170/495/1070  |  1020/430/1130  |  1310/495/1020  |  1205/486/1165  |  1270/495/1190 \\  **or**   \\ 1205/495/1190 \\ (v1 and v2)  |  1205/495/___ \\  **(WIP)**    |  nd  |
+^  Scooter model  ^  [[https://imgur.com/a/kjAvty7|Lime-S 1.0]]   ^  [[https://imgur.com/a/8OomudD|Ninebot SN1.0BLK]]   ^  [[https://imgur.com/a/DopNZ5E|Sx2.5]]   ^  [[https://imgur.com/a/cwJ9eC1|Lime-S 3.0]]   ^  [[https://imgur.com/gallery/DCVAk0G|M1.1]]   ^  [[https://imgur.com/a/BfZpIZx|X1.3]]   ^  [[https://imgur.com/a/rCMypFl|Gen.4]]  (Jump)  ^  [[https://imgur.com/a/7AUkhFe|Lime-S 4.0]]   |
+^  Max speed (rated)  |  24  |  25  |  25  |  20/24 (region)  |||  25  |  20/25 (region)  |
+^  Battery (Wh)  |  460.8  |  371  |  317  |  572  |  460.8  |  324  |  414/468  |  444 (compatible with Jump)  |
+^  Battery (mAh)  |  12800  |  10200  |  8800  |  15900  |  12800  |  9000  |  11500/13000  |  12000  |
+^  Number of batteries  |  1  |  2  |  1  ||||||
+^  Voltage  |  36-42  ||||||||
+^  Net weight (kg)  |  ~15  |  14  |  17  |  22.5  |  20  |  ~20  |  27.7  ||
+^  Power (nominal)  |  250W  |  300W  |  250W/300W (revision)  |  250W  |||  350W  |  250W  |
+^  Motor type  |  Front/Rear hub (revision)  |  Front hub  ||  Rear hub  |||||
+^  Brakes  |  Rear drum  |  Electrical front, rear foot  |  Rear drum  |  Front drum  |  Dual drum (front, rear)  ||||
+^  Removable battery  |  No  |||||  Yes  |||
+^  Shock absorption  |  Front spring  |  None/Front spring (revision)  |  Front spring  |  Front dual telescopic  |||||
+^  Front tire (inch)  |  8  |  8  |  8  |  10  |||  12  ||
+^  Rear tire (inch)  |  8  |  7.5  |  8  |  10  |||||
+^  Screen type  |  Varies  |  Speed/battery  |  Speed/battery  |  Advanced  |  Speed/battery  |  Speed/battery  |  [[https://i.imgur.com/ppV84ku.png|Simple]]   |  [[https://i.imgur.com/loXkZVM.jpg|Simple speed/battery]]   |
+^  Ambient lights  |  No  |  Green underglow  |  No  |  3-color strip below the display  |||  nd  |  3-color strip below the display  |
+^  NFC  |  No  ||||||  Yes  ||
+^  IoT generation  |  Gen 1 **or**   LBCAT-S v1 (revision)  |  LBCAT-S v1  |  LBCAT-S v2  |  LIME-V3-US / LIME-V3-EU (region)  ||||  Lime-4.0-US/Lime-4.0-EU (region)  |
+^  IoT/ESC integration  |  No  ||||||||
+^  Dimensions (height/width/length) (mm)  |  1170/495/1070  |  1020/430/1130  |  1310/495/1020  |  1205/486/1165  |  1270/495/1190 \\  **or**   \\ 1205/495/1190 \\ (v1 and v2)  |  1205/495/___ \\  **(WIP)**    |  nd, probably similar to Lime-S 4.0  |  1150/605/1300  |
 
 nd - no data
 
@@ -32,7 +33,8 @@ nd - no data
 
 SN1.0BLK scooters can be unlocked using the standard SNSC procedures.\\
 Unpatched Sx2.5 scooters can be hacked using an Arduino and some commands. There's a guide is available [[https://bit.ly/3ggUuVS|here (click)]].\\
-Lime-S 3.0, M1.1 and X1.3 scooters can be unlocked using [[https://bit.ly/30XQ3IP|this (click)]] dump.
+Lime-S 3.0, M1.1 and X1.3 scooters can be unlocked using [[https://bit.ly/30XQ3IP|this (click)]] dump.\\
+There is no data regarding the 4.0 series as of this moment.
 
 \\
 

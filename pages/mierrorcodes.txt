@@ -9,7 +9,7 @@
 ^15|Brake handle position out of range||Brake handle might be stuck, faulty or disconnected|||
 ^18|Motor sensor read abnormal|| |||
 ^21|No communication with internal BMS||Check data connector between internal battery and ESC, replace the battery|||
-^22|Inernal BMS config invalid||Replace internal BMS or battery|||
+^22|Internal BMS config invalid||Replace internal BMS or battery|||
 ^23|Internal BMS not activated (has default S/N)||Replace internal BMS or battery/change SN|||
 ^24|Charger voltage abnormal|| |||
 ^26|Flash save error||Try to flash ESC with ST-Link/replace ESC|||

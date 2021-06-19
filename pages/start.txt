@@ -2,7 +2,7 @@
 
 Latest pages: [[:cfwbuilder|cfw.sh API]] | [[:brands|Sort by brands]] | [[:nbdocs|Ninebot scooters protocol]] | [[:downg|DownG Android apps]]
 
-ScooterHacking.org is a collaborative project of developers, tinkerers, Sunday morning engineers and passionates whose goal is to understand and decode everything that revolves around the relatively new field of electric scooters. This wiki intends to provide you freely with an ever-increasingly accurate understanding of how these scooters work, hardware- and software-wise. Feel free to contribute if you have valuable insight into this domain. Please consider donating as well. Here you will find raw information about the various topics the community has been willing to explore. While some tools are provided with examples of use if you're willing to follow any kind of full tutorial or walk-through, head to the ScooterHacking.org forum ([[https://www.scooterhacking.org/forum|https://www.scooterhacking.org/forum]]) instead. If you want to contribute to the life and the advances of the community, join our forum and our Discord server ([[https://scooterhack.in/discord|https://scooterhack.in/discord]]).
+ScooterHacking.org is a collaborative project of developers, tinkerers, Sunday morning engineers and passionates whose goal is to understand and decode everything that revolves around the relatively new field of electric scooters. This wiki intends to provide you freely with an ever-increasingly accurate understanding of how these scooters work, hardware- and software-wise. Feel free to contribute if you have valuable insight into this domain. Please consider donating as well. Here you will find raw information about the various topics the community has been willing to explore. While some tools are provided with examples of use if you're willing to follow any kind of full tutorial or walk-through, head to the ScooterHacking.org forum ([[https://www.scooterhacking.org/forum|https://www.scooterhacking.org/forum]]) instead, or check our [[:faq|FAQ section]]. If you want to contribute to the life and the advances of the community, join our forum and our Discord server ([[https://scooterhack.in/discord|https://scooterhack.in/discord]]).
 
 ===== Works =====
 
@@ -10,12 +10,56 @@ Several scooter models are out on the market. Some of them are available for pri
 
 We've also been compiling general information about possible hardware scooters modification in the Sort by [[:brands|]] page.
 
+===== Table of contents =====
+
+==== Custom firmware generator guides ====
+
+  * [[:guide-1s|Xiaomi 1s]]
+  * [[:guide-pro1|Xiaomi M365 Pro]]
+  * [[:guide-pro2|Xiaomi M365 Pro 2]]
+  * [[:maxcfwguide|Ninebot Max G30]]
+
+==== Scooter information ====
+
+  * [[:nbesx|Ninebot ESx/SNSC1.X]]
+  * [[:nbeseries|Ninebot E-Series]]
+  * [[:nbmax|Ninebot Max/SNSC2.X]]
+  * [[:nbtseries|Ninebot T-Series]]
+  * [[:nbfseries|Ninebot F-Series]]
+  * [[:mi365|Xiaomi M365 lineup comparison]]
+  * [[:okaicomparison|Okai ES-Series comparison]]
+  * [[:lime|Lime scooters comparison]]
+
+==== Other useful information ====
+
+  * [[:nbdocs|Ninebot protocol/error description]]
+  * [[:downg|DownG flashing app]]
+  * [[:shutility|ScooterHacking flashing app]]
+
+=== Brand specific ===
+
+  * [[:nbbattanatomy|Ninebot battery S/N anatomy]]
+  * [[:nbmotoranatomy|Ninebot motor S/N anatomy]]
+  * {{https://cloud.scooterhacking.org/topol/Guides/M365_BMS/Guide.pdf|Xiaomi BMS Flashing }}
+
+=== Model specific ===
+
+  * [[:m365-battery-switch|Battery switcher for M365/Pro1]]
+  * [[:m365-cooling|Motor cooling tips for M365/Pro1]]
+  * [[:m365-esc-cooling|ESC cooling tips for M365/Pro1]]
+  * [[:m365-trace-cut|Detailed guide for peforming trace cut method for M365/Pro1]]
+
+=== Supplementary DIY projects ===
+
+  * [[:diy-coulombmeter|Coulombmeter]]
+
 ===== Support us =====
 
 If you have found anything here that has been useful to you, the community would be grateful to you if you considered donating! You can thank the individual developers who wrote the tools you've used. You can donate to the community as well!
 
-**Lothean - **Head of ScooterHacking - [[https://scooterhack.in/donate|https://scooterhack.in/donate]]\\
-**Fox Master - **Wiki & data gathering - [[https://paypal.me/marcingoluch|https://paypal.me/marcingoluch]]
+**Lothean - **Head of ScooterHacking - [[https://scooterhack.in/donate|https://scooterhack.in/donate]] \\
+**Fox Master - **Wiki & data gathering - [[https://scooterhack.in/donatefox|https://scooterhack.in/donatefox]] \\
+**Topol - **Xiaomi BMS flashing guide - [[https://www.paypal.com/donate?hosted_button_id=9K5KSK5GB26RQ|https://www.paypal.com/donate?hosted_button_id=9K5KSK5GB26RQ]]
 
 ……
 
