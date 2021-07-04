@@ -23,6 +23,8 @@ Input capacitance: 63V 1000uF, 63V 33uF, 100V 100nF
       * PAP04-V [B048-PASK] – BLE
   * Power
       * Amass XT-30 PCB Female – Battery input
+  * Motor
+      * 4.8/6.3 L-Shaped spring terminal - C/B/A phase connector
 
 ==== Resources ====
 
@@ -62,4 +64,6 @@ Input capacitance: 63V 1000uF, 63V 33uF, 100V 100nF
 {{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/30_front.jpg?nolink&600x442|cloud.scooterhacking.org_tidings_wiki_esc1_photos_30_front.jpg}}
 
 {{https://cloud.scooterhacking.org/tidings/wiki/esc1/photos/30_back.jpg?nolink&600x408|cloud.scooterhacking.org_tidings_wiki_esc1_photos_30_back.jpg}}
+
+Thanks goes to **Topol**  for providing the above pictures.
 

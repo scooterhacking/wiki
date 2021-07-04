@@ -30,11 +30,18 @@ We've also been compiling general information about possible hardware scooters m
   * [[:okaicomparison|Okai ES-Series comparison]]
   * [[:lime|Lime scooters comparison]]
 
+==== Full-sized e-moped and e-scooter information ====
+
+  * [[:niu-es|Niu E-Scooters and E-Mopeds]]
+  * [[:nbmoped|Ninebot E-Scooters and E-Mopeds]]
+
 ==== Other useful information ====
 
   * [[:nbdocs|Ninebot protocol/error description]]
   * [[:downg|DownG flashing app]]
   * [[:shutility|ScooterHacking flashing app]]
+  * [[:nbesxpnlist|Ninebot ES-series part number list]]
+  * [[:nbmaxpnlist|Ninebot Max-series part number list]]
 
 === Brand specific ===
 

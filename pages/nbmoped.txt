@@ -1,0 +1,80 @@
+====== Ninebot electric moped/scooter lineup comparison. ======
+
+===== Characteristics & identification =====
+
+Click on a scooter model to show a preview.
+
+^  Model  ^  [[https://i.imgur.com/Z9gICAr.png|A30C]]   ^  [[https://i.imgur.com/Zbq496R.png|A35]]   ^  [[https://i.imgur.com/Zbq496R.png|A40]]   ^  [[https://i.imgur.com/Zbq496R.png|A65]]   ^  [[https://i.imgur.com/vK3ho1b.png|B30C]]   ^  [[https://i.imgur.com/aoyfgDs.png|B35]]   ^  [[https://i.imgur.com/zIs3gGe.png|B40]]   ^  [[https://i.imgur.com/R5uT78R.png|B65]]   ^  [[https://i.imgur.com/zIs3gGe.png|B80]]   ^  [[https://i.imgur.com/zIs3gGe.png|B90]]   ^  [[https://i.imgur.com/6ESAlMT.png|B110M]]   ^  [[https://i.imgur.com/6ESAlMT.png|B110P]]   ^  [[https://i.imgur.com/wF2X2wX.png|C30]]   ^  [[https://i.imgur.com/yTp1Dw5.png|C40]]   ^  [[https://i.imgur.com/yTp1Dw5.png|C60]]   ^  [[https://i.imgur.com/yTp1Dw5.png|C80]]   ^  [[https://i.imgur.com/JNDspS0.png|N70C]]   ^  [[https://i.imgur.com/JNDspS0.png|N80C]]   ^  [[https://i.imgur.com/JNDspS0.png|N90]]   ^  [[https://i.imgur.com/JNDspS0.png|N100]]   ^  [[https://i.imgur.com/GKwSmXu.png|E70C]]   ^  [[https://i.imgur.com/GKwSmXu.png|E80C]]   ^  [[https://i.imgur.com/zUzYyRZ.png|E80]]   ^  [[https://i.imgur.com/GKwSmXu.png|E90]]   ^  [[https://i.imgur.com/zUzYyRZ.png|E100]]   ^  [[https://i.imgur.com/woiyNu9.png|E110S]]   ^  [[https://i.imgur.com/Wa0vbMQ.png|E110SE]]   ^  [[https://i.imgur.com/COtoub2.png|E125]]   ^  [[https://i.imgur.com/91f7h2C.png|E125S]]   ^  [[https://i.imgur.com/39FgnpN.png|E200P]]   ^  [[https://i.imgur.com/39FgnpN.png|E200P One]]   |
+^  Maximum speed  |  25 km/h  ||||||||||||||||  47 km/h  ||||  42 km/h  |  51 km/h  |  45 km/h  |  55 km/h  |  58 km/h  |  25/45 km/h  ||  75 km/h  |  25/45 km/h  |  100 km/h  ||
+^  Est. range  |  40 km  |  41 km  |  55 km  |  65 km  |  40 km  ||  50 km  |  65 km  |  35 km  |  80 km  |  95 km  |  80 km  |  35 km  ||  65 km  |  85 km  |  70 km  |  130 km  |  85 km  |  105 km  |  75 km  |  90 km  |  85 km  |  100 km  ||  75 km  |  97 km  |  120 km  |  140 km  |  200km  ||
+^  Nominal power  |  400W  ||||||||||||||||  800W  ||  1200W  |  1500W  |  800W  |  1200W  |||  1800W  |  1500W  ||  2400W  |  3000W  |  5000W  ||
+^  Motor mfg.  |  Ninebot  |||||||||||||||||||||||||||||  Bosch  |  Ninebot  |
+^  Battery voltage  |  48V  ||||||||||||||||  60V  |||  72V  |  60V  |  72V  |  60V  |  72V  ||  48V  ||  72V  |  48V  |  72V  ||
+^  Battery capacity (Ah)  |  12  |  13  |  16  |  21  |  13  ||  nd  |  21  |  nd  |  25  |  30  |  25  |  12  |  13  |  20  |  24  |  20  |  32  |  24  ||  23  ||  20  |||  30  |  38  |  27  |  60  |  54  ||
+^  Battery capacity (Wh)  |  576  |  624  |  768  |  1008  |  624  ||  nd  |  1008  |  nd  |  1200  |  1440  |  1200  |  576  |  624  |  960  |  1152  |  1200  |  1920  |  1440  |  1728  |  1380  |  1512  |  1200  |  1440  |||  1824  |  1944  |  2880  |  3888  ||
+^  Battery type  |  Lead-acid  |  Lithium-Ion  |||||||  Lead-acid  |  Lithium-Ion  |||||||  Lead-acid  ||  Lithium-Ion  ||  Lead-Acid  ||  Lithium-Ion  |||||||||
+^  Charging time  |  <7h  ||  <9h  |  <8h  |  <5h  ||  <6h  |  <8h  |  <5h  |  nd  |  <8h  |  nd  |  <7h  |  <5h  |  <8h  |  <9h  |  <8h  |  <9h  |||  <8h  |  <10h  |  <8h  |||  <4h  |  <6h  |  <6h  |  <3h  |  <8h  ||
+^  Battery weight  |  15.6 kg  |  5 kg  |  5.3 kg  |  9.7 kg  |  6 kg  ||  7 kg  |  10.5 kg  |  15.6 kg  |  10.5 kg  |  11.7 kg  |  10.5 kg  |  6.4 kg  |  6 kg  |  7.1 kg  |  7.6 kg  |  30 kg  |  45 kg  |  12 kg  |  15 kg  |  34.5 kg  |  44 kg  |  10.6 kg  |  13.5 kg  |  10.7 kg  |  11.5 kg  ||  12.6 kg  |  2×11 kg  |  2×12.6 kg  ||
+^  RideyGo support  |  Included as standard  |||||||||||||||||||||||||||||||
+^  Electric control system  |  N/A  ||||  G35  |||  G40  |  G30  |  G50  |||  G30  ||  G40  |  G45  |  N/A  |||||||||||||||
+^  Pedals  |  Yes  ||||||||||||||||  No  |||||||||||||||
+^  Dual battery support  |  No  ||||||||||||||||||||||  Yes  |  No  |  Yes  |  nd  ||  Yes  |  Included as stock  |||
+
+nd - no data
+
+===== Hacking =====
+
+Ninebot's eMopeds and eScooters are not currently supported by hacking apps due to protocol differences and lack of firmware dumps.
+
+==== ESC serial number anatomy ====
+
+Example serial number: **N1D<font inherit/inherit;;#e67e22;;inherit>E</font><font inherit/inherit;;#7f8c8d;;inherit>A</font><font inherit/inherit;;#8e44ad;;inherit>21</font><font inherit/inherit;;#27ae60;;inherit>37</font><font inherit/inherit;;#e74c3c;;inherit>J</font><font inherit/inherit;;#3498db;;inherit>0123</font>**
+
+**Black** - Product identifier
+
+<font inherit/inherit;;#e67e22;;inherit>**Orange**</font>- Product version (SN prefix)
+
+<font inherit/inherit;;#7f8c8d;;inherit>**Gray**</font>- Manufacturing line at the factory
+
+<font inherit/inherit;;#8e44ad;;inherit>**Purple**</font>- Year of production
+
+<font inherit/inherit;;#27ae60;;inherit>**Green**</font>- Week of production
+
+<font inherit/inherit;;#e74c3c;;inherit>**Red**</font>- Product revision
+
+<font inherit/inherit;;#3498db;;inherit>**Blue**</font> - Serial number unique for every unit made each week
+
+**Product identifier (**black**)**
+
+Represents a version or edition of a scooter.
+
+**Manufacturing date (**<font inherit/inherit;;#9b59b6;;inherit>purple</font>/<font inherit/inherit;;#27ae60;;inherit>green</font>**)**
+
+The first two digits are the manufacturing year. (20 for 2020, 19 for 2019 etc.)
+
+The last two digits are the manufacturing week.
+
+It can be replaced with anything as it doesn't have any affect on the scooter.
+
+**Identifier/Unit serial number (**<font inherit/inherit;;#3498db;;inherit>blue</font>**)**
+
+Probably an incremental counter for the number of scooters produced per week, a 3 or 4-digit number.
+
+It can be replaced with anything as it doesn't have any purpose for the scooter.
+
+**Known prefix letters (**<font inherit/inherit;;#e67e22;;inherit>orange</font>**)**
+
+**S1DG **- E110SE (45 kph)\\
+**S1DL **- E110SE (25 kph)\\
+**N1DE **- Black E100\\
+**N1DC **- White E80C\\
+**N2DC **- Vanilla/green C40\\
+**N2DE **- C60\\
+**N2DT** - Blue/Orange C80
+
+**Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
+
+Determines which line at the factory was used to make a particular scooter.
+
+\\
+
