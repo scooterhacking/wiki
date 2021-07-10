@@ -10,11 +10,12 @@ Click on a scooter model to show a preview.
 ^  Nominal power  |  400W  ||||||||||||||||  800W  ||  1200W  |  1500W  |  800W  |  1200W  |||  1800W  |  1500W  ||  2400W  |  3000W  |  5000W  ||
 ^  Motor mfg.  |  Ninebot  |||||||||||||||||||||||||||||  Bosch  |  Ninebot  |
 ^  Battery voltage  |  48V  ||||||||||||||||  60V  |||  72V  |  60V  |  72V  |  60V  |  72V  ||  48V  ||  72V  |  48V  |  72V  ||
-^  Battery capacity (Ah)  |  12  |  13  |  16  |  21  |  13  ||  nd  |  21  |  nd  |  25  |  30  |  25  |  12  |  13  |  20  |  24  |  20  |  32  |  24  ||  23  ||  20  |||  30  |  38  |  27  |  60  |  54  ||
+^  Battery capacity (Ah)  |  12  |  13  |  16  |  21  |  13  ||  nd  |  21  |  nd  |  25  |  30  |  25  |  12  |  13  |  20  |  24  |  20  |  32  |  24  ||  23  |  21/23  |  20  |||  30  |  38  |  27  |  60  |  54  ||
 ^  Battery capacity (Wh)  |  576  |  624  |  768  |  1008  |  624  ||  nd  |  1008  |  nd  |  1200  |  1440  |  1200  |  576  |  624  |  960  |  1152  |  1200  |  1920  |  1440  |  1728  |  1380  |  1512  |  1200  |  1440  |||  1824  |  1944  |  2880  |  3888  ||
 ^  Battery type  |  Lead-acid  |  Lithium-Ion  |||||||  Lead-acid  |  Lithium-Ion  |||||||  Lead-acid  ||  Lithium-Ion  ||  Lead-Acid  ||  Lithium-Ion  |||||||||
 ^  Charging time  |  <7h  ||  <9h  |  <8h  |  <5h  ||  <6h  |  <8h  |  <5h  |  nd  |  <8h  |  nd  |  <7h  |  <5h  |  <8h  |  <9h  |  <8h  |  <9h  |||  <8h  |  <10h  |  <8h  |||  <4h  |  <6h  |  <6h  |  <3h  |  <8h  ||
 ^  Battery weight  |  15.6 kg  |  5 kg  |  5.3 kg  |  9.7 kg  |  6 kg  ||  7 kg  |  10.5 kg  |  15.6 kg  |  10.5 kg  |  11.7 kg  |  10.5 kg  |  6.4 kg  |  6 kg  |  7.1 kg  |  7.6 kg  |  30 kg  |  45 kg  |  12 kg  |  15 kg  |  34.5 kg  |  44 kg  |  10.6 kg  |  13.5 kg  |  10.7 kg  |  11.5 kg  ||  12.6 kg  |  2×11 kg  |  2×12.6 kg  ||
+^  Removable battery  |  Yes  |||||||||||||||||||||||||||||||
 ^  RideyGo support  |  Included as standard  |||||||||||||||||||||||||||||||
 ^  Electric control system  |  N/A  ||||  G35  |||  G40  |  G30  |  G50  |||  G30  ||  G40  |  G45  |  N/A  |||||||||||||||
 ^  Pedals  |  Yes  ||||||||||||||||  No  |||||||||||||||

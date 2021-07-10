@@ -32,8 +32,11 @@ We've also been compiling general information about possible hardware scooters m
 
 ==== Full-sized e-moped and e-scooter information ====
 
-  * [[:niu-es|Niu E-Scooters and E-Mopeds]]
+  * [[:niu-es|Niu E-Scooters, E-Mopeds and E-Motorcycles]]
   * [[:nbmoped|Ninebot E-Scooters and E-Mopeds]]
+  * [[:supersoco|Super Soco E-Scooters, E-Mopeds and E-Motorcycles]]
+  * [[:gogoro|Gogoro E-Scooters and E-Mopeds]]
+  * [[:yadea|Yadea E-Scooters and E-Mopeds]]
 
 ==== Other useful information ====
 

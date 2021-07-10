@@ -1,0 +1,24 @@
+====== Super Soco electric moped/scooter/motorcycle lineup comparison. ======
+
+Click on a scooter model to show a preview.
+
+^  Scooter model  ^  [[https://i.imgur.com/QFANHQa.png|TS]]   ^  [[https://imgur.com/a/JDaWiHx|TSx]]   ^  [[https://i.imgur.com/fvSrRaB.png|TC]]   ^  [[https://i.imgur.com/QCCmYIL.png|TCmax]]   ^  [[https://i.imgur.com/cuYn7wi.png|CUmini]]   ^  [[https://i.imgur.com/rC0Lgrr.png|CUX]]   ^  [[https://i.imgur.com/40dvGzY.png|CUX Ducati Edition]]   ^  [[https://i.imgur.com/16N81PV.png|CPX]]   ^  [[https://i.imgur.com/eVKgdtB.png|VS1]]   |
+^  Top speed  |  75 km/h  |  45 km/h  |  75 km/h  |  95 km/h  |  45 km/h  |||  90 km/h  |  80 km/h  |
+^  Est. range  |  200 km \\ (on dual batt)  |  75 km  |  200 km \\ (on dual batt)  |  110 km  |  70 km  |  75 km  ||  140 km \\ (on dual batt)  |  160 km  |
+^  Motor power  |  2500W  |  1900W  |  2500W  |  3900W  |  600W  |  1600W  |  2700 (max)  |  4000W  ||
+^  Battery voltage  |  60V  |||  72V  |  48V  |  60V  ||||
+^  Battery capacity (Ah)  |  32  |  30  |  32  |  45  |  20  |  30  |  32  |  2x45  |  45  |
+^  Battery capacity (Wh)  |  1920  |  1800  |  1920  |  3240  |  960  |  1800  |  1920  |  5400  |  2700  |
+^  Removable battery  |  Yes  |||||||  nd  |  nd  |
+^  Charging current  |  10A  |  5A/10A  |  10A  |  5A/10A  |  10A  |  4A  ||  nd  |  15A  |
+^  App connectivity  |  Yes  |||||||||
+^  Dashcam  |  No  |  Yes  |  No  |||  Yes  ||  No  |  Yes  |
+^  Max load  |  150 kg  ||||  nd  |  nd  |  nd  |  nd  |  150  |
+^  Length  |  2038mm  |  1895mm  |  1984mm  |  1982mm  |  1665mm  |  1782mm  ||  1975mm  ||
+^  Width  |  780mm  |  703mm  |  788mm  |  740mm  |  695mm  |  727mm  ||  720mm  ||
+^  Height  |  1085mm  |  1066mm  |  1097mm  |  1031mm  |  1083mm  |  1087mm  ||  1132mm  ||
+
+nd - no data
+
+\\
+

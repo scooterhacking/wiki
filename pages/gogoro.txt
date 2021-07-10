@@ -1,0 +1,25 @@
+====== Gogoro electric moped/scooter lineup comparison. ======
+
+Click on a scooter model to show a preview.
+
+^  Model  ^  Lite  ^  [[https://i.imgur.com/CcGwOGP.png|1]]   ^  [[https://i.imgur.com/zyHMvgc.png|S1]]   ^  [[https://i.imgur.com/Qgi9BWm.png|2]]   ^  [[https://i.imgur.com/NZ4BvqW.png|2 Delight]]   ^  [[https://i.imgur.com/HVUqUbi.png|2 Rumbler]]   ^  [[https://i.imgur.com/0k80j7v.png|S2]]   ^  [[https://i.imgur.com/eD30zgd.png|S2 Adventure]]   ^  **[[https://i.imgur.com/Z1eejME.png|S2 Café Racer** ]] **   ^  [[https://i.imgur.com/1yXg8za.png|3]]   ^  [[https://imgur.com/a/tUXvJTt|S3]]   ^  [[https://i.imgur.com/Xz4FgXb.png|VIVA]]   ^  [[https://i.imgur.com/SkxEhfY.png|VIVA MIX]]   |
+^  Top speed  |  95 km/h  |||  90 km/h  |  88 km/h  |  86 km/h  |  92 km/h  |||  82/86 km/h (version)  ||  50 km/h  |  89 km/h  |
+^  Est. range  |  100-150 km  |||  170 km  ||||||||  85 km  |  150 km  |
+^  Power  |  6.4 kW  |  7.2 kW  ||  6.4/7 kW (version)  |  7 kW  |  6.4 kW  |  7.6 kW  |||  7 kW  |  7.6 kW  |  3 kW  |  6 kW  |
+^  Removable battery  |  Yes  |||||||||||||
+^  Battery weight  |  2×9 kg  |||||||||||  9 kg  |  2x9kg  |
+^  Vehicle weight (with batt)  |  112 kg  |||  104 kg  |  103 kg  |  104 kg  |  122/123 kg  |  128 kg  |  122 kg  |  114/115 kg (version)  |  117/119 kg  |  80 kg  |  112 kg  |
+^  ABS  |  No  ||||  Only on ABS model  |  Yes  |  Only on ABS model  |  No  |  Only on ABS model  |  No  |  Only on ABS model  |  No  ||
+^  App connection  |  Yes  |||||||||||||
+^  USB Port  |  Yes  |  No  |  Yes  |||||||  No  ||||
+^  Front tire  |  100/60-12  |||  100/90-12  ||  nd  |  100/80-14  |||  100/90-12  ||  90/90-10  ||
+^  Rear tire  |  110/60-12  |||  110/70-12  ||  nd  |  110/70-13  |||  110/70-12  ||  100/90-10  ||
+^  Length  |  1730mm  |||  1880mm  |  1875mm  |  nd  |  1890mm  |  1905mm  |  1915mm  |  ~1850mm  |  1890mm  |  1680mm  |  1770mm  |
+^  Width  |  690mm  |||  670mm  ||  nd  |  660mm  |  890mm  |  660mm  |  675mm  |  740mm  |  630mm  |  725mm  |
+^  Height  |  1215mm  |  1035mm  ||  1090mm  ||  nd  |  1080mm  |  1120mm  |  1090mm  |  ~1100mm  |  1100mm  |  1050mm  |  1093mm  |
+^  Seat height  |  nd  |  745mm  ||  750mm  ||  nd  |  780mm  |  810mm  |  780mm  |  750/770mm (version)  |  770mm  |  740mm  |  745mm  |
+
+nd - no data
+
+\\
+

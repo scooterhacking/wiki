@@ -394,7 +394,7 @@ __**Brake handle parameters (Examples):**__
 ^Recommendations|-|-|
 ^  2. Gen Recommendation 120^6|**35** |
 ^  48V Recommendation 120^6|**35** |
-^  +100KG/220 lbs Recommendation 130^1-6|**25-35** |
+^  +100KG/220 lbs Recommendation 130^1-6|**20-35** |
 
 Brake handle parameters do not have general recommedantions, but the ones above can be followed. Set them as you like. They'll change your max's brake behaviour.
 

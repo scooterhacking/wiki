@@ -4,36 +4,37 @@
 
 Click on a scooter model to show a preview.
 
-<font inherit/inherit;;#e67e22;;inherit>Please note that specs of the models marked as **(announced)** are mostly unconfirmed and can change at any time.</font>
+<font inherit/inherit;;#e67e22;;inherit>Please note that specs of the models marked as **(announced)** are mostly unconfirmed and can change. Also keep in mind that information about the models marked as **(China)** comes from various overseas sources, therefore it's sometimes hard to find and might be slightly inaccurate.</font>
 
-^  Scooter model  ^  [[https://i.imgur.com/LJVLkXV.png|UQi]]   ^  [[https://i.imgur.com/0xFI7iM.png|UQi GT]]   ^  [[https://imgur.com/a/xerbp7P|M+/MQi+ Lite]]   ^  [[https://i.imgur.com/0jp9QkY.png|M1S/MQi S]]   ^  [[https://i.imgur.com/0jp9QkY.png|M1 Pro/MQi Pro]]   ^  [[https://imgur.com/a/xerbp7P|MQi+ Sport]]   ^  [[https://imgur.com/a/Uco53Qj|MQi GT]]   ^  [[https://i.imgur.com/3dRIZNG.png|N1S]]   ^  [[https://i.imgur.com/DW1uH4T.png|N1 GT (N-GT)]]   ^  [[https://imgur.com/a/1CI2Qo5|NQi Lite]]   ^  [[https://imgur.com/a/1CI2Qo5|NQi Sport]]   ^  [[https://imgur.com/a/jHVdk3g|NQi Pro]]   ^  [[https://imgur.com/a/jHVdk3g|NQi GT]]   ^  [[https://imgur.com/a/jHVdk3g|NQi GTS]]   ^  [[https://imgur.com/a/hHjwrx1|NQi Cargo]]   ^  [[https://imgur.com/a/8PMqbIz|TQi]]  (announced)  ^  [[https://imgur.com/a/WQpupmB|RQi]]  (announced)  ^  [[https://imgur.com/a/QiTeHK3|Gova G1]]  (announced)  ^  [[https://imgur.com/a/VU8at3a|Gova G3]]  (announced)  ^  [[https://imgur.com/a/b766VN4|Gova G5]]  (announced)  |
-^  Top speed  |  45 km/h  ||||||  70 km/h  |  45 km/h  |  70 km/h  |  45 km/h  |  45 km/h  |  70 km/h  |||  45 km/h  |  80 km/h  |  160 km/h  |  nd  |  60 km/h  |  nd  |
-^  Est. range  |  40 km  |  50/60 km (version)  |  60 km  |  70 km  |  80 km  |  65 km  |  80 km  ||  140 km  |  70 km  |  70/80 km (version)  |  140 km  |  105/140 km (version)  |  90/115 km (version)  |  70/80 km (year)  |  240 km  |  130 km  |  nd  |  80 km  |  nd  |
-^  Motor mfg.  |  NIU/Bosch (version/year)  ||  Bosch  ||||||||||||||  NIU  |  nd  |  NIU  |  nd  |
-^  Nominal power  |  800W  |  1200W  ||  800W  |  1200W  ||  3000W  |  1500W  |  3000W  |  1500W  ||  3000W  |||  1500W  |  nd  |  nd  |  nd  |  ~2000W  |  nd  |
-^  30 min max continious power  |  1200W  |  1500W  |  1400W  |  900W  |  1600W  |  1400W  |  3100W  |  2400W  |  3200W  |  1800W  ||  3200W  |  3500W  ||  1800W  |  10kW  |  30kW  |  nd  |  ~2200W  |  nd  |
-^  Battery capacity (Ah)  |  21  |  31/42 (version)  |  31  |  26  |  32  |  42  |  2×31  |  29  |  2×35  |  26  |  26/29/35 (version/year)  |  2×35  |  2×26/2×35 (version)  ||  29/35 (year)  |  nd  |  nd  |  14/16/20 (version)  |  40  |  nd  |
-^  Battery capacity (Wh)  |  1008  |  1488/2016 (version)  |  1488  |  1248  |  1536  |  2016  |  2976  |  1740  |  4200  |  1560  |  1560/2100 (version)  |  4200  |  3120/4200 (version)  ||  1740/2100 (year)  |  7000  ||  nd  |  2400  |  nd  |
-^  Battery voltage  |  48V  |||||||  60V  ||||||||  nd  |  nd  |  48V  |  60V  ||
-^  Charging time  |  3.5h  |  7h/9h (version)  |  6h  |||  9h  |  4h/4.5h (charger version)  |  7h  ||  6h  |  7-9h (batt version)  |  6h  |  5.5h/7h (batt version)  ||  6h  |  nd  |  nd  |  nd  |  6.5h  |  nd  |
-^  Fast charging support  |  No  ||||||  Yes  |  No  |  Yes  |  No  ||  Yes  |||  No  |  Yes  ||  nd  |  nd  |  nd  |
-^  Cell type  |  18650 (Panasonic)  |  18650 (EVE)  ||  18650 (Panasonic)  ||  18650 (EVE)  ||  18650 (Panasonic)  ||  18650 (EVE)  |  18650 (EVE/Panasonic)  |||||  nd  |  nd  |  nd  |  18650  |  nd  |
-^  Stock charger current  |  4A  |  5.2A  |  5A  |  4A  ||  5.2A  |  9A/16A (charger version)  |  5A  |  2x5A  |  4A/5A (year)  ||  2x6A  |  2x5A  ||  5A  |  nd  |  nd  |  nd  |  nd  |  nd  |
-^  FOC max current  |  30A  |  40A  |  33A  |  40A  ||  40A  |  80A  |  40A  |  70A  |  40A  |  35A/45A (version)  |  70A  |||  40A  |  nd  |  nd  |  nd  |  nd  |  nd  |
-^  App connected  |  Yes  |||||||||||||||  Yes (5G)  ||  Yes  |||
-^  Included free app connectivity  |  3 years  ||||||||||||||||||||
-^  Seating capacity  |  1  |  2  ||  1  ||  2  |||||||||  1  ||  2  |  1  |  2  ||
-^  Vehicle weight (with batt)(kg)  |  57  |  75  |  72  |  57.7  |  59  |  72  |  115  |  95  |  nd  |  89  |  99  |  112  |  110  |  113  |  89  |  nd  |  nd  |  nd  |  72  |  nd  |
-^  Battery weight  |  5.2kg  |  11kg  |  11kg  |  8.1kg  |  8.3kg  |  11kg  |  2x11kg  |  11kg  |  2x11kg  |  11kg  ||  2x11kg  |||  11kg  |  nd  |  nd  |  nd  |  nd  |  nd  |
-^  Load capacity (kg)  |  147  |  227  |  221  |  100  ||  221  |  269  |||||||||  nd  |  nd  |  nd  |  nd  |  nd  |
-^  Front tire  |  65/95-12  |  90/90-14  |  90/90-10  ||||  90/90-14  |  nd  |  nd  |  90/90-12  ||  90/90-14  |  90/90-12  |  90/90-14  |  90/90-12  |  nd  |  nd  |  nd  |  nd  |  nd  |
-^  Rear tire  | ::: |  100/80-14  | ::: ||||  110/80-14  |  nd  |  nd  |  120/70-12  ||  110/80-14  |  120/70-12  |  110/80-14  |  120/70-12  |  nd  |  nd  |  nd  |  nd  |  nd  |
-^  Length  |  1685mm  |  1910mm  |  1728mm  |  1640mm  ||  1728mm  |  1949mm  |  1800mm  |  nd  |  1800mm  ||  1890mm  |  1800mm  |  1890mm  |  1800mm  |  nd  |  nd  |  nd  |  1735mm  |  nd  |
-^  Width  |  700mm  |  740mm  |  661mm  |  657mm  ||  661mm  |  700mm  |  700mm  |  nd  |  740mm  |||||  700mm  |  nd  |  nd  |  nd  |  700mm  |  nd  |
-^  Height  |  1020mm  |  1128mm  |  1131mm  |  1099mm  ||  1131mm  |  1171mm  |  1130mm  |  nd  |  1130mm  ||  1223mm  |  1185mm  |  1223mm  |  1130mm  |  nd  |  nd  |  nd  |  1045mm  |  nd  |
-^  Seat height  |  710mm  |  840mm  |  750mm  |  nd  ||  750mm  |  816mm  |  740mm  |  nd  |  760mm  ||  815mm  |  790mm  |  815mm  |  740mm  |  nd  |  nd  |  nd  |  745mm  |  nd  |
-^  Seat length  |  nd  |  380mm  |  560mm  |  nd  ||  560mm  |  782mm  |  nd  |  nd  |  600mm  ||  600mm  |  600mm  ||  nd  |  nd  |  nd  |  nd  |  547mm  |  nd  |
-^  Ground clearance  |  160mm  |  180mm  |  126mm  ||||  180mm  |  145mm  |  nd  |  130mm  ||  180mm  |  160mm  |  180mm  |  145mm  |  nd  |  nd  |  nd  |  110mm  |  nd  |
+^  Scooter model  ^  [[https://i.imgur.com/LJVLkXV.png|UQi]]   ^  [[https://i.imgur.com/0xFI7iM.png|UQi GT]]   ^  [[https://imgur.com/a/xerbp7P|M+/MQi+ Lite]]   ^  [[https://i.imgur.com/0jp9QkY.png|M1S/MQi S]]   ^  [[https://imgur.com/a/5j2xgAE|MQi2]]  \\  (China)  ^  [[https://i.imgur.com/0jp9QkY.png|M1 Pro/MQi Pro]]   ^  [[https://imgur.com/a/xerbp7P|MQi+ Sport]]   ^  [[https://imgur.com/a/Uco53Qj|MQi GT]]   ^  [[https://i.imgur.com/3dRIZNG.png|N1S]]   ^  [[https://i.imgur.com/DW1uH4T.png|N1 GT (N-GT)]]   ^  [[https://imgur.com/a/1CI2Qo5|NQi Lite]]   ^  [[https://imgur.com/a/1CI2Qo5|NQi (Lite/Citi/Sport)]]   ^  [[https://imgur.com/a/jHVdk3g|NQi Pro]]   ^  [[https://imgur.com/a/jHVdk3g|NQi GT]]   ^  [[https://imgur.com/a/jHVdk3g|NQi GTS]]   ^  [[https://imgur.com/a/hHjwrx1|NQi Cargo]]   ^  [[https://imgur.com/a/8PMqbIz|TQi]]  (announced)  ^  [[https://imgur.com/a/WQpupmB|RQi]]  (announced)  ^  [[https://imgur.com/a/M7DeCDT|Gova F0]]  \\  (China)  ^  [[https://i.imgur.com/LvwqGBH.png|Gova F2]]  (China)  ^  [[https://imgur.com/a/Lk1PGz1|Gova G0]]  \\  (China)  ^  [[https://imgur.com/a/QiTeHK3|Gova G1]]  \\  (China)  ^  [[https://imgur.com/a/ped6rV0|Gova G2]]  \\  (China)  ^  [[https://imgur.com/a/VU8at3a|Gova G3]]  \\  (China)  ^  [[https://imgur.com/a/b766VN4|Gova G5]]  \\  (China)  |
+^  Top speed  |  45 km/h  |||||||  70 km/h  |  45 km/h  |  70 km/h  |  45 km/h  |  25/45 km/h (version)  |  70 km/h  |||  45 km/h  |  80 km/h  |  160 km/h  |  25 km/h  |||||  60 km/h  |  nd  |
+^  Est. range  |  40 km  |  50/60 km (version)  |  60 km  |  70 km  |  60/70 km (version)  |  80 km  |  65 km  |  80 km  ||  140 km  |  70 km  |  70/80 km (version)  |  140 km  |  105/140 km (version)  |  90/115 km (version)  |  70/80 km (year)  |  240 km  |  130 km  |  50/60 km (version)  |  50 km  |  40/60 km (version)  |  50/60 (version)  |  60/75 (version)  |  80 km  |  nd  |
+^  Motor mfg.  |  NIU/Bosch (version/year)  ||  Bosch  ||  NIU  |  Bosch  ||||||||||||  NIU  |  Jin Shun/Jin Yuxing  |||||  NIU  |  nd  |
+^  Nominal power  |  800W  |  1200W  ||  800W  |  1200W  |||  3000W  |  1500W  |  3000W  |  1500W  ||  3000W  |||  1500W  |  nd  |  nd  |  400W  |||||  ~2000W  |  nd  |
+^  30 min max continious power  |  1200W  |  1500W  |  1400W  |  900W  |  nd  |  1600W  |  1400W  |  3100W  |  2400W  |  3200W  |  1800W  ||  3200W  |  3500W  ||  1800W  |  10kW  |  30kW  |  nd  |  nd  |  nd  |  nd  |  nd  |  ~2200W  |  nd  |
+^  Battery capacity (Ah)  |  13/16/19/21 (version)  |  31/42 (version)  |  31  |  26  |  16/20 (version)  |  32  |  42  |  2×31  |  29  |  2×35  |  26  |  18/20/26/29/35 (version/year)  |  2×35  |  2×26/2×35 (version)  ||  29/35 (year)  |  nd  |  nd  |  14/18 (version)  |  16  |  12/16 (version)  |  14/16/20 (version)  |  16/20 (version)  |  40  |  nd  |
+^  Battery capacity (Wh)  |  624/768/912/1008  |  1488/2016 (version)  |  1488  |  1248  |  768/960  |  1536  |  2016  |  2976  |  1740  |  4200  |  1560  |  1080/1200/1560/1740/2100  |  4200  |  3120/4200 (version)  ||  1740/2100 (year)  |  7000  ||  672/864  |  768  |  576/768  |  nd  |  768/960  |  2400  |  nd  |
+^  Battery voltage  |  48V  ||||||||  60V  ||||||||  nd  |  nd  |  48V  |||||  60V  ||
+^  Charging time  |  6-7.5h (version)  |  7h/9h (version)  |  6h  ||||  9h  |  4h/4.5h (charger version)  |  7h  ||  6h  |  7-9h (batt version)  |  6h  |  5.5h/7h (batt version)  ||  6h  |  nd  |  nd  |  6h/7h  |  6.5h  |  7h  |  7h/8.5h  ||  6.5h  |  nd  |
+^  Fast charging support  |  No  |||||||  Yes  |  No  |  Yes  |  No  ||  Yes  |||  No  |  Yes  ||  No  |||||  nd  |  nd  |
+^  Cell type  |  18650 (Panasonic)  |  18650 (EVE)  ||  18650 (Panasonic)  |||  18650 (EVE)  ||  18650 (Panasonic)  ||  18650 (EVE)  |  18650 (EVE/Panasonic)  |||||  nd  |  nd  |  18650  ||||||  nd  |
+^  Stock charger current  |  4A  |  5.2A  |  5A  |  4A  |||  5.2A  |  9A/16A (charger version)  |  5A  |  2x5A  |  4A/5A (year)  ||  2x6A  |  2x5A  ||  5A  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |
+^  FOC max current  |  30A  |  40A  |  33A  |  40A  |||  40A  |  80A  |  40A  |  70A  |  40A  |  35A/45A (version)  |  70A  |||  40A  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |
+^  App connected  |  Yes  ||||||||||||||||  Yes (5G)  ||  Yes  |||||||
+^  Included free app connectivity  |  3 years  |||||||||||||||||||||||||
+^  Seating capacity  |  1  |  2  ||  1  |||  2  |||||||||  1  ||  2  ||||  1  ||  2  ||
+^  Vehicle weight (with batt)(kg)  |  57  |  75  |  72  |  57.7  |  nd  |  59  |  72  |  115  |  95  |  nd  |  89  |  99  |  112  |  110  |  113  |  89  |  nd  |  nd  |  nd  |  53.6 kg  |  52 kg  |  53 kg  |  nd  |  72  |  nd  |
+^  Battery weight  |  4.6/5.2/5.3kg  |  11kg  |  11kg  |  8.1kg  |  6.5 kg  |  8.3kg  |  11kg  |  2x11kg  |  11kg  |  2x11kg  |  11kg  ||  2x11kg  |||  11kg  |  nd  |  nd  |  5.6/6.8 kg  |  6.4 kg  |  5.3 kg  |  5.5/6.9 kg  |  7/8.4 kg  |  nd  |  nd  |
+^  Removable battery  |  Yes  ||||||||||||||||  nd  |  nd  |  Yes  |||||||
+^  Load capacity (kg)  |  147  |  227  |  221  |  100  |||  221  |  269  |||||||||  nd  |  nd  |  75 kg  |||||  nd  |  nd  |
+^  Front tire  |  65/95-12  |  90/90-14  |  90/90-10  |||||  90/90-14  |  nd  |  nd  |  90/90-12  ||  90/90-14  |  90/90-12  |  90/90-14  |  90/90-12  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |
+^  Rear tire  | ::: |  100/80-14  | ::: |||||  110/80-14  |  nd  |  nd  |  120/70-12  ||  110/80-14  |  120/70-12  |  110/80-14  |  120/70-12  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |  nd  |
+^  Length  |  1685mm  |  1910mm  |  1728mm  |  1640mm  |  1650mm  |  1640mm  |  1728mm  |  1949mm  |  1800mm  |  nd  |  1800mm  ||  1890mm  |  1800mm  |  1890mm  |  1800mm  |  nd  |  nd  |  1588mm  |   |  1570mm  |  1660mm  |  1658mm  |  1735mm  |  nd  |
+^  Width  |  700mm  |  740mm  |  661mm  |  657mm  |  660mm  |  657mm  |  661mm  |  700mm  |  700mm  |  nd  |  740mm  |||||  700mm  |  nd  |  nd  |  720mm  |   |  675mm  |  725mm  |  690mm  |  700mm  |  nd  |
+^  Height  |  1020mm  |  1128mm  |  1131mm  |  1099mm  |  1050mm  |  1099mm  |  1131mm  |  1171mm  |  1130mm  |  nd  |  1130mm  ||  1223mm  |  1185mm  |  1223mm  |  1130mm  |  nd  |  nd  |  1024mm  |   |  1013mm  |  1070mm  |  1050mm  |  1045mm  |  nd  |
+^  Seat height  |  710mm  |  840mm  |  750mm  |  nd  |||  750mm  |  816mm  |  740mm  |  nd  |  760mm  ||  815mm  |  790mm  |  815mm  |  740mm  |  nd  |  nd  |  nd  |   |  nd  |  nd  |  nd  |  745mm  |  nd  |
+^  Seat length  |  nd  |  380mm  |  560mm  |  nd  |||  560mm  |  782mm  |  nd  |  nd  |  600mm  ||  600mm  |  600mm  ||  nd  |  nd  |  nd  |  nd  |   |  nd  |  nd  |  nd  |  547mm  |  nd  |
+^  Ground clearance  |  160mm  |  180mm  |  126mm  |||||  180mm  |  145mm  |  nd  |  130mm  ||  180mm  |  160mm  |  180mm  |  145mm  |  nd  |  nd  |  nd  |   |  nd  |  nd  |  nd  |  110mm  |  nd  |
 
 nd - no data
 

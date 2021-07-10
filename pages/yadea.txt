@@ -1,0 +1,23 @@
+====== Yadea modern electric moped/scooter lineup comparison. ======
+
+Click on a scooter model to show a preview.
+
+^  Scooter model  ^  [[https://i.imgur.com/i9u76TD.png|YD-OZ]]   ^  [[https://imgur.com/a/rkAbFNg|E3]]   ^  [[https://imgur.com/a/CmTLN2E|V7]]   ^  [[https://i.imgur.com/lg1whHe.png|Q5]]   ^  [[https://i.imgur.com/wFqtQ2W.png|M6]]   ^  [[https://i.imgur.com/pu0HsIQ.png|C-Umi]]   ^  [[https://i.imgur.com/GLUyPSZ.png|C1S]]   ^  [[https://imgur.com/a/OLlV2iS|C-Line]]   ^  [[https://i.imgur.com/kSRndYG.png|CLike]]   ^  [[https://i.imgur.com/TLiFQxG.png|CLion]]   ^  [[https://i.imgur.com/KxTQFCZ.png|G5 City]]   ^  [[https://i.imgur.com/KxTQFCZ.png|G5 Pro]]   |
+^  Top speed  |  25 km/h  |  45 km/h  |  <25 km/h  |  45 km/h  |||  60 km/h  |  45 km/h  ||  50 km/  |  55 km/h  |  65 km/h  |
+^  Est. range  |  45 km  |  60 km  |  70 km  |  60 km  ||  50 km  |  70 km  |  50 km  ||  65 km  ||  130 km  |
+^  Motor power  |  400W  |  600W  |  400W  |  1200W  |||  2200W  |  1200W  ||  2000W  |  2300W  |  3100W  |
+^  Battery voltage  |  48V  |  48V/60V (version  |  48V  |  60V  ||  48V  |  60V  |  48V  |  60V  |  72V  |  60V  ||
+^  Battery capacity (Ah)  |  24  |  20/28 (version)  |  24  |  20  ||  28  |  32  |  28  |  20  ||  26/32  |  2x32  |
+^  Battery capacity (Wh)  |  1152  |  960/1200/1344 (version)  |  1152  |  1200  ||  1344  |  1920  |  1344  |  1200  |  1440  |  1560/1920  |  2x1920  |
+^  Battery type  |  Lithium-Ion  |  Lithium-Ion/Lead-acid  |  Lithium-Ion  |  Lead-acid  ||  Lithium-Ion  |||||||
+^  Removable battery  |  nd  |  No  |  Yes  |  nd  |  Yes  ||||  nd  |  nd  |  Yes  ||
+^  Net weight  |  nd  |  65 kg  |  49 kg  |  100 kg  |  95 kg  |  nd  |  93 kg  |  nd  |  98 kg  |  102 kg  |  85 kg  |  100 kg  |
+^  Brake type  |  Drum  |  Front: Disc \\ Rear: Drum  |||||  Disc  |  Front: Disc \\ Rear: Drum  |||  Disc  ||
+^  Length  |  1730mm  |  1700mm  |  1642mm  |  1700mm  |  1675mm  |  1780mm  |  1790mm  |  1685mm  |  1750mm  |  1860mm  |  1810mm  ||
+^  Width  |  690mm  |  740mm  |  734mm  |  740mm  |  670mm  |  750mm  |  695mm  |  680mm  |  680mm  |  695mm  |  700mm  ||
+^  Height  |  1050mm  |  1070mm  |  1161mm  |  1070mm  |  1020mm  |  600mm  |  1240mm  |  1050mm  |  1450mm  |  1090mm  |  1150mm  ||
+
+nd - no data
+
+\\
+
