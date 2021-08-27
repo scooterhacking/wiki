@@ -97,10 +97,6 @@ Look at the first 5 digits of the serial number. Below you will se a list of kno
 
 **21886 - **M365 Pro, European version
 
-**30371 - **Mi Electric Scooter Pro 2 Mercedes Edition
-
-**25699 **- Mi Electric Scooter 1S
-
 **25702** - Mi Electric Scooter Lite - German version
 
 **25600** - Mi Electric Scooter Lite - Global version
@@ -128,15 +124,11 @@ List of known battery versions:
 
 **2JEG** - Mi Electric Scooter 1S battery (EU version) with resistors on the BMS
 
-**2JAE - **Mi Electric Scooter 1S battery with major changes to the BMS and rails (late 2020).
-
 **2JBE - **Mi Electric Scooter 1S battery.
 
 **2JAG - **M365 battery with EVE cells, CN version.
 
 **2JCG - **M365 battery with EVE cells, EU version.
-
-**0JEG - **M365 1S battery with LG M26 cells.
 
 
 ==== Identifying hook version by serial number ====

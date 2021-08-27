@@ -8,8 +8,8 @@ Click on a scooter model to see a preview.
 
 ^  Scooter model  ^  [[https://imgur.com/a/kjAvty7|Lime-S 1.0]]   ^  [[https://imgur.com/a/8OomudD|Ninebot SN1.0BLK]]   ^  [[https://imgur.com/a/DopNZ5E|Sx2.5]]   ^  [[https://imgur.com/a/cwJ9eC1|Lime-S 3.0]]   ^  [[https://imgur.com/gallery/DCVAk0G|M1.1]]   ^  [[https://imgur.com/a/BfZpIZx|X1.3]]   ^  [[https://imgur.com/a/rCMypFl|Gen.4]]  (Jump)  ^  [[https://imgur.com/a/7AUkhFe|Lime-S 4.0]]   |
 ^  Max speed (rated)  |  24  |  25  |  25  |  20/24 (region)  |||  25  |  20/25 (region)  |
-^  Battery (Wh)  |  460.8  |  371  |  317  |  572  |  460.8  |  324  |  414/468  |  444/458.8 (compatible with Jump)  |
-^  Battery (mAh)  |  12800  |  10200  |  8800  |  15900  |  12800  |  9000  |  11500/13000  |  12000/12400  |
+^  Battery (Wh)  |  460.8  |  371  |  317  |  572  |  460.8  |  324  |  414/468  |  444 (compatible with Jump)  |
+^  Battery (mAh)  |  12800  |  10200  |  8800  |  15900  |  12800  |  9000  |  11500/13000  |  12000  |
 ^  Number of batteries  |  1  |  2  |  1  ||||||
 ^  Voltage  |  36-42  ||||||||
 ^  Net weight (kg)  |  ~15  |  14  |  17  |  22.5  |  20  |  ~20  |  27.7  ||

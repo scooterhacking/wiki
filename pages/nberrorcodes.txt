@@ -18,7 +18,7 @@
 |24|Supply voltage out of range| |Battery mod warning|2|
 |25|Communication failure during ESC fimware update|Hard-reset scooter|System error|3|
 |26|Flash save error|Try to flash ESC with ST-Link ([[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=40|ESx]], [[https://www.scooterhacking.org/forum/viewtopic.php?f=26&t=213|Max]]), replace ESC|System error|3|
-|27|ESC config invalid (CPUID register might not match STM CPUID)|Change SN using BLE/UART ([[https://bit.ly/ESx-Activation|ESx]], [[https://bit.ly/max-unlock|Max]])|System warning|1|
+|27|ESC config invalid|Try to flash ESC with ST-Link ([[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=40|ESx]], [[https://www.scooterhacking.org/forum/viewtopic.php?f=26&t=213|Max]]) / change SN ([[https://bit.ly/ESx-Activation|ESx]], [[https://bit.ly/max-unlock|Max]])|System warning|1|
 |28|Motor driver mos up-bridge short circuit|Check motor|Hardware error|3|
 |29|Motor driver mos down-bridge short circuit|Check motor|Hardware error|3|
 |31|Program skip error|Try to flash ESC|System error|3|

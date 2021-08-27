@@ -111,8 +111,6 @@ C – Black ES3
 
 F/E – Black ES1
 
-A **(N6GA) **- Black ES3 Plus (Costco)
-
 **Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
 
 Determines which line at the factory was used to make a particular scooter.

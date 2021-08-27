@@ -77,7 +77,7 @@ The ESC serial number consists of 14 characters
   * **S **is limited to 30 km/h (G30P)
   * **C **is limited to 25 km/h (G30)
   * **E**  is limited to 20 km/h (G30D blue)
-  * **P **is limited to 25 km/h (G30E)
+  * **P **is limited to 20 km/h (G30D yellow)
   * **N **is a Ninebot Max Lite (G30LP) serial prefix, limited to 30 km/h
   * **A **is a Ninebot Max Lite (G30LE) serial prefix, limited to 25 km/h
   * **O **is a Ninebot Max Lite (G30LE) serial prefix, limited to 25 km/h

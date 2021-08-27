@@ -52,7 +52,7 @@ Q: How to mod my Ninebot Max to go over 35 km/h?\\
 A: Bring up the voltage to 48V by using a second battery in parallel or by replacing the stock one.
 
 Q: Who is Nord?\\
-A: [[https://youtu.be/dQw4w9WgXcQ|(click)]]
+A: [[https://i.imgur.com/AjUh0ZX.png|(click)]]
 
 Q: How to convert a bin, encoded bin or a ZIP into other file types?\\
 A: Use [[https://tools.scooterhacking.org/xiaotea/|XiaoTea (click)]]
@@ -73,7 +73,7 @@ Q: What do serial numbers mean?\\
 A: Look at the wiki page of the scooter model in question.
 
 Q: My scooter slows down to 27 km/h when below ~80% battery, why?\\
-A: That's a known issue on first generation motors. To see which generation motor you have, look [[:nbmotoranatomy#motor_model|here (click)]]
+A: That's a known issue on first generation motors. To see which generation motor you have, look [[:nbmax#identifying_motor_version|here (click)]]
 
 Q: Should I install a mudguard support on my Ninebot Max/Max Lite?\\
 A: While the Max mudguard is stronger than the Xiaomi ones, it can still break after a while. It is recommended to install a mudguard support.
