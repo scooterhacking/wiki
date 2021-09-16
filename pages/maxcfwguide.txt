@@ -50,9 +50,21 @@ The browser you've chosen to generate your CFW will remember your config via the
 
 <font 18px/inherit;;inherit;;inherit>**4. Compatibility patches**</font>
 
-{{https://cloud.scooterhacking.org/user_media/uploads/1617916548.jpg?nolink&500x256|cloud.scooterhacking.org_user_media_uploads_1617916548.jpg}}
+{{https://cloud.scooterhacking.org/user_media/uploads/1618256900.png?nolink&450x213}}
 
-This tab will be of high interest, for those who want to use **maneuvering **of every kind, because this option enables the CFW to be in mind in an altered firmware state.
+You can choose between a base firmware "DRV126" or "DRV154 (beta)" at this moment.
+
+DRV126 provides a aggresive type of acceleration, thus also consumes more battery in a long run.
+
+The current "DRV154" which is in a beta state seems to provide better perfomance thanks to it's algorithm, whilst giving mild loss of overall battery consumption.
+
+"DRV154" also may comply more to patches than "DRV126" does. Useful, when you're experiencing minor problems with patches.
+
+Short: If you are looking to gain a bit more of overall perfomance, with mild loss of battery, then choose "DRV154", but keep in mind it's in beta at the moment.
+
+If you're looking for a more responsive base firmware in means of acceleration, then stick with the "DRV126", but also keep in mind, that it might drain more than "DRV154" does.
+
+The following option will be of high interest, for those who want to use **maneuvering **of every kind, because this option enables the CFW to be in mind in an altered firmware state.
 
 **Always check compatibility patches to maneuver between region changes.**
 
@@ -111,6 +123,8 @@ There are three types of serial numbers available on the max:
 A "**US**" (**American**), (**WW**) (**European**) and "**DE**" (**German**) The **G30P** has the "**US**" one, the **G30** a **WW** and the **G30D** a "**DE**" one.
 
 In a event of Manuvering the state of the actual serial number will be changed temporarily between the selected one you've chosen, until you reboot it. Then it'll return to the original set serial number, that has been set by you.
+
+The battery will more likely drain faster, when driving at high speeds. This is due to the motor needing more power to hold these speeds.
 
 <font 18px/inherit;;inherit;;inherit>**9. DPC and Curves**</font>
 
@@ -341,25 +355,46 @@ Now you can drive with your 48V/13S without further problems! Have fun! :)
 
 __**Current / Ampere values (Examples):**__
 
-^Amperes|
-|20|
-|**25 (Standard)** |
-|30|
-|**__35 (max. rec.)__ ** |
+^Amperes (Power limit)^Watts|
+|20|560|
+|**25 (Standard)** |**700** |
+|30|840|
+|**__35 (max. rec.)__ ** |__**980**__ |
 
-Advice: If you weigh above** 100KG** i highly suggest you to stay below a Amperage of 32, as you are overstressing your max's internal components (as the motor phase cables f. ex) with your weight already. Setting the amperage below 32A helps to prevent, that fatal damage can be created.
+Advice: If you weigh above** 100KG (220 lbs)** i highly suggest you to stay below a Amperage of 32, as you are overstressing your max's internal components (as the motor phase cables f. ex) with your weight already. Setting the amperage below 32A helps to prevent, that fatal damage can be created.
 
-Ergo: Max. **32A above 100KG**, and if possible please go to 30A or 25A, thanks.
+Ergo: Max. **32A above 100KG (220 lbs)**, and if possible please go to 30A or 25A, thanks.
+
+In general, it's also advisable to stay as low as you can with the amperes, to ensure a good overall health of all components.
+
+For this, the rule from above can be applied, even for people for weigh under 100KG (220 lbs) f.
+
+//It's recommendable to upgrade your motor phase cables connectors to more resilient ones once you go over 900W Peak. //
+
+//(For "XT150" 6mm bullet connectors f. ex. or just solder the motor cables together)//
+
+^Amperes (Current Limit)^Watts|
+|40|1120|
+|45|1260|
+|50|1400|
+|__**55 (Standard and max rec.)**__ |__**1540**__ |
+
+As for the current limit it's explicitly recommended to let the peak at a max. of 55A (max. ~1.5KW) or below it.
+
+Also here it's adviceable to maintain the current based on your weight and to your routes, as this can expand prolongevity of the components and also minimizes the battery draw.
+
+If it so happens that you're satisfied with 55A already, then you don't need to do more tweaking. But if it may seem much to you, then you can step down the Amperes bit by bit until you're satisfied with the results.
 
 __**Brake handle parameters (Examples):**__
 
 ^Virtual brake handle limiter^Min. Phase Current^Max. Phase Current|
-|130 (110%)|1|1|
-|**120 (100%; Standard)** |**6** |**35** |
-|0 (0%)|50|50|
-|Recommendations|-|-|
-|  2. Gen Recommendation 120^8|**38-40** |
-|  48V Recommendation 120^8|**42-45** |
+^130 (110%)|1|1|
+^**120 (100%; Standard)** |**6** |**35** |
+^0 (0%)|50|50|
+^Recommendations|-|-|
+^  2. Gen Recommendation 120^6|**35** |
+^  48V Recommendation 120^6|**35** |
+^  +100KG/220 lbs Recommendation 130^1-6|**20-35** |
 
 Brake handle parameters do not have general recommedantions, but the ones above can be followed. Set them as you like. They'll change your max's brake behaviour.
 
@@ -371,6 +406,14 @@ Max. Phasecurrent ist the Amperage value (A), how many amperes will go through t
 
 Test yourself out with safe values and find your golden middle. Always take the standard value as the base.
 
+Protip: If you weigh over 100 KG / 220 lbs it's adviseable to nerf the brake to avoid potential overload of the FETs or the Caps of the ESC. This is because due to your weight putting on more stress when braking and it auto. generates more counter current than it usually does.
+
+To avoid this simply: Follow the recommendation for People who weigh over 100 KG / 220 lbs from the recommendation above and ignore anterior ones that have been listed before. Thank you!
+
+**//If you want to be cautious with your settings you also can follow this recommendation even if you weigh under 100 KG / 220 lbs too.// **
+
+**The main reason of this warning is due to the paragraph below here:**
+
 <font 16px/inherit;;inherit;;inherit>__**Never brake at full battery charge, just under 95%.**__</font>
 
 E-scooters in general as the max doesn't handle KERS while braking with a battery state above 95%. When you try to brake neverthanless, you're overcharging the battery over 100% which **causes severe components damage**.
@@ -381,7 +424,7 @@ E-scooters in general as the max doesn't handle KERS while braking with a batter
 
 ^mA per Step|
 |0-|
-|**300/500 (Standard)** //recommend until 3500 (36V) or 7000 (48V)// |
+|**300/500 (Standard)** //recommend until 3500 (36V) or 5000 (48V)// |
 |- 16000|
 
 This value destinates how fast the mA will be applicated in steps.
@@ -389,6 +432,8 @@ This value destinates how fast the mA will be applicated in steps.
 It'll intefere the accleration- and e-brake, depending on how you set it.
 
 Setting this wont cause any harm to your max, but decides how fast you will accelerate or brake electrionically in mA (steps).
+
+//(The only exception where this **may cause harm** is when breaking on a **full battery**. ////__Please read especially the above on how "bypassing" **KERS **on a full battery can be dealt with to avoid harm to your components by overcharging them. Thank you.__)//
 
 __**Brake light settings (Examples):**__
 
@@ -404,7 +449,7 @@ The Brake light frequencies values determines from 0-255 how often the light wil
 
 //**A one by one transcript by Noel from [[https://rollerplausch.com/|Rollerplausch ]]from german into english ([[https://bit.ly/2N8uKBo|https://bit.ly/2N8uKBo]]) created for this beloved community of Scooterhacking. **  //
 
-**//Also thanks to all the big brains there, helping me to fulfill this guide.// **
+**//Also thanks to all the big brains there, helping me to fulfil this guide.// **
 
 **//You want to donate, after everything went well for you? Just click __[[https://www.scooterhacking.org/donate/hi.html|here]].__  //**
 

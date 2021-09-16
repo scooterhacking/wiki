@@ -72,16 +72,18 @@ The ESC serial number consists of 14 characters
   * **N4Z**  represents a **rental**  version of the Ninebot Max Plus first gen. (SNSC2.3)
   * **NAG**  represents a **rental**  version of the Max Pro in the US variant (SNSC2.2A)
   * **A2S **represents a **rental**  version of the Max Plus in the US variant
+  * **C_S **represents a **rental **version of the Max Plus.
 ==== Product versions (SN prefixes) ====
 
   * **S **is limited to 30 km/h (G30P)
   * **C **is limited to 25 km/h (G30)
   * **E**  is limited to 20 km/h (G30D blue)
-  * **P **is limited to 20 km/h (G30D yellow)
+  * **P **is limited to 25 km/h (G30E)
   * **N **is a Ninebot Max Lite (G30LP) serial prefix, limited to 30 km/h
   * **A **is a Ninebot Max Lite (G30LE) serial prefix, limited to 25 km/h
   * **O **is a Ninebot Max Lite (G30LE) serial prefix, limited to 25 km/h
   * **M **is a Ninebot Max Lite (G30LD) serial prefix, limited to 20 km/h
+  * **T **is a Maserati G30M serial prefix, limited to 25 km/h
   * **2 **is a Ninebot Max Pro, US spec (SNSC2.2A) serial prefix, limited to 25 km/h
   * **0 (zero) **is a Ninebot Max Plus, US spec (SNSC2.3) serial prefix, limited to 25 km/h
   * **C **  (N4YC) is a Seat Mó (G30D) serial prefix, limited to 20 km/h

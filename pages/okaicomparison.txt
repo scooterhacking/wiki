@@ -4,29 +4,32 @@
 
 Click on the model name to see a preview
 
-^Scooter model^[[https://imgur.com/a/9VEocYL|ES100]]^[[https://imgur.com/a/qtGwWWV|ES200]]^[[https://imgur.com/a/VEAq775|ES300]]^[[https://imgur.com/a/ndg6TRC|ES400]]^[[https://imgur.com/a/dDQI3lS|ES400B]]^[[https://imgur.com/a/nsL8Xi5|ES500]]^[[https://imgur.com/a/SR9jcJy|ES50]]|
-^Max speed|  20-30 kph (config)  |||||  20/25 kph (version)  |  15 kph  |
-^Max range (adv)|  60 km  ||  55+ km  |||  25 km  |  15 km  |
-^Battery (Wh)|  460.8  ||  768  |  460.8/768 (revision)  |  705.6  |  280  |  124  |
-^Removable battery|  No (optional on the ES200)  ||  Yes  |||  No  ||
-^Voltage|  36  ||  48  |||  36  |  24  |
-^Net weight|  23 kg  |  21 kg  |  nd, around 27 kg  |  29 kg  |  34 kg  |  22 kg  |  13.5 kg  |
-^Power (nominal)|  350W  ||||||  200W  |
-^Power (peak)|  700W  |||||  600W  |  250W  |
-^Motor type|  Front BLDC hub  ||  Rear BLDC hub  |||  Front BLDC hub  |  Rear BLDC hub  |
-^Max angle (%)|  15  ||  20  |||  15  |  10  |
-^Brakes|  front kers, rear drum  ||  Dual drum, rear kers  |||  Front KERS, front & rear drum  |  Rear KERS, rear drum  |
-^Shock absorption|  Front, different types  |||  Front hydraulic  ||  Front spring  ||
-^Front Tire (inch)|  8/10 (version)  |  10  ||  12  ||  9.5  |  8  |
-^Rear Tire (inch)| ::: | ::: ||  9  || ::: | ::: |
-^Max payload|  100 kg  ||||||  nd  |
-^LED screen|  Full LED display  |||||||
-^Bluetooth|  Varies  |||||  Yes  ||
-^App|  Rental  |  Rental/OKAI  |  Rental  |||  OKAI  ||
-^Indicators|  No  ||||  Yes  |  No  ||
-^Visibility|  Front/Rear lights, optional reflectors  ||||||  Reflectors  |
-^Dimension (LxWxH)|  1155x500x1188mm  |  1170x500x1210mm  |  1155x505x1220mm  |  1200x505x1220mm  |  1200x521x1220mm  |1115x550x1161mm  |929x500x980mm  |
-^Water Resistance|  IP67  |||||  IP54  ||
+^Scooter model^[[https://imgur.com/a/9VEocYL|ES100]]^[[https://imgur.com/a/qtGwWWV|ES200]]^[[https://imgur.com/a/VEAq775|ES300]]^[[https://imgur.com/a/ndg6TRC|ES400]]^[[https://imgur.com/a/dDQI3lS|ES400B]]^[[https://imgur.com/a/mVACeHy|ES600]]^[[https://imgur.com/a/nsL8Xi5|ES500]]^[[https://imgur.com/a/SR9jcJy|ES50]]^[[https://imgur.com/a/KFcsUJ9|ES20]]|
+^Max speed|  20-30 kph (config)  ||||||  20/25 kph (version)  |  15 kph  |  20/25 kph (version)  |
+^Max range (adv)|  60 km  ||  55+ km  |||  55 km  |  25 km  |  15 km  |  40 km  |
+^Battery (Wh)|  460.8  ||  768  |  460.8/768 (revision)  |  705.6  |  677  |  280  |  124  |  353  |
+^Removable battery|  No (optional on the ES200)  ||  Yes  ||||  No  |||
+^Voltage|  36  ||  48  ||||  36  |  24  |  36  |
+^Net weight|  23 kg  |  21 kg  |  30.2 kg  |  29 kg  |  34 kg  |  32 kg  |  22 kg  |  13.5 kg  |  16  |
+^Power (nominal)|  350W  |||||||  200W  |  250W  |
+^Power (peak)|  700W  ||||||  600W  |  250W  |  500W  |
+^Motor type|  Front BLDC hub  ||  Rear BLDC hub  ||||  Front BLDC hub  |  Rear BLDC hub  |  Front BLDC hub  |
+^Max angle (%)|  15  ||  20  |||  25  |  15  |  10  |  15  |
+^Brakes|  front kers, rear drum  ||  Dual drum, rear kers  |||  Front magnet, rear drum, rear kers  |  Front KERS, front & rear drum  |  Rear KERS, rear drum  |  Front KERS, rear disc  |
+^Shock absorption|  Front, different types  |||  Front hydraulic  |||  Front spring  ||  Rear  |
+^Front Tire (inch)|  8/10 (version)  |  10  ||  12  |||  9.5  |  8  |  8.5  |
+^Rear Tire (inch)| ::: | ::: ||  9  || ::: | ::: | ::: |  10  |
+^Max payload|  100 kg  ||  120 kg  |  100 kg  ||||  nd  ||
+^LED screen|  Full LED display  |||||||||
+^Bluetooth|  Varies  ||||||  Yes  |||
+^App|  Rental  |  Rental/OKAI  |  Rental  ||||  OKAI  |||
+^Indicators|  No  ||  Varies  |  No  |  Yes  ||  No  ||  No  |
+^Visibility|  Front/Rear lights, optional reflectors  |||||||  Reflectors  |  Front/Rear lights, reflectors  |
+^Dimension (LxWxH)|  1155x500x1188mm  |  1170x500x1210mm  |  1155x505x1220mm  |  1200x505x1220mm  |  1200x521x1220mm  |  1200x521x1220mm  |1115x550x1161mm  |929x500x980mm  | \\
+   Unfolded: 1145x450x1130mm \\
+    \\
+   Folded: 1145x450x400mm|
+^Water Resistance|  IP67  |||||  IP55  |  IP54  ||  IPX5  |
 
 nd - no data
 

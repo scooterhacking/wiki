@@ -18,7 +18,7 @@
 |24|Supply voltage out of range| |Battery mod warning|2|
 |25|Communication failure during ESC fimware update|Hard-reset scooter|System error|3|
 |26|Flash save error|Try to flash ESC with ST-Link ([[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=40|ESx]], [[https://www.scooterhacking.org/forum/viewtopic.php?f=26&t=213|Max]]), replace ESC|System error|3|
-|27|ESC config invalid|Try to flash ESC with ST-Link ([[https://www.scooterhacking.org/forum/viewtopic.php?f=6&t=40|ESx]], [[https://www.scooterhacking.org/forum/viewtopic.php?f=26&t=213|Max]]) / change SN ([[https://bit.ly/ESx-Activation|ESx]], [[https://bit.ly/max-unlock|Max]])|System warning|1|
+|27|ESC config invalid (CPUID register might not match STM CPUID)|Change SN using BLE/UART ([[https://bit.ly/ESx-Activation|ESx]], [[https://bit.ly/max-unlock|Max]])|System warning|1|
 |28|Motor driver mos up-bridge short circuit|Check motor|Hardware error|3|
 |29|Motor driver mos down-bridge short circuit|Check motor|Hardware error|3|
 |31|Program skip error|Try to flash ESC|System error|3|
@@ -39,6 +39,12 @@
 |48|External battery protection board damaged|Replace external battery or BMS|Hardware error|3|
 |49|Internal BMS firmware version mismatch|Change internal BMS firmware version|System warning|2|
 |50|External BMS firmware version mismatch|Change external BMS firmware version|System warning|2|
+|51|BLE firmware incompatible with DRV|Change BLE or DRV firmware|System warning|nd|
+|52|BMS firmware incompatible with DRV **(Retail)** / ESC incompatible with battery hatch lock **(Rental)** |Change BMS firmware version **(Retail)** |System warning/Hardware error|nd|
+|54|Motor phase error **(Retail)** / ESC/battery hatch lock communication error **(Rental)** |Check motor-related wiring **(Retail)** |Hardware error|nd|
+|55|Battery hatch unlocked| |System warning|nd|
+
+nd - no data
 
 \\
 

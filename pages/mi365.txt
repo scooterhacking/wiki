@@ -2,27 +2,27 @@
 
 Click on a scooter model to show a preview.
 
-^Scooter model^  [[https://imgur.com/a/FRe1wGR|Euni ES808]]   ^  [[https://i.imgur.com/Zm4aMOk.png|M187]]  (Youth Edition)  ^  [[https://i.imgur.com/Zm4aMOk.png|M365]]   ^  [[https://i.imgur.com/l29g6Vv.png|M365 Pro]]   ^  [[https://i.imgur.com/f4vuv1g.png|M365 S1]]   ^  [[https://imgur.com/a/Gamudrn|M365 Pro 2]]   ^  [[https://imgur.com/a/Nmy7qfn|M365 Lite]]   |
-^Max speed|  25 km/h  |||||  20/25 km/h (region)  ||
-^Range (adv)|  20km  ||  30km  |  45km  |  30km  |  45km  |  20km  |
-^Battery capacity (Wh)|  187  ||  280  |  474  |  275/280  |  474  |  187  |
-^Max payload|  100kg  |  120kg  |  100kg  |||||
-^Voltage|  36V-42V  |||||||
-^Net weight|  13.2kg  |  12  |  12.5kg  |  14.2kg  |  12.5kg  |  14.2kg  |  12kg  |
-^Charging time (hrs)|  2  |  4  |  5  |  9  |  5  |  9  |  4  |
-^Power (nominal)|  250W  |||  300W  |  250W  |  300W  |  250W  |
-^Power (peak)|  500W  |||  600W  |  500W  |  600W  |  500W  |
-^Motor type|  Front hub  |||||||
-^Max angle (%)|  12  |  14  ||  20  |  14  |  20  |  14  |
-^Brakes|  Front ebrake, rear drum  |  Front ebrake, rear disc  ||||||
-^Shock absorption|  N/A  |||||||
-^Front Tire (inch)|  8 pneumatic  |  8.5 pneumatic  ||||||
-^Rear Tire (inch)|  8 air  |  8.5 pneumatic  ||||||
-^App/Bluetooth|  Yes (QiCycle)  |  Yes (Mi Home)  ||||||
-^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  ||||
-^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  |
-^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |
-^Water Resistance cert.|IPX5|   \\ IP54  ||||||
+^Scooter model^  [[https://imgur.com/a/FRe1wGR|Euni ES808]]   ^  [[https://i.imgur.com/Zm4aMOk.png|M187]]  (Youth Edition)  ^  [[https://i.imgur.com/Zm4aMOk.png|M365]]   ^  [[https://i.imgur.com/l29g6Vv.png|M365 Pro]]   ^  [[https://i.imgur.com/f4vuv1g.png|Mi 1S]]   ^  [[https://imgur.com/a/Gamudrn|Mi Pro 2]]   ^  [[https://imgur.com/a/Nmy7qfn|Mi Lite]]   ^  [[https://imgur.com/a/lu7psPY|Mi 3]]   |
+^Max speed|  25 km/h  |||||  20/25 km/h (region)  |||
+^Range (adv)|  20km  ||  30km  |  45km  |  30km  |  45km  |  20km  |  30 km  |
+^Battery capacity (Wh)|  187  ||  280  |  474  |  275/280  |  474  |  187  |  275  |
+^Max payload|  100kg  |  120kg  |  100kg  ||||||
+^Voltage|  36V-42V  ||||||||
+^Net weight|  13.2kg  |  12  |  12.5kg  |  14.2kg  |  12.5kg  |  14.2kg  |  12kg  |  13.2 kg  |
+^Charging time (hrs)|  2  |  4  |  5  |  9  |  5  |  9  |  4  |  5.5  |
+^Power (nominal)|  250W  |||  300W  |  250W  |  300W  |  250W  |  300W  |
+^Power (peak)|  500W  |||  600W  |  500W  |  600W  |  500W  |  600W  |
+^Motor type|  Front hub  ||||||||
+^Max angle (%)|  12  |  14  ||  20  |  14  |  20  |  14  |  16  |
+^Brakes|  Front ebrake, rear drum  |  Front ebrake, rear disc  ||||||  Front ebrake, rear dual pad disc  |
+^Shock absorption|  N/A  ||||||||
+^Front Tire (inch)|  8 pneumatic  |  8.5 pneumatic  |||||||
+^Rear Tire (inch)|  8 air  |  8.5 pneumatic  |||||||
+^App/Bluetooth|  Yes (QiCycle)  |  Yes (Mi Home)  |||||||
+^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  |||||
+^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  ||
+^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |    \\ **Folded **  108x43x49 \\   \\ **Unfolded **108x43x114 \\    |
+^Water Resistance cert.|IPX5|   \\ IP54  |||||||
 
 [[https://imgur.com/a/dTTN824|Click here for Mercedes AMG Petronas Edition Pro 2 scooter pics]]
 
@@ -97,9 +97,19 @@ Look at the first 5 digits of the serial number. Below you will se a list of kno
 
 **21886 - **M365 Pro, European version
 
+**30371 - **Mi Electric Scooter Pro 2 Mercedes Edition
+
+**26354 - **Mi Electric Scooter Pro 2, European version.
+
+**25699 **- Mi Electric Scooter 1S
+
 **25702** - Mi Electric Scooter Lite - German version
 
 **25600** - Mi Electric Scooter Lite - Global version
+
+**30807 **- Mi Electric Scooter 3 - Black/Blue version
+
+**30806 **- Mi Electric Scooter 3 - White/Orange version
 ==== Checking battery version by serial number ====
 
 Find your 13-character battery serial number under "Battery info" in the Mi Home app or in any third-party app.
@@ -118,11 +128,15 @@ List of known battery versions:
 
 **4XFG **- Mi Electric Scooter Pro 2 battery. Reinforced soldering & welds.
 
+**BFFG **- Mi Electric Scooter Pro 2 battery. EVE cells, limited charge.
+
 **4XBG/****4XCG - **Mi Electric Scooter Pro 1 battery (EU version). Reinforced soldering & welds.
 
 **4XAA - **Mi Electric Scooter Pro 1 battery (CN version). Reinforced soldering & welds.
 
 **2JEG** - Mi Electric Scooter 1S battery (EU version) with resistors on the BMS
+
+**2JAE - **Mi Electric Scooter 1S battery with major changes to the BMS and rails (late 2020).
 
 **2JBE - **Mi Electric Scooter 1S battery.
 
@@ -130,7 +144,7 @@ List of known battery versions:
 
 **2JCG - **M365 battery with EVE cells, EU version.
 
-
+**0JEG - **M365 1S battery with LG M26 cells.
 ==== Identifying hook version by serial number ====
 
 Scooter model 21074 with a serial number below 15107 and model 16133 with SNs between 541209 and 544518 have the non-reinforced hook which is prone to braking.

@@ -2,30 +2,32 @@
 
 Click on a scooter model to show a preview.
 
-^Model^[[https://imgur.com/a/y4vPzjt|F25]]^F30^[[https://imgur.com/a/bUwjviS|F40]]|
-^Max speed (stock)|  25 kph (15.5 mph)  ||  30 kph (18.6 mph)  |
-^Range (adv)|  20 km (12.4 miles)  |  30 km (18.6 miles)  |  40 km (25 miles)  |
-^Battery (Wh)|  183  |  275  |  367  |
-^Battery (mAh)|  5100  |  7650  |  10200  |
-^Voltage|  36-42V  |||
-^Net weight|  17.6 kg (38.8 lbs)  |  nd  |  nd  |
-^Charging time (hrs)|  3.5  |  5  |  6.5  |
-^Power (nominal)|  300W  ||  350  |
-^Power (peak)|  700W  |||
-^Motor type|  Front hub  |||
-^Max angle|  10%  |  15%  |  20%  |
-^Brakes|  Front KERS, rear disk  |||
-^Shock absorption|  N/A  |||
-^Front tire (inch)|  10  |||
-^Rear tire (inch)| ::: |||
-^Tire type|  Hollow (air)  |||
-^Max payload|  100 kg (220 lbs)  |  120 kg (265 lbs)  ||
-^App/Bluetooth|  Yes  |||
-^LED Screen|  Yes  |||
-^Visibility|  Front and rear lights, rear reflector  |||
-^Underglow lights|  No  |||
-^Dimension (LxWxH)(cm)|   \\ Unfolded: 114 x 48 x 116 \\   \\ Folded: 114 x 48 x 50  |||
-^Water resistance (IP)|  X5  |||
+^Model^[[https://imgur.com/a/y4vPzjt|F20]]^[[https://imgur.com/a/y4vPzjt|F25]]^F30^[[https://imgur.com/a/bUwjviS|F40]]|
+^Max speed (stock)|  25 kph (15.5 mph)  |||  30 kph (18.6 mph)  |
+^Range (adv)|  20 km (12.4 miles)  ||  30 km (18.6 miles)  |  40 km (25 miles)  |
+^Battery (Wh)|  183  ||  275  |  367  |
+^Battery (mAh)|  5100  ||  7650  |  10200  |
+^Voltage|  36-42V  ||||
+^Net weight|  14.5 kg (32 lbs)  |  17.6 kg (38.8 lbs)  |  15.1 kg (33 lbs)  |  15.8 kg (34.8 lbs)  |
+^Charging time (hrs)|  3.5  ||  5  |  6.5  |
+^Power (nominal)|  250W  |  300W  ||  350  |
+^Power (peak)|  500W  |  600W  ||  700W  |
+^Motor type|  Front hub  ||||
+^Max angle|  10%  ||  15%  |  20%  |
+^Brakes|  Front KERS, rear disk  ||||
+^Shock absorption|  N/A  ||||
+^Front tire (inch)|  10  ||||
+^Rear tire (inch)| ::: ||||
+^Tire type|  Hollow (air)  ||||
+^Max payload|  100 kg (220 lbs)  ||  120 kg (265 lbs)  ||
+^App/Bluetooth|  Yes  ||||
+^LED Screen|  Yes  ||||
+^Visibility|  Front and rear lights, rear reflector  ||||
+^Underglow lights|  No  ||||
+^Dimension (LxWxH)(cm)|   \\ Unfolded: 114 x 48 x 116 \\   \\ Folded: 114 x 48 x 50  ||||
+^Water resistance (IP)|   |  X5  |||
+
+nd - no data
 
 ===== Hacking =====
 
@@ -81,7 +83,8 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **I** - F60D/F60E\\
 **J** - F60D/F60E\\
 **M** - F60A/F60 Asia\\
-**N** - F25
+**N** - F25\\
+**V - **F40
 
 **Manufacturing line (**<font inherit/inherit;;#95a5a6;;inherit>gray</font>**)**
 

@@ -30,11 +30,21 @@ We've also been compiling general information about possible hardware scooters m
   * [[:okaicomparison|Okai ES-Series comparison]]
   * [[:lime|Lime scooters comparison]]
 
+==== Full-sized e-moped and e-scooter information ====
+
+  * [[:niu-es|Niu E-Scooters, E-Mopeds and E-Motorcycles]]
+  * [[:nbmoped|Ninebot E-Scooters and E-Mopeds]]
+  * [[:supersoco|Super Soco E-Scooters, E-Mopeds and E-Motorcycles]]
+  * [[:gogoro|Gogoro E-Scooters and E-Mopeds]]
+  * [[:yadea|Yadea E-Scooters and E-Mopeds]]
+
 ==== Other useful information ====
 
   * [[:nbdocs|Ninebot protocol/error description]]
   * [[:downg|DownG flashing app]]
   * [[:shutility|ScooterHacking flashing app]]
+  * [[:nbesxpnlist|Ninebot ES-series part number list]]
+  * [[:nbmaxpnlist|Ninebot Max-series part number list]]
 
 === Brand specific ===
 
@@ -49,12 +59,16 @@ We've also been compiling general information about possible hardware scooters m
   * [[:m365-esc-cooling|ESC cooling tips for M365/Pro1]]
   * [[:m365-trace-cut|Detailed guide for peforming trace cut method for M365/Pro1]]
 
+=== Supplementary DIY projects ===
+
+  * [[:diy-coulombmeter|Coulombmeter]]
+
 ===== Support us =====
 
 If you have found anything here that has been useful to you, the community would be grateful to you if you considered donating! You can thank the individual developers who wrote the tools you've used. You can donate to the community as well!
 
 **Lothean - **Head of ScooterHacking - [[https://scooterhack.in/donate|https://scooterhack.in/donate]] \\
-**Fox Master - **Wiki & data gathering - [[https://paypal.me/marcingoluch|https://paypal.me/marcingoluch]] \\
+**Fox Master - **Wiki & data gathering - [[https://scooterhack.in/donatefox|https://scooterhack.in/donatefox]] \\
 **Topol - **Xiaomi BMS flashing guide - [[https://www.paypal.com/donate?hosted_button_id=9K5KSK5GB26RQ|https://www.paypal.com/donate?hosted_button_id=9K5KSK5GB26RQ]]
 
 ……

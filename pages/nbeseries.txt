@@ -28,9 +28,6 @@ Click on a scooter model to show a preview.
 ^Dimension (LxWxH)(cm)|  Unfolded: 116 × 42 × 117 \\   \\ Folded: 119 × 42 × 36  |||  Unfolded: 83 x 33.5 x 85 \\ Folded: 87.5 x 33.5 x 32  |||
 ^Water Resistance (IP)|  54  ||||||
 
-\\
-
-
 ==== Hacking ====
 
 No CFW generator exists for the E-series atm, but you can unlock your scooter with an SN change (prefixes listed below).\\
@@ -85,12 +82,13 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **E25D **- Y\\
 **E25E **- X\\
 **E25A** - Z\\
-**E45** - R\\
-**E45D **- O\\
-**E45E** - M\\
+**E45D **- R\\
+**E45E** - M, O\\
 **E45 **- Q (**30 kph**)
 
 **Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
 
 Determines which line at the factory was used to make a particular scooter.
+
+\\
 
