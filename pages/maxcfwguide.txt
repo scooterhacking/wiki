@@ -1,3 +1,13 @@
+Hint: This guide generally applies for all retail max models. Specifically speaking:
+
+**G30/<font inherit/inherit;;#2980b9;;inherit>D</font>/<font inherit/inherit;;#f1c40f;;inherit>E</font><font inherit/inherit;;#000000;;inherit>/</font><font inherit/inherit;;#f1c40f;;inherit>P</font>**  beginning from **__DRV126__ **as their base firmware.
+
+**G30/(L)/<font inherit/inherit;;#2980b9;;inherit>D</font>/<font inherit/inherit;;#f1c40f;;inherit>E</font><font inherit/inherit;;#000000;;inherit>/</font><font inherit/inherit;;#f1c40f;;inherit>P</font>**  **II **beginning from **__DRV154__**  as their base firmware.
+
+<font inherit/inherit;;inherit;;#ffffff>Special Editions like the</font>"<font inherit/inherit;;#e74c3c;;inherit>**Seat**</font>**/**<font inherit/inherit;;#95a5a6;;inherit>**Audi**</font>" G30D and also the "**<font inherit/inherit;;#8e44ad;;inherit>Maserati</font>**" Max can be flashed by this guide when a [[:nbmax|golden/magic s/n]] is being used to avoid compatibility problems.
+
+----
+
 Greetings,
 
 at this page we will look at the site "**[[https://max.cfw.sh/|max.cfw.sh]]**" a **C**ustom**F**irm**w**are-Generator, that has been created **by SH for the max. **
@@ -243,9 +253,9 @@ Now you just need to select an application that you plan to use to flash it:
 
 <font 18px/inherit;;inherit;;inherit>**Current:**</font>
 
-It's highly recommended sticking to a max. usage of 35A as Current, because this complies to the max. recommended Amperage. The motor of the max only holds this much of the peak at a long run. Everything that goes above this Amperage or Wattage isn't recommended and happens at own risks.
+It's highly recommended sticking to a max. usage of 32A as Current, because this complies to the max. recommended Amperage. The motor of the max only holds this much of the peak at a long run. Everything that goes above this Amperage or Wattage isn't recommended and happens at own risks.
 
-You have the choice between 25A-35A, set it as you like your acceleration.
+You have the choice between 25A-32A, set it as you like your acceleration.
 
 Don't forget: Higher Amperage also draws more power from the battery, which also can mean less range.
 
@@ -359,7 +369,7 @@ __**Current / Ampere values (Examples):**__
 |20|560|
 |**25 (Standard)** |**700** |
 |30|840|
-|**__35 (max. rec.)__ ** |__**980**__ |
+|**__32 (max. rec.)__ ** |__**896**__ |
 
 Advice: If you weigh above** 100KG (220 lbs)** i highly suggest you to stay below a Amperage of 32, as you are overstressing your max's internal components (as the motor phase cables f. ex) with your weight already. Setting the amperage below 32A helps to prevent, that fatal damage can be created.
 
@@ -369,21 +379,25 @@ In general, it's also advisable to stay as low as you can with the amperes, to e
 
 For this, the rule from above can be applied, even for people for weigh under 100KG (220 lbs) f.
 
-//It's recommendable to upgrade your motor phase cables connectors to more resilient ones once you go over 900W Peak. //
+//Generally it's recommendable to upgrade your motor phase cables connectors to more resilient ones.//
 
-//(For "XT150" 6mm bullet connectors f. ex. or just solder the motor cables together)//
+//(For "XT150" 6mm bullet connectors, MR60 or MT60 f. ex. or just solder the motor cables together)//
 
 ^Amperes (Current Limit)^Watts|
 |40|1120|
 |45|1260|
 |50|1400|
-|__**55 (Standard and max rec.)**__ |__**1540**__ |
+|**55 (Standard)** |**1540** |
+|60|1600|
+|__**65 (max. rec.)**__ |**__1820__ ** |
 
-As for the current limit it's explicitly recommended to let the peak at a max. of 55A (max. ~1.5KW) or below it.
+As for the current limit it's recommended to let the peak at a max. of 65A (max. ~1.8KW) or below it.
 
 Also here it's adviceable to maintain the current based on your weight and to your routes, as this can expand prolongevity of the components and also minimizes the battery draw.
 
 If it so happens that you're satisfied with 55A already, then you don't need to do more tweaking. But if it may seem much to you, then you can step down the Amperes bit by bit until you're satisfied with the results.
+
+Otherwise if you aren't satified with standard 55A you can rise up slowly until 65A.
 
 __**Brake handle parameters (Examples):**__
 

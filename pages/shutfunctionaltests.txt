@@ -1,0 +1,137 @@
+====== ScooterHacking Utility - Functional Testing ======
+
+^Stats^v2.0|
+|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |  <font 12px/inherit;;inherit;;inherit>83</font>|
+|<font 12px/Calibri, sans-serif;;#f1c40f;;inherit>check / x</font> |  <font 12px/inherit;;inherit;;inherit>1</font>|
+|<font 12px/Calibri, sans-serif;;#9c0006;;inherit>x</font> |  <font 12px/inherit;;inherit;;inherit>0</font>|
+|<font 12px/inherit;;inherit;;inherit>open to test</font>|  <font 12px/inherit;;inherit;;inherit>0</font>|
+| |   |
+|<font 12px/inherit;;inherit;;inherit>total</font>|  <font 12px/inherit;;inherit;;inherit>84</font>|
+
+===== Scan Screen =====
+
+^ ^**<font 12px/inherit;;inherit;;inherit>v2.0</font>** ^**<font 12px/inherit;;inherit;;inherit>comment</font>** |
+|<font 12px/inherit;;inherit;;inherit>scooter visible</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>bluetooth icon when scooter not visible</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>changelog</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|__<font 12px/inherit;;inherit;;inherit>menu</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>show "only nearby scooters"</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>changelog</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>auto-connect</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>offline CFW manager</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+
+===== main app =====
+
+==== tab 1 - "about" ====
+
+^ ^<font 12px/inherit;;inherit;;inherit>**v2.0**</font>^<font 12px/inherit;;inherit;;inherit>**comment**</font>|
+|<font 12px/inherit;;inherit;;inherit>tab layout</font>|<font 12px/Calibri, sans-serif;;#f1c40f;;inherit>check / x</font> |<font 12px/inherit;;inherit;;inherit>When SHFW is installed, fast tab switch between Tools and Flash is not possible.</font>|
+|<font 12px/inherit;;inherit;;inherit>__menu__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>Copy UID to clipboard</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Credits</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>About</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Change Name</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|__<font 12px/inherit;;inherit;;inherit>Scooter</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>model</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>BLE</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>DRV</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>BMS</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>eBMS</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Serial number</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>ESC region</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Error code</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+
+==== tab 2 - "tools" ====
+
+^ ^<font 12px/inherit;;inherit;;inherit>**v2.0**</font>^<font 12px/inherit;;inherit;;inherit>**comment**</font>|
+|<font 12px/inherit;;inherit;;inherit>__change region__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>custom</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/inherit;;inherit;;inherit>no invalid input protection</font>|
+|<font 12px/inherit;;inherit;;inherit>DE –> Global –> DE</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>German Maneuver</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Open Dashboard APP</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|__<font 12px/inherit;;inherit;;inherit>Commands</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>Reboot</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>shutdown</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|__<font 12px/inherit;;inherit;;inherit>Automate</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>German Maneuver</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>DPC reg</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|__<font 12px/inherit;;inherit;;inherit>Buttons</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>Lock</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Cruise Control</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Always active tail light</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Direct Power Control (CFW)</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Show speed as mph</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>KERS level</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>Global speed limit</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+
+==== tab 3 - "flash" ====
+
+^ ^<font 12px/inherit;;inherit;;inherit>**v2.0**</font>^<font 12px/inherit;;inherit;;inherit>**comment**</font>|
+|<font 12px/inherit;;inherit;;inherit>Source</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/inherit;;inherit;;inherit>tested with fw from mi.cfw.sh</font>|
+|<font 12px/inherit;;inherit;;inherit>Type</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/inherit;;inherit;;inherit>tested with fw from mi.cfw.sh</font>|
+|<font 12px/inherit;;inherit;;inherit>Name</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/inherit;;inherit;;inherit>tested with fw from mi.cfw.sh</font>|
+|<font 12px/inherit;;inherit;;inherit>show params</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>load zip</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|__<font 12px/inherit;;inherit;;inherit>load originial</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>BLE</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/Calibri, sans-serif;;black;;inherit>tested with 1.2.9 + 1.3.4</font> |
+|<font 12px/inherit;;inherit;;inherit>BMS</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/Calibri, sans-serif;;black;;inherit>tested with 1.2.8 + 1.4.1</font> |
+|<font 12px/inherit;;inherit;;inherit>DRV</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/Calibri, sans-serif;;black;;inherit>tested with 1.5.5</font> |
+|__<font 12px/inherit;;inherit;;inherit>load custom</font>__ | | |
+|<font 12px/inherit;;inherit;;inherit>install / update SHFW</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>legacy custom firmware</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+
+==== tab 4 - "config" ====
+
+^ ^<font 12px/inherit;;inherit;;inherit>**v2.0**</font>^<font 12px/inherit;;inherit;;inherit>**comment**</font>|
+|<font 12px/inherit;;inherit;;inherit>__profile editor__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>select profile</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>rename profile</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>copy into</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> |<font 12px/inherit;;inherit;;inherit>only tested with speed limit</font>|
+|<font 12px/inherit;;inherit;;inherit>select mode</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>speed limit</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__throttle mode__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>speed based</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>power based</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>auto curve builder</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>advanced</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>motor start speed</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__cruise control__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>cruise control mode</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>increase / decrease cc speed</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>speed-based cc in dpc</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>cruise control beep</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__modes__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>set mode when entering profile</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>disable modes</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__lights__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>brake light mode</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>brake light flash speed</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>always active brake light</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>always on headlight</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__user interface__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>main dash data</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>idle dash data</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>alternating dash data</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>beep type when entering profile</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>no reboot / shutdown beep</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>swap button functions</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__Global settings__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>__profile triggers__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>active profile</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>applied profile at boot</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>appiled profile at boot brake pressed</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>applied profile at boot throttle pressed</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>applied profile at boot brake & throttle pressed</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__system settings__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>error suppression</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>max ADC resistor divider voltage</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>wheel size</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>__bms emulation__</font>| | |
+|<font 12px/inherit;;inherit;;inherit>battery configuration</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>battery capacity</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>max cell voltage</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>min cell voltage</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+|<font 12px/inherit;;inherit;;inherit>reset all shfw settings</font>|<font 12px/Calibri, sans-serif;;#27ae60;;inherit>check</font> | |
+
+\\
+

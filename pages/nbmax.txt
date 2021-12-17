@@ -111,9 +111,7 @@ Find your motor's serial number [[https://i.imgur.com/detHsir.png|printed on the
 
 Check out our full [[:nbmotoranatomy|Ninebot Max motor anatomy (click)]]
 
-  * If the motor SN starts with a **6**, then it's the **older**  version, which will slow down below 70% battery.
-  * If the motor SN starts with a **9**, then it's the **newer**  version, which will retain it's 30 km/h vmax until the battery level drops below 10%
+  * If the motor SN starts with a **6**, then it's the **older**  version, mostly used everywhere around the world. On stock voltage, its maximum speed will be from around 32km/h when the battery is fully charged, to 26km/h when empty.
+  * If the motor SN starts with a **9**, then it's the **newer**  version, used in G30Ps and some G30Lx models. On stock voltage, its maximum speed will be from around 38km/h when the battery is fully charged, to 32km/h when empty.
   * If the motor SN starts with a **5**, then it's a **rental**  version. Most of them behave like the **older**  generation.
-
-\\
 

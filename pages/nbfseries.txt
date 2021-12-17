@@ -78,12 +78,16 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **C** - F30\\
 **D** - F30D\\
 **E** - F40\\
+**F **- F40E\\
 **G** - F40D\\
 **H** - F60\\
 **I** - F60D/F60E\\
 **J** - F60D/F60E\\
 **M** - F60A/F60 Asia\\
 **N** - F25\\
+**Q **- F20 (?)\\
+**S **- F20E/F20D (?)\\
+**W **- F20E/F20D (?)\\
 **V - **F40
 
 **Manufacturing line (**<font inherit/inherit;;#95a5a6;;inherit>gray</font>**)**

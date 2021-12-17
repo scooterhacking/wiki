@@ -56,6 +56,10 @@ BLE107\\
 
 === BMS ===
 
+BMS160\\
+1. Improve firmware compatibility\\
+2. Fix known problems and optimize the experience
+
 BMS158\\
 1. Added leakage current protection function\\
 2. Optimized firmware compatibility\\
@@ -133,6 +137,10 @@ BMS153\\
 
 === DRV/ESC ===
 
+DRV2611\\
+1. Improve firmware security\\
+2. Fix known problems and optimize the experience
+
 DRV268\\
 1. Optimized the problem of external battery alarm in some cases.\\
 2. Fix known issues and optimize the experience
@@ -164,9 +172,21 @@ BLE212\\
 BLE209\\
 1. Improve firmware sability
 
+**BMS**
+
+BMS160\\
+1. Improve firmware compatibility\\
+2. Fix known problems and optimize the experience
+
 ==== F-series ====
 
 **DRV/ESC**
+
+DRV549\\
+1. Improve the power performance of some models\\
+2. Optimize the remaining power calculation logic of some models\\
+3. Optimize braking performance and improve stability\\
+4. Fix known issues and optimize the experience
 
 DRV548\\
 1. Optimization of remaining electricity and remaining mileage algorithm\\
@@ -231,6 +251,10 @@ BMS117\\
 
 You can download .apk files for the global app [[https://files.scooterhacking.org/apps/ninebot/|here (click)]]\\
 You can download .apk files for the Chinese app [[https://files.scooterhacking.org/apps/others/ninebot (chinese)/|here (click)]]
+
+**5.6.13 (Chinese)** \\
+1. Bluetooth connection stability optimized\\
+2. Fix known problems and uptimize user experience.
 
 **5.6.11 (Chinese)** \\
 1. Fix known problems and uptimize user experience.
@@ -327,6 +351,12 @@ Happy new year!
 2.Supports Ninebot Mecha Kit.\\
 3.Supports Ninebot Engine Speaker functions and firmware update.\\
 4.Improve Ninebot KickScooter Air Lock experience (for HUAWEI mobiles only).
+
+**5.2.19 (Global)** \\
+1. Fix known problems and optimize user experience.
+
+**5.2.18 (Global)** \\
+1. Fix known problems and optimize user experience.
 
 **5.2.17 (Global)** \\
 1. Fix known problems and optimize user experience.
