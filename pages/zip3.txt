@@ -1,0 +1,130 @@
+====== ScooterHacking Open-Source Firmware Package (ZIPv3) ======
+
+Since late 2021, Xiaomi started using GD32 chips on their DRV boards where STM32 chips were previously used. Ninebot soon followed by replacing the STM32 chips with AT32 chips. Some instances of STM32-based BMS boards replacing STM8 ones were also spotted in vehicles of the two aforementioned brands. Those hardware changes didn't happen on the release of a new model - but rather in the middle of the production of existing models; meaning the model in itself was not a good indicator of the hardware inside your vehicle anymore.
+
+[[:downg#zip_files|The previous firmware package format/standard]], first introduced a couple of years ago by CamiAlfa's DownG and BotoX's M365 firmware patcher, only used the model to determine whether a firmware was compatible with your current scooter. Given the recent hardware changes, a new firmware package format was needed to bring more granularity over which firmware was compatible with a certain setup, and to provide apps and firmware providers with a way to safely use and produce packages.
+
+This new package format - nicknamed "ZIPv3" from within the scooter community, since it's the third big alteration of a firmware package inside a ZIP archive - aims to fulfill those new requirements and bring as much future-proofing as possible. The main differences from previous alterations are a list of compatible boards/chips inside the info file, added to the model, and the migration from txt to JSON.
+
+This documentation covers the first released schema version of this format (v3.1). Any documentation to a more recent version will be linked here when available.
+
+===== Content of a firmware package =====
+
+All files must be placed at the root of the archive and no other files and folders than those required must be inside the archive.
+
+==== info.json ====
+
+=== Example file ===
+<code>
+
+{
+    "schemaVersion": 1,
+    "firmware": {
+        "displayName": "DRV420",
+        "model": "max",
+        "enforceModel": true,
+        "type": "DRV",
+        "compatible": [
+            "max_DRV_STM32F103CxT6",
+            "max_DRV_AT32F415CxT7"
+        ],
+        "encryption": "both",
+        "md5": {
+            "bin": "ac00d5b7b3469fe05eb72d7bbe00d5ab",
+            "enc": "5a0af6db56dce0cf6e5f31e2d63daeee"
+        }
+    }
+}
+
+</code>
+
+=== Details ===
+
+The //schemaVersion// key located at the root of the JSON data must contain an integer that matches the schema version used for the current package.\\
+For example, if the integer is 1, then you're using v3.1.
+
+The //firmware// object contains all of the following data.
+
+//The displayName// key is pretty self-explanatory. It contains - as a string - the user-friendly name that should be displayed inside when the file is loaded. It's usually used to display the type + version of the loaded file.
+
+The //model// key contains the model this firmware was originally made for, as a string. For a list of in-use values, see the [[:zip3#list_of_models|List of models]] section.
+
+The //enforceModel// key is a boolean that tells the app if, in addition to checking for compatible hardware, the current scooter model must match the model of the loaded file. (useful if we don't want the user to change his BLE beacon and thus detected model by flashing a compatible firmware that was made for another model)
+
+The //type// key is a string that contains the target internal device the firmware is made for. In-use values are currently **BLE**, **DRV**, and **BMS ** (case-sensitive).
+
+The //compatible// object is an array of strings that contains each board compatible with this firmware. For a list of in-use values, see the [[:zip3#list_of_boards|List of boards]] section.
+
+The //encryption// key is a string that indicates whether only the **encrypted** firmware file, only the **plain** firmware file, or **both** files are contained inside the package. Any other values than the words in bold aren't accepted (case sensitive).
+
+The //md5// object contains the md5 checksums of the firmware file(s), each inside a string.\\
+Do not include the //bin// key if you picked encrypted, and do not include the enc key if you picked plain.
+==== FIRM.bin ====
+
+Plain firmware file, not encrypted.
+
+Only to be included if the //encryption// key inside info.json is set to plain or both.
+==== FIRM.bin.enc ====
+
+Encrypted firmware file (using Xiaomi-Ninebot's TEA)
+
+Only to be included if the //encryption// key inside info.json is set to encrypted or both.
+==== params.txt ====
+
+Optional. Text file containing a summary of patched parameters in the firmware.
+
+===== In-use values =====
+
+==== List of models ====
+
+Case-sensitive.
+
+Ninebot Max: //max// \\
+Ninebot ESx: //esx// \\
+Ninebot E-series: //e// \\
+Ninebot F-series: //f// \\
+Ninebot Air T15: //t15// \\
+Xiaomi M365: //m365// \\
+Mi Electric Scooter Pro (M365 Pro): //pro// \\
+Mi Electric Scooter Pro 2: //pro2// \\
+Mi Electric Scooter 1S: //1s// \\
+Mi Electric Scooter Lite/Essential: //lite// \\
+Mi Electric Scooter 3: //mi3//
+==== List of boards ====
+
+Board identifiers are case-sensitive and usually constructed in the following way:\\
+//model_TYPE_PARTICULARITY// \\
+The particularity can be the MCU, a distinguishable sign, the board revision, or a combination of all/some of those.\\
+Some exceptions can apply as some scooters share the same boards or boards that are deemed compatible enough to be merged together.
+
+=== List of currently known DRV boards ===
+
+max_DRV_STM32F103CxT6\\
+max_DRV_AT32F415CxT7\\
+f_DRV_STM32F103CxT6\\
+f_DRV_AT32F415CxT7\\
+e_DRV_STM32F103CxT6\\
+esx_DRV_STM32F103CxT6\\
+t15_DRV_STM32F103CxT6\\
+mi_DRV_STM32F103CxT6\\
+mi_DRV_GD32F103CxT6\\
+mi_DRV_GD32E103CxT6
+
+=== List of currently known BLE boards ===
+
+nb_BLE_NRF51822QFAA //(Max and F-series)// \\
+nb_BLE_ROUND //(ESx & E-series BLE)// \\
+t15_BLE\\
+mi_BLE_LEGACY //(4 dots dashboard, M365)// \\
+mi_BLE_NRF51822QFAA //(M365 Pro)// \\
+mi_BLE_NRF51822QFAC //(All the other supported Xiaomi scooters)//
+=== List of currently known BMS boards ===
+
+max_BMS_ST8\\
+esx_e_BMS_ST8\\
+mi_BMS_ST8 //(All supported Xiaomi scooters)//
+===== Using & contributing =====
+
+Code examples to create & use ZIPv3 firmware packages can be found on our GitHub, [[https://github.com/scooterhacking/fw-zip-package-v3|here]].\\
+You can discuss the standard, propose new ideas, or ask any related questions in the ScooterHacking development group on Telegram, [[https://t.me/scooterhackingassembly|@scooterhackingassembly]]
+

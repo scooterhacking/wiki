@@ -39,9 +39,6 @@ A: If it's an SNSC2.0, [[https://www.scooterhacking.org/forum/viewtopic.php?t=26
 Q: How to convert my rental Ninebot ES for personal use?\\
 A: Use IAP [[https://scooterhack.in/iapguide|(guide)]] or ST-Link [[https://bit.ly/2VUPRsE|(guide)]]
 
-Q: How to convert my Ninebot Max Plus (SNSC2.3/SNSC2.4) or Max Pro (SNSC2.2) for personal use?\\
-A: ScooterHacking does not publicly support these models.
-
 Q: Can I flash CFW from an iPhone (iOS)?\\
 A: No, only via Windows or Android.
 
@@ -50,9 +47,6 @@ A: [[https://i.imgur.com/YcyQI4N.jpg|Here's a table (click)]]
 
 Q: How to mod my Ninebot Max to go over 35 km/h?\\
 A: Bring up the voltage to 48V by using a second battery in parallel or by replacing the stock one.
-
-Q: Who is Nord?\\
-A: [[https://youtu.be/dQw4w9WgXcQ|(click)]]
 
 Q: How to convert a bin, encoded bin or a ZIP into other file types?\\
 A: Use [[https://tools.scooterhacking.org/xiaotea/|XiaoTea (click)]]
@@ -79,7 +73,7 @@ Q: Should I install a mudguard support on my Ninebot Max/Max Lite?\\
 A: While the Max mudguard is stronger than the Xiaomi ones, it can still break after a while. It is recommended to install a mudguard support.
 
 Q: I want to change my Ninebot Max'es serial number but it doesn't work.\\
-A: Conventional SN changing methods were disabled in DRV145, if you want to change the SN downgrad to DRV126.
+A: Conventional SN changing methods were disabled in DRV145, if you want to change the SN downgrade to DRV126.
 
 Q: Can I make my non-folding scooter foldable?\\
 A: It is technically possible but it requires cutting two big holes in the deck and buying a foldable fork, so it's not worth it.
@@ -92,6 +86,7 @@ A: Yes
 
 Q: How to get cruise control back after updating?\\
 A: You can either use a third-party app or change the serial number ("region") - [[https://scooterhack.in/maxunlock|Max (click)]], [[https://scooterhack.in/eseriesunlock|E-series (click)]], [[https://scooterhack.in/tseriesunlock|T-series (click)]]
+
 
 ===== Xiaomi =====
 
@@ -136,9 +131,7 @@ CFW - Custom firmware
 ====== Apps ======
 
 [[https://scooterhack.in/iapce|IAP]] - A multi-function scooter utility for Windows that works via Bluetooth or serial.\\
-[[http://bit.ly/338ANtz|XiaoFlasher]] - An Android app made for flashing CFW and changing serial numbers on Xiaomi and Ninebot devices.\\
-[[http://bit.ly/338ANtz|NineFlasher]] - another name for XiaoFlasher\\
-[[https://bit.ly/34kwmN9|ESdownG]] - An Android app made for flashing CFW on Ninebot scooters.\\
-[[https://bit.ly/2GoXLp4|M365 downG]] - An Android app made for flashing CFW on Xiaomi scooters.\\
+[[https://bit.ly/34kwmN9|ESdownG]] - A deprecated Android app made for flashing CFW on Ninebot scooters. Merged with m365 DownG.\\
+[[https://bit.ly/2GoXLp4|M365 downG]] - An Android app made for flashing CFW on Xiaomi and Ninebot scooters.\\
 [[https://scooterhack.in/utility|ScooterHacking Utility]] - A multi-purpose Android app developed by ScooterHacking
 

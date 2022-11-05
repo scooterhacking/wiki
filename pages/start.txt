@@ -14,10 +14,10 @@ We've also been compiling general information about possible hardware scooters m
 
 ==== Custom firmware generator guides ====
 
-  * [[:guide-1s|Xiaomi 1s]]
-  * [[:guide-pro1|Xiaomi M365 Pro]]
-  * [[:guide-pro2|Xiaomi M365 Pro 2]]
+  * [[:guide-pro1|Combined 'Mi' generator for Pro/Pro2/1s/m365/Essential (DRV155 based)]]
+  * [[:guide-pro2|Xiaomi M365 Pro 2]][[:guide-pro2| (DRV222/223 based)]]
   * [[:maxcfwguide|Ninebot Max G30]]
+
 
 ==== Scooter information ====
 

@@ -8,7 +8,7 @@ Click on a scooter model to show a preview.
 ^Battery (Wh)|  183  ||  275  |  367  |
 ^Battery (mAh)|  5100  ||  7650  |  10200  |
 ^Voltage|  36-42V  ||||
-^Net weight|  14.5 kg (32 lbs)  |  17.6 kg (38.8 lbs)  |  15.1 kg (33 lbs)  |  15.8 kg (34.8 lbs)  |
+^Net weight|  14.5 kg (32 lbs)  |  14.7 kg (38.8 lbs)  |  15.1 kg (33 lbs)  |  15.8 kg (34.8 lbs)  |
 ^Charging time (hrs)|  3.5  ||  5  |  6.5  |
 ^Power (nominal)|  250W  |  300W  ||  350  |
 ^Power (peak)|  500W  |  600W  ||  700W  |
@@ -85,10 +85,13 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **J** - F60D/F60E\\
 **M** - F60A/F60 Asia\\
 **N** - F25\\
-**Q **- F20 (?)\\
+**O **- F20A\\
+**Q **- F30E\\
+**R **- F40A\\
 **S **- F20E/F20D (?)\\
 **W **- F20E/F20D (?)\\
-**V - **F40
+**V - **F40\\
+**W**** - **F25E
 
 **Manufacturing line (**<font inherit/inherit;;#95a5a6;;inherit>gray</font>**)**
 

@@ -7,33 +7,33 @@ The same rough design is carried over the whole line, the scooter always includi
 
 Click on a scooter model to show a preview.
 
-^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]|
-^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25 km/h  ||||
-^Range|  65km  |  40km  |  60km (up to 100km on 1004Wh)  ||  55km (<100km on 1004 Wh)  ||
-^Battery (Wh)|  551  |  367  |  551/1004 (optional)  ||||
-^Ramovable battery|  No  ||  No  |  Yes  |||
-^3-pin charging connector|  Yes  |  No  |  Yes  |  No  |||
-^Voltage|  36-42V  ||||||
-^Net weight|  19kg  |  17.5kg  |  20kg  |  24.6kg  |  27.5kg  ||
-^Charging time (hrs)|  6  |  6.5  |  6  |  4h (external 5A charger)  |||
-^Power (nominal)|  350  ||||||
-^Power (peak)|  700  ||||||
-^Motor type|  Rear Hub  ||||||
-^Max angle (%)|  20  ||  14  ||||
-^Brakes|  Electrical rear Drum front  ||  Electrical rear, drum front, optional rear drum  |  Electrical rear, drum front, drum rear (optional on 2.2, stock on the rest)  |||
-^Braking distance (20km/h)|  2 meters  ||||||
-^Shock absorption|  N/A  ||||  Front  ||
-^Front Tire (inch)|  10 Pneumatic  |||||  10/12 Pneumatic  |
-^Rear Tire (inch)|  10 Pneumatic  ||||||
-^Max payload|  100kg  ||||||
-^App/Bluetooth|  Yes  ||  Varies  ||||
-^LED screen|  Yes  ||  Yes, unless replaced  |  Varies depending on the configuration  |||
-^Visibility|  Headlight, rear light, reflectors on some models  ||||||
-^"Mood lights" (RGB LEDs)|  No  |||  Optional  |||
-^Indicators|  No  |||||  Yes  |
-^NFC|  No  |||  Optional  |||
-^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\   \\ Folded: 112x47x53cm  |   \\ Unfolded: 110x47x115cm \\   \\ Folded: 110x46x53cm  |   \\ Unfolded: 112x47x120 cm \\   \\ Folded: N/A  |  No data, about the same as 2.0/2.1  |||
-^Water resistance|  IPX4  ||  Vehicle and controller - IPX5, battery and internal charger - IPX7  |  Vehicle - IPX4, battery and controller - IPX7  |||
+^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]^[[https://imgur.com/a/vNclLXE|SNSC2.4]]|
+^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25 km/h  |||||
+^Range|  65km  |  40km  |  60km (up to 100km on 1004/1033 Wh)  ||  55km (<100km on 1004/1033 Wh)  |||
+^Battery (Wh)|  551  |  367  |  551/1004/1033 (optional)  |||||
+^Ramovable battery|  No  ||  No  |  Yes  ||||
+^3-pin charging connector|  Yes  |  No  |  Yes  |  No  ||||
+^Voltage|  36-42V  |||||||
+^Net weight|  19kg  |  17.5kg  |  20kg  |  24.6kg  |  27.5kg  ||  31.5 kg  |
+^Charging time (hrs)|  6  |  6.5  |  6  |  4h (external 5A charger)  ||||
+^Power (nominal)|  350  ||||||  400  |
+^Power (peak)|  700  ||||||  nd  |
+^Motor type|  Rear Hub  |||||||
+^Max angle (%)|  20  ||  14  ||||  nd  |
+^Brakes|  Electrical rear Drum front  ||  Electrical rear, drum front, optional rear drum  |  Electrical rear, drum front, drum rear (optional on 2.2, stock on the rest)  ||||
+^Braking distance (20km/h)|  2 meters  |||||||
+^Shock absorption|  N/A  ||||  Front  |||
+^Front Tire (inch)|  10 Pneumatic  ||||||  11.5 Pneumatic  |
+^Rear Tire (inch)|  10 Pneumatic  |||||||
+^Max payload|  100kg  ||||||  120 kg  |
+^App/Bluetooth|  Yes  ||  Varies  |||||
+^LED screen|  Yes  ||  Yes, unless replaced  |  Varies depending on the configuration  ||||
+^Visibility|  Headlight, rear light, reflectors on some models  |||||||
+^"Mood lights" (RGB LEDs)|  No  |||  Optional  |||  Yes  |
+^Indicators|  No  |||||  Yes  ||
+^NFC|  No  |||  Optional  |||  Yes  |
+^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\   \\ Folded: 112x47x53cm  |   \\ Unfolded: 110x47x115cm \\   \\ Folded: 110x46x53cm  |   \\ Unfolded: 112x47x120 cm \\   \\ Folded: N/A  |  No data, about the same as 2.0/2.1  ||||
+^Water resistance|  IPX4  ||  Vehicle and controller - IPX5, battery and internal charger - IPX7  |  Vehicle - IPX4, battery and controller - IPX7  |||  nd  |
 
 ===== Hacking =====
 
@@ -114,4 +114,6 @@ Check out our full [[:nbmotoranatomy|Ninebot Max motor anatomy (click)]]
   * If the motor SN starts with a **6**, then it's the **older**  version, mostly used everywhere around the world. On stock voltage, its maximum speed will be from around 32km/h when the battery is fully charged, to 26km/h when empty.
   * If the motor SN starts with a **9**, then it's the **newer**  version, used in G30Ps and some G30Lx models. On stock voltage, its maximum speed will be from around 38km/h when the battery is fully charged, to 32km/h when empty.
   * If the motor SN starts with a **5**, then it's a **rental**  version. Most of them behave like the **older**  generation.
+
+\\
 

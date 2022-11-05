@@ -1,0 +1,129 @@
+====== SHFW v0.2.0 - short guide ======
+
+Yes! It's finally there. We managed to provide our new firmware even to Xiaomi models without any restrictions.\\
+We took control over all driving functionalities to provide you even more features. In addition we now have the\\
+possibility to provide you any useful feature in the future.
+
+Combined with the new Scooterhacking Utility you have the possibility to change every setting without flashing\\
+a new firmware once.
+
+Here is how everything works:
+
+===== Profile Settings =====
+
+==== Profile Editor ====
+
+__Functions__:
+
+   * switch profiles
+  * rename profiles
+  * copy profiles into others
+  * reset profil
+
+{{:shfw_020_guide_profile-editor.mp4|shfw_020_guide_profile-editor.mp4}}
+
+==== Throttle and Brake ====
+
+__Functions__:
+
+  * set speed limit
+  * set throttle mode for each profile (speed based / dpc)
+  * set current limit (speed based)
+  * set current curve with auto curve builder or advanced
+
+{{:shfw_020_guide_throttle-brake.mp4|shfw_020_guide_throttle-brake.mp4}}
+
+==== Motor start speed ====
+
+__Functions__:
+
+  * set motor start speed
+
+{{:shfw_020_guide_msp.mp4|shfw_020_guide_MSP.mp4}}
+
+==== Cruise control ====
+
+__Functions__:
+
+  * set cruise control mode (off, time, single tab, double tab)
+  * activate increase/decrease CC speed with throttle
+  * change cc behavior in DPC to speed based
+  * select cruise control beep type
+
+{{:shfw_020_guide_cruisecontrol.mp4|shfw_020_guide_cruisecontrol.mp4}}
+
+==== Modes ====
+
+__Functions__:
+
+  * select mode when entering profile (last, sports, drive, eco)
+  * disable modes (only sports mode)
+
+{{:shfw_020_guide_modes.mp4|shfw_020_guide_modes.mp4}}
+
+==== Lights ====
+
+__Functions__:
+
+  * select brake light mode (default, static, reversed, strobe, German)
+  * brake light flash speed (default, reversed, strobe)
+  * activate always active brake light
+  * activate always active headlight
+
+{{:shfw_020_guide_lights.mp4|shfw_020_guide_lights.mp4}}
+
+==== User Interface ====
+
+__Functions__:
+
+  * choose the main dash data (displayed over motor start speed)
+  * choose the idle dash data (displayed below motor start speed)
+  * choose alternating dash data (shown as error message)
+  * select beep type when entering the profile
+  * disable reboot or shutdown beep
+  * swap the power button function
+
+{{:shfw_020_guide_user-interface.mp4|shfw_020_guide_user-interface.mp4}}
+
+===== Global Settings =====
+
+==== Profile triggers ====
+
+__Functions__:
+
+  * select active profile
+  * choose which profile is selected at boot
+  * choose which profile is selected at boot with brake pressed
+  * choose which profile is selected at boot with throttle pressed
+  * choose which profile is selected at boot with brake and throttle pressed
+
+{{:shfw_020_guide_profile-triggers.mp4|shfw_020_guide_profile-triggers.mp4}}
+
+==== System settings ====
+
+__Functions__:
+
+  * activate error suppression (16, 17, 19, 21, 22, 23, 27, 35, 39, 43, 44)
+  * change ADC resistor divider voltage (Change with caution!)
+
+{{:shfw_020_guide_system-settings.mp4|shfw_020_guide_system-settings.mp4}}
+
+==== Wheel size ====
+
+__Functions__:
+
+  * set your current wheel size
+
+{{:shfw_020_guide_wheelsize.mp4|shfw_020_guide_wheelsize.mp4}}
+
+==== BMS emulation ====
+
+__Functions__:
+
+  * choose your battery configuration (10S til 20S)
+  * enter your battery capacity
+  * choose your max cell voltage
+  * choose your min cell voltage
+
+{{:shfw_020_guide_BMS-emulation.mp4|shfw_020_guide_BMS-emulation.mp4}}
+

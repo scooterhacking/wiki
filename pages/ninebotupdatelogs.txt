@@ -81,6 +81,11 @@ BMS136\\
 
 === DRV/ESC ===
 
+DRV173\\
+1. Improve the stability of electronic brake\\
+2. Change: when the vehicle is locked, the vehicle is still locked after 3 hours of automatic shutdown.\\
+3. Fixed known issues and optimized user experience.
+
 DRV163\\
 1. Optimize firmware compatibility\\
 2. Improve firmware stability
@@ -108,6 +113,9 @@ DRV126\\
 1. Improve the system safety of scooters
 
 === BLE ===
+
+BLE117\\
+1.Fix known problems and optimize the experience
 
 BLE114\\
 1. Improved the stability of Bluetooth communication\\
@@ -137,7 +145,7 @@ BMS153\\
 
 === DRV/ESC ===
 
-DRV2611\\
+DRV271 (DRV2.6.11)\\
 1. Improve firmware security\\
 2. Fix known problems and optimize the experience
 
@@ -252,6 +260,23 @@ BMS117\\
 You can download .apk files for the global app [[https://files.scooterhacking.org/apps/ninebot/|here (click)]]\\
 You can download .apk files for the Chinese app [[https://files.scooterhacking.org/apps/others/ninebot (chinese)/|here (click)]]
 
+**5.7.0 (Chinese)** \\
+Happy the year of Tiger!\\
+1. Your Year-end Recap is coming soon!\\
+2. Join the amazing events to celebrate the new year starting from December 29th to January 15th of the lunar calendar.\\
+3. Pay attention to the new features of Segway eMoped and Segway eScooter and the firmware update logs.\\
+4. Fix known problems and optimize user experience.
+
+**5.6.17 (Chinese)** \\
+Fix known problems and optimize user experience
+
+**5.6.16 (Chinese)** \\
+1. Remote notification confirmation via OTA (over-the-air technology) is available for Segway eMoped and Segway eScooter users\\
+2. Fix known problems and optimize user experience
+
+**5.6.15 (Chinese)** \\
+Fix known problems and optimize user experience
+
 **5.6.13 (Chinese)** \\
 1. Bluetooth connection stability optimized\\
 2. Fix known problems and uptimize user experience.
@@ -351,6 +376,9 @@ Happy new year!
 2.Supports Ninebot Mecha Kit.\\
 3.Supports Ninebot Engine Speaker functions and firmware update.\\
 4.Improve Ninebot KickScooter Air Lock experience (for HUAWEI mobiles only).
+
+**5.2.23 (Global)** \\
+1. Fix known problems and optimize user experience.
 
 **5.2.19 (Global)** \\
 1. Fix known problems and optimize user experience.

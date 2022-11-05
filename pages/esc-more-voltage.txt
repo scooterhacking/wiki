@@ -1,0 +1,13 @@
+====== Ninebot/Xiaomi ESC high voltage modifications ======
+
+===== For Ninebot G30 (all versions except D) =====
+
+Replace resistor marked in dots (150k or higher for 13s, 200k recommended for up to 16s setup, size 0603, 1% precision)\\
+Replace main cap (63V 1000uF) and the other small cap (63V 33uF) with 80V or 100V.
+
+{{https://cloud.cfw.sh/index.php/s/qQnC5sadfb3Qo5o/download/esc4_mod.jpg?nolink&480x640|cloud.cfw.sh_index.php_s_qqnc5sadfb3qo5o_download_esc4_mod.jpg}}
+
+===== For Xiaomi (all models) =====
+
+[[https://cloud.cfw.sh/index.php/s/bn8KCrSY65BowLP/download/xiaomiM365_mod.pdf|Check out this extensive modding gude (credits to @brieru)]]
+

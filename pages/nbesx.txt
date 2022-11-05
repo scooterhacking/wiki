@@ -8,7 +8,7 @@ Click on a scooter model to show a preview.\\
 ^Range|65km|45km|25km|45km|  25km  |  20km  |40-45km|25km|45km|
 ^Battery (Wh)|551|374|187|374|  184/187 (version)  |  184  |371|187|374|
 ^Voltage|  36-42V  |||||||||
-^Net weight|19kg|14kg|12kg|13kg|  11kg  |  11.3kg  |14kg|11kg|13kg|
+^Net weight|19kg|14kg|12kg|13.6kg|  11kg  |  11.3kg  |14kg|11kg|13kg|
 ^Charging time (hrs)|6|7|3.5|7|  3.5  |  6 (L)/3.5 (LD)  |7|3.5|7|
 ^Power (nominal)|350|300|300|250/300 (revision)|250|250W|  300  |||
 ^Power (peak)|700|800|700|600/700 (revision)|500|500W|800|700|800|
