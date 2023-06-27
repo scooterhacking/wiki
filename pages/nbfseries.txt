@@ -2,62 +2,75 @@
 
 Click on a scooter model to show a preview.
 
-^Model^[[https://imgur.com/a/y4vPzjt|F20]]^[[https://imgur.com/a/y4vPzjt|F25]]^F30^[[https://imgur.com/a/bUwjviS|F40]]|
-^Max speed (stock)|  25 kph (15.5 mph)  |||  30 kph (18.6 mph)  |
-^Range (adv)|  20 km (12.4 miles)  ||  30 km (18.6 miles)  |  40 km (25 miles)  |
-^Battery (Wh)|  183  ||  275  |  367  |
-^Battery (mAh)|  5100  ||  7650  |  10200  |
-^Voltage|  36-42V  ||||
-^Net weight|  14.5 kg (32 lbs)  |  14.7 kg (38.8 lbs)  |  15.1 kg (33 lbs)  |  15.8 kg (34.8 lbs)  |
-^Charging time (hrs)|  3.5  ||  5  |  6.5  |
-^Power (nominal)|  250W  |  300W  ||  350  |
-^Power (peak)|  500W  |  600W  ||  700W  |
-^Motor type|  Front hub  ||||
-^Max angle|  10%  ||  15%  |  20%  |
-^Brakes|  Front KERS, rear disk  ||||
-^Shock absorption|  N/A  ||||
-^Front tire (inch)|  10  ||||
-^Rear tire (inch)| ::: ||||
-^Tire type|  Hollow (air)  ||||
-^Max payload|  100 kg (220 lbs)  ||  120 kg (265 lbs)  ||
-^App/Bluetooth|  Yes  ||||
-^LED Screen|  Yes  ||||
-^Visibility|  Front and rear lights, rear reflector  ||||
-^Underglow lights|  No  ||||
-^Dimension (LxWxH)(cm)|   \\ Unfolded: 114 x 48 x 116 \\   \\ Folded: 114 x 48 x 50  ||||
-^Water resistance (IP)|   |  X5  |||
+^Model^[[https://imgur.com/a/y4vPzjt|F20]]^[[https://imgur.com/a/y4vPzjt|F25]]^F30^[[https://imgur.com/a/bUwjviS|F40]]^F65^F2^F2 Plus^F2 Pro|
+^Max speed (stock)|  25 kph (15.5 mph)  |||  30 kph (18.6 mph)  |  nd  |  nd  |  nd  |  nd  |
+^Range (adv)|  20 km (12.4 miles)  ||  30 km (18.6 miles)  |  40 km (25 miles)  |  65 km (40.4 miles)  |  33-40 km (20.5 - 25 miles)  |  40-55 km (25 - 34.2 miles)  ||
+^Battery (Wh)|  183  ||  275  |  367  |  561  |  367  |  460  ||
+^Battery (mAh)|  5100  ||  7650  |  10200  |  15600  |  10200  |  12800  ||
+^Voltage|  36-42V  ||||||||
+^Net weight|  14.5 kg (32 lbs)  |  14.7 kg (38.8 lbs)  |  15.1 kg (33 lbs)  |  15.8 kg (34.8 lbs)  |  21.8 kg (48 lbs)  |  17.5 kg (38.6 lbs)  |  17.7 kg (39 lbs)  |  18.5 kg (40.8 lbs)  |
+^Charging time (hrs)|  3.5  ||  5  |  6.5  |  5  |  6.5  |  8  ||
+^Power (nominal)|  250W  |  300W  ||  350W  |  400W  |||  450W  |
+^Power (peak)|  500W  |  600W  ||  700W  ||  800W  ||  900W  |
+^Motor type|  Front hub  ||||  Rear hub  ||||
+^Traction Control|  No  ||||  nd  |  Yes  |||
+^Max angle|  10%  ||  15%  |  20%  ||  18%  |  20%  |  22%  |
+^Brakes|  Front KERS, rear disc  ||||  Front drum, rear KERS  |  Front disc, rear KERS  |||
+^Shock absorption|  N/A  |||||||  Front spring  |
+^Front tire (inch)|  10  ||||||||
+^Rear tire (inch)| ::: ||||||||
+^Tire type|  Hollow (air)  ||||  Pneumatic  ||||
+^Max payload|  100 kg (220 lbs)  ||  120 kg (265 lbs)  ||||||
+^App/Bluetooth|  Yes  ||||||||
+^Apple Find My|  No  |||||  Yes  |||
+^LED Screen|  Yes  ||||||||
+^Visibility|  Front and rear lights, rear reflector  ||||||||
+^Turn signals|  No  ||||  Yes  ||||
+^Underglow lights|  No  ||||||||
+^Dimension (LxWxH)(cm)|  Unfolded: 114 x 48 x 116 \\  \\ Folded: 114 x 48 x 50  ||||   \\ Unfolded: 120 x 57 x 123 \\   \\ Folded: 120 x 57 x 54 \\   |   \\ Unfolded: 114 x 57 x 121 \\  \\ Folded: 114 x 57 x 48  ||   \\ Unfolded: 116 x 57 x 125 \\  \\ Folded: 116 x 57 x 53  |
+^Water resistance (IP)|  X5  ||||||||
 
 nd - no data
 
 ===== Hacking =====
 
-No CFW generator exists for the F-series atm, but an SN change method is coming in the next couple of days.
+SHFW does support F20, F25, F30 and F40 scooters.
 
-===== ESC serial number anatomy =====
+F2-series is not supported at the moment.
+
+===== ESC serial number anatomy (For legacy F-series, F2-series coming soon) =====
 
 **We also have battery SN anatomy available here: ** [[:nbbattanatomy|(link)]]
 
-**Example serial number: <font inherit/inherit;;#000000;;inherit>N5G</font><font inherit/inherit;;#f39c12;;inherit>N</font><font inherit/inherit;;#95a5a6;;inherit>K</font><font inherit/inherit;;#9b59b6;;inherit>21</font><font inherit/inherit;;#2ecc71;;inherit>13</font><font inherit/inherit;;#e74c3c;;inherit>C</font><font inherit/inherit;;#3498db;;inherit>0123</font>**
+**Example serial number:
+ <font inherit/inherit;;#000000;;inherit>N5G</font>
+ <font inherit/inherit;;#f39c12;;inherit>N</font>
+ <font inherit/inherit;;#95a5a6;;inherit>K</font>
+ <font inherit/inherit;;#9b59b6;;inherit>21</font>
+ <font inherit/inherit;;#2ecc71;;inherit>13</font>
+ <font inherit/inherit;;#e74c3c;;inherit>C</font>
+ <font inherit/inherit;;#3498db;;inherit>0123</font>  **
 
 **Black** - Product identifier
 
-**<font inherit/inherit;;#f39c12;;inherit>Orange</font> **- Product version (SN prefix)
+** <font inherit/inherit;;#f39c12;;inherit>Orange</font>  **- Product version (SN prefix)
 
-**<font inherit/inherit;;#999999;;inherit>Gray</font> **- Manufacturing line at the factory
+** <font inherit/inherit;;#999999;;inherit>Gray</font>  **- Manufacturing line at the factory
 
-**<font inherit/inherit;;#9b59b6;;inherit>Purple</font> **- Year of production
+** <font inherit/inherit;;#9b59b6;;inherit>Purple</font>  **- Year of production
 
-**<font inherit/inherit;;#2ecc71;;inherit>Green</font> **- Week of production
+** <font inherit/inherit;;#2ecc71;;inherit>Green</font>  **- Week of production
 
-**<font inherit/inherit;;#e74c3c;;inherit>Red</font> **- Product revision
-
-<font inherit/inherit;;#3498db;;inherit>**Blue**</font> - Unit number unique for every vehicle of a specific model made each week
+** <font inherit/inherit;;#e74c3c;;inherit>Red</font>  **- Product revision
+ <font inherit/inherit;;#3498db;;inherit>**Blue**</font>  - Unit number unique for every vehicle of a specific model made each week
 
 **Product identifier (**black**)**
 
 Represents a version or edition of a scooter.
 
-**Manufacturing date (**<font inherit/inherit;;#9b59b6;;inherit>purple</font>/<font inherit/inherit;;#2ecc71;;inherit>green</font>**)**
+**Manufacturing date (**
+ <font inherit/inherit;;#9b59b6;;inherit>purple</font>  /
+ <font inherit/inherit;;#2ecc71;;inherit>green</font>  **)**
 
 The first two digits are the manufacturing year. (21 for 2021, 22 for 2022 etc.)
 
@@ -65,13 +78,15 @@ The last two digits are the manufacturing week.
 
 It can be replaced with anything as it doesn't have any affect on the scooter.
 
-**Identifier/Unit serial number (**<font inherit/inherit;;#3498db;;inherit>blue</font>**)**
+**Identifier/Unit serial number (**
+ <font inherit/inherit;;#3498db;;inherit>blue</font>  **)**
 
 An incremental counter for the number of scooters produced per week, a 3 or 4-digit number.
 
 It can be replaced with anything as it doesn't have any purpose for the scooter.
 
-**Prefix letters (**<font inherit/inherit;;#f39c12;;inherit>orange</font>**)**
+**Prefix letters (**
+ <font inherit/inherit;;#f39c12;;inherit>orange</font>  **)**
 
 **A** - F20\\
 **B** - F20D\\
@@ -93,9 +108,8 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **V - **F40\\
 **W**** - **F25E
 
-**Manufacturing line (**<font inherit/inherit;;#95a5a6;;inherit>gray</font>**)**
+**Manufacturing line (**
+ <font inherit/inherit;;#95a5a6;;inherit>gray</font>  **)**
 
 Determines which line at the factory was used to make a particular scooter.
-
-\\
 

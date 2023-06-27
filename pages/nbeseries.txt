@@ -2,64 +2,71 @@
 
 Click on a scooter model to show a preview.
 
-^Model^  [[https://i.imgur.com/TMLn679.png|E22/D/E]]   ^  [[https://imgur.com/a/FyZGXQi|E25/D/E/A]]   ^  [[https://i.imgur.com/dvRJwi4.png|E45/D/E]]   ^  [[https://i.imgur.com/3GUXZme.png|E8]]   ^  [[https://imgur.com/a/fhFo4qK|E10]]   ^  [[https://imgur.com/a/rtWGQAB|E12]]   |
-^Max speed|  25/20 kph (version)  |  25/20/25/28km/h (version)  |  30/20/25 (version)  |  14 kph  |  16 kph  |  18 kph  |
-^Range (adv)|  25 km  |  25 km  |  45 km  |  10 km  |||
-^Battery (Wh)|  187  |  215  |  368  |  55.08  |||
-^Battery (mAh)|  5100 mAh  |  5960 mAh  |  10200 mAh  |  2550 mAh  |||
-^Voltage|  36-42V  |||  21.6V  |||
-^Net weight|  11 kg  |  14.4 kg  |  16.4 kg  |  8 kg  |  8.4 kg  ||
-^Charging time (hrs)|  3.5  |  4  |  7.5  |  3-4  |||
-^Power (nominal)|  300W  |||  130W  |  150W  ||
-^Power (peak)|  700W  ||  800W  |  200W  |||
-^Motor type|  Front hub  |||  Rear hub  |||
-^Max angle (%)|  15  ||  20  |  unknown  |  7  ||
-^Brakes|  Electrical front brake, Mechanical rear foot brake. Rear magnetic brake in some versions.  |||  Electrical and Mechanical rear foot brake, rear magnetic.  |||
-^Braking distance (20km/h)|  2-4m  |||  N/A  |||
-^Shock absorption|  N/A  |  Front  |||||
-^Front Tire (inch)|  9  |||  unknown  |||
-^Rear Tire (inch)|  9  |||  unknown  |||
-^Tire type|  Pneumatic  |||  Solid  |||
-^Max payload|  100 kg  |||  50 kg  |  60 kg  ||
-^App/Bluetooth|  Yes  |||  No  |||
-^LED Screen|  Yes  |||  Single LED indicator  |||
-^Visibility|  Headlight, rear light, reflectors.  |||  Reflectors, maybe head/rear light (unclear)  |||
-^Underglow lights|  No  |  Only on regular, E and A versions  |  Only on regular and E versions  |  No  |  Yes  ||
-^Dimension (LxWxH)(cm)|  Unfolded: 116 × 42 × 117 \\   \\ Folded: 119 × 42 × 36  |||  Unfolded: 83 x 33.5 x 85 \\ Folded: 87.5 x 33.5 x 32  |||
-^Water Resistance (IP)|  54  ||||||
+^Model^  [[https://i.imgur.com/TMLn679.png|E22/D/E]]   ^  [[https://imgur.com/a/FyZGXQi|E25/D/E/A]]   ^  [[https://i.imgur.com/dvRJwi4.png|E45/D/E]]   ^  E2  ^  E2 Plus  ^  [[https://i.imgur.com/3GUXZme.png|E8]]   ^  [[https://imgur.com/a/fhFo4qK|E10]]   ^  [[https://imgur.com/a/rtWGQAB|E12]]   |
+^Max speed|  25/20 kph (version)  |  25/20/25/28 kph (version)  |  30/20/25 kph (version)  |  20 kph  |  25 kph  |  14 kph  |  16 kph  |  18 kph  |
+^Range (adv)|  25 km  |  25 km  |  45 km  |  25 km  ||  10 km  |||
+^Battery (Wh)|  187  |  215  |  368  |  220  ||  55.08  |||
+^Battery (mAh)|  5100 mAh  |  5960 mAh  |  10200 mAh  |  6100 mAh  ||  2550 mAh  |||
+^Voltage|  36-42V  |||||  21.6V  |||
+^Net weight|  11 kg  |  14.4 kg  |  16.4 kg  |  14.2 kg  |  14.4 kg  |  8 kg  |  8.4 kg  ||
+^Charging time (hrs)|  3.5  |  4  |  7.5  |||  3-4  |||
+^Power (nominal)|  300W  |||  250W  |  300W  |  130W  |  150W  ||
+^Power (peak)|  700W  ||  800W  |  450W  |  500W  |  200W  |||
+^Motor type|  Front hub  |||||  Rear hub  |||
+^Max angle (%)|  15  ||  20  |  12  ||  unknown  |  7  ||
+^Brakes|  Electrical front brake, Mechanical rear foot brake. Rear magnetic brake in some versions.  |||  Electrical front, rear drum  ||  Electrical and Mechanical rear foot brake, rear magnetic.  |||
+^Braking distance (20km/h)|  2-4m  |||  N/A  |||||
+^Shock absorption|  N/A  |  Front  |||||||
+^Front Tire (inch)|  9  |||  8  ||  unknown  |||
+^Rear Tire (inch)|  9  |||  8  ||  unknown  |||
+^Tire type|  Pneumatic  |||  Solid  |||||
+^Max payload|  100 kg  |||  90 kg  ||  50 kg  |  60 kg  ||
+^App/Bluetooth|  Yes  |||||  No  |||
+^LED Screen|  Yes  |||||  Single LED indicator  |||
+^Visibility|  Headlight, rear light, reflectors.  |||||  Reflectors, maybe head/rear light (unclear)  |||
+^Underglow lights|  No  |  Only on regular, E and A versions  |  Only on regular and E versions  |  No  |||  Yes  ||
+^Dimension (LxWxH)(cm)|  Unfolded: 116 × 42 × 117 \\ Folded: 119 × 42 × 36  |||  Unfolded: 107 x 45 x 114 \\ Folded: 114 x 45 x 50  ||  Unfolded: 83 x 33.5 x 85 \\ Folded: 87.5 x 33.5 x 32  |||
+^Water Resistance (IP)|  54  |||  X4, battery X6  ||  54  |||
 
 ==== Hacking ====
 
-No CFW generator exists for the E-series atm, but you can unlock your scooter with an SN change (prefixes listed below).\\
+SHFW does support legacy E22, E25 and E45. E2-series is not supported at this moment.\\
 E8/E10/E12 hacking is not possible due to a lack of bluetooth.
 
-==== ESC serial number anatomy ====
+==== ESC serial number anatomy (Legacy E-series, E2-series coming soon) ====
 
 **We also have batterySN anatomy, available here: ** [[https://bit.ly/nb-battery-anatomy|(link)]]\\
 \\
 **[[https://i.imgur.com/iI7kjLG.png|Visual diagram]]**
 
-Example serial number: **N2G<font inherit/inherit;;#f39c12;;inherit>M</font><font inherit/inherit;;#7f8c8d;;inherit>X</font><font inherit/inherit;;#8e44ad;;inherit>19</font><font inherit/inherit;;#27ae60;;inherit>39</font><font inherit/inherit;;#c0392b;;inherit>C</font><font inherit/inherit;;#2980b9;;inherit>0123</font>**
+Example serial number: **N2G
+ <font inherit/inherit;;#f39c12;;inherit>M</font>
+ <font inherit/inherit;;#7f8c8d;;inherit>X</font>
+ <font inherit/inherit;;#8e44ad;;inherit>19</font>
+ <font inherit/inherit;;#27ae60;;inherit>39</font>
+ <font inherit/inherit;;#c0392b;;inherit>C</font>
+ <font inherit/inherit;;#2980b9;;inherit>0123</font>  **
 
 **Black** - Product identifier
 
-**<font inherit/inherit;;#f39c12;;inherit>Orange</font> **- Product version (SN prefix)
+** <font inherit/inherit;;#f39c12;;inherit>Orange</font>  **- Product version (SN prefix)
 
-**<font inherit/inherit;;#7f8c8d;;inherit>Gray</font> **- Manufacturing line at the factory
+** <font inherit/inherit;;#7f8c8d;;inherit>Gray</font>  **- Manufacturing line at the factory
 
-**<font inherit/inherit;;#8e44ad;;inherit>Purple</font> **- Year of production
+** <font inherit/inherit;;#8e44ad;;inherit>Purple</font>  **- Year of production
 
-**<font inherit/inherit;;#27ae60;;inherit>Green</font> **- Week of production
+** <font inherit/inherit;;#27ae60;;inherit>Green</font>  **- Week of production
 
-**<font inherit/inherit;;#c0392b;;inherit>Red</font> **- Product revision
-
-<font inherit/inherit;;#2980b9;;inherit>**Blue**</font> - Serial number unique for every unit made each week
+** <font inherit/inherit;;#c0392b;;inherit>Red</font>  **- Product revision
+ <font inherit/inherit;;#2980b9;;inherit>**Blue**</font>  - Serial number unique for every unit made each week
 
 **Product identifier (**black**)**
 
 Represents a version or edition of a scooter.
 
-**Manufacturing date (**<font inherit/inherit;;#8e44ad;;inherit>purple</font>/<font inherit/inherit;;#27ae60;;inherit>green</font>**)**
+**Manufacturing date (**
+ <font inherit/inherit;;#8e44ad;;inherit>purple</font>  /
+ <font inherit/inherit;;#27ae60;;inherit>green</font>  **)**
 
 The first two digits are the manufacturing year. (20 for 2020, 19 for 2019 etc.)
 
@@ -67,13 +74,15 @@ The last two digits are the manufacturing week.
 
 It can be replaced with anything as it doesn't have any affect on the scooter.
 
-**Identifier/Unit serial number (**<font inherit/inherit;;#2980b9;;inherit>blue</font>**)**
+**Identifier/Unit serial number (**
+ <font inherit/inherit;;#2980b9;;inherit>blue</font>  **)**
 
 An incremental counter for the number of scooters produced per week, a 3 or 4-digit number.
 
 It can be replaced with anything as it doesn't have any purpose for the scooter.
 
-**Prefix letters (**<font inherit/inherit;;#e67e22;;inherit>orange</font>**)**
+**Prefix letters (**
+ <font inherit/inherit;;#e67e22;;inherit>orange</font>  **)**
 
 **E22** - D\\
 **E22E** - G\\
@@ -86,9 +95,8 @@ It can be replaced with anything as it doesn't have any purpose for the scooter.
 **E45E** - M, O\\
 **E45 **- Q (**30 kph**)
 
-**Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
+**Manufacturing line (**
+ <font inherit/inherit;;#7f8c8d;;inherit>gray</font>  **)**
 
 Determines which line at the factory was used to make a particular scooter.
-
-\\
 
