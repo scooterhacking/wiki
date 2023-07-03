@@ -2,33 +2,37 @@
 
 Click on a scooter model to show a preview.
 
-^Scooter model^  [[https://imgur.com/a/FRe1wGR|Euni ES808]]   ^  [[https://i.imgur.com/Zm4aMOk.png|M187]]  (Youth Edition)  ^  [[https://i.imgur.com/Zm4aMOk.png|M365]]   ^  [[https://i.imgur.com/l29g6Vv.png|M365 Pro]]   ^  [[https://i.imgur.com/f4vuv1g.png|Mi 1S]]   ^  [[https://imgur.com/a/Gamudrn|Mi Pro 2]]   ^  [[https://imgur.com/a/Nmy7qfn|Mi Lite]]   ^  [[https://imgur.com/a/lu7psPY|Mi 3]]   |
-^Max speed|  25 km/h  |||||  20/25 km/h (region)  |||
-^Range (adv)|  20km  ||  30km  |  45km  |  30km  |  45km  |  20km  |  30 km  |
-^Battery capacity (Wh)|  187  ||  280  |  474  |  275/280  |  474  |  187  |  275  |
-^Max payload|  100kg  |  120kg  |  100kg  ||||||
-^Voltage|  36V-42V  ||||||||
-^Net weight|  13.2kg  |  12  |  12.5kg  |  14.2kg  |  12.5kg  |  14.2kg  |  12kg  |  13.2 kg  |
-^Charging time (hrs)|  2  |  4  |  5  |  9  |  5  |  9  |  4  |  5.5  |
-^Power (nominal)|  250W  |||  300W  |  250W  |  300W  |  250W  |  300W  |
-^Power (peak)|  500W  |||  600W  |  500W  |  600W  |  500W  |  600W  |
-^Motor type|  Front hub  ||||||||
-^Max angle (%)|  12  |  14  ||  20  |  14  |  20  |  14  |  16  |
-^Brakes|  Front ebrake, rear drum  |  Front ebrake, rear disc  ||||||  Front ebrake, rear dual pad disc  |
-^Shock absorption|  N/A  ||||||||
-^Front Tire (inch)|  8 pneumatic  |  8.5 pneumatic  |||||||
-^Rear Tire (inch)|  8 air  |  8.5 pneumatic  |||||||
-^App/Bluetooth|  Yes (QiCycle)  |  Yes (Mi Home)  |||||||
-^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  |||||
-^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  ||
-^Dimension (LxWxH) (cm)|   \\  **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\  **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\  **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |    \\ **Folded **  108x43x49 \\   \\ **Unfolded **108x43x114 \\    |
-^Water Resistance cert.|IPX5|   \\ IP54  |||||||
+^Scooter model^  [[https://imgur.com/a/FRe1wGR|Euni ES808]]   ^  [[https://i.imgur.com/Zm4aMOk.png|M187]]  (Youth Edition)  ^  [[https://i.imgur.com/Zm4aMOk.png|M365]]   ^  [[https://i.imgur.com/l29g6Vv.png|M365 Pro]]   ^  [[https://i.imgur.com/f4vuv1g.png|Mi 1S]]   ^  [[https://imgur.com/a/Gamudrn|Mi Pro 2]]   ^  [[https://imgur.com/a/Nmy7qfn|Mi Essential]]   ^  [[https://imgur.com/a/OmLLXSJ|Mi 3 Lite]]   ^  [[https://imgur.com/a/lu7psPY|Mi 3]]   ^  [[https://imgur.com/a/Ez8uofm|Mi 4]]   ^  [[https://imgur.com/a/JsWFI8C|Mi 4 Pro]]   ^  [[https://imgur.com/a/x9KH40v|Mi 4 Ultra]]   ^  [[https://imgur.com/a/3GypyPR|Mi 4 Lite]]   ^  [[https://imgur.com/a/71XMqre|Mi 4 Go]]   |
+^Max speed|  25 km/h  |||||  20/25 km/h (region)  ||||||||  20 km/h  |
+^Range (adv)|  20km  ||  30km  |  45km  |  30km  |  45km  |  20km  ||  30km  |  35km  |  55 km  |  70km  |  20 km  |  ~18km  |
+^Battery capacity (Wh)|  187  ||  280  |  474  |  275/280  |  474  |  187  ||  275  ||  446  |  562  |  187  |  nd  |
+^Max payload|  100kg  |  120kg  |  100kg  |||||||  110kg  |  120kg  ||  100kg  |  90kg  |
+^Voltage|  36V-42V  |||||||||||  48V-54.6V  |  36V-42V  ||
+^Net weight|  13.2kg  |  12  |  12.5kg  |  14.2kg  |  12.5kg  |  14.2kg  |  12kg  |  13kg  |  13.2kg  |  17.3kg  |  17kg  |  24.5kg  |  15.6kg  |  13.6kg  |
+^Charging time (hrs)|  2  |  4  |  5  |  9  |  5  |  9  |  4  ||  5.5  |  5h  |  8-9  |  6h  |  4.5  |  5h  |
+^Power (nominal)|  250W  |||  300W  |  250W  |  300W  |  250W  ||  300W  ||  350W  |  500W  |  300W  |  250W  |
+^Power (peak)|  500W  |||  600W  |  500W  |  600W  |  500W  ||  600W  ||  700W  |  940W  |  600W  |  nd  |
+^Motor type|  Front hub  |||||||||||  Rear hub  |  Front hub  ||
+^Max angle (%)|  12  |  14  ||  20  |  14  |  20  |  14  ||  16  ||  20  |  25  |  14  |  10  |
+^Brakes|  Front ebrake, rear drum  |  Front ebrake, rear disc  ||||||  Front ebrake, rear drum  |  Front ebrake, rear dual pad disc  |||  Frond drum, rear ebrake  |  Front ebrake, rear drum  ||
+^Shock absorption|  N/A  |||||||||||  Dual  |  N/A  ||
+^Front Tire (inch)|  8 pneumatic  |  8.5 pneumatic  ||||||||  10" Xiaomi DuraGel  |||  8.5  |  8.1 solid  |
+^Rear Tire (inch)|  8 air  |  8.5 pneumatic  ||||||||  10" Xiaomi DuraGel  |||  8.5  |  8.1 solid  |
+^App/Bluetooth|  Yes (QiCycle)  |  Yes (Mi Home)  |||||||||||||
+^Screen type|  Speed&battery state  |  4-phase battery state  ||  Full dashboard  |||||||||||
+^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  ||||||||
+^Indicators|  No  |||||||||  In some versions  |  No  ||  In some versions  |  No  |
+^Dimension (LxWxH) (cm)|   \\ **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\ **Folded**   \\ 108x43x49 \\  \\ **Unfolded** \\ 108x43x114  ||   \\ **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\ **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\ **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\ **Folded**   \\ 110x43x48 \\  \\ **Unfolded** \\ 111x43x114  |   \\ **Folded **   108x43x49 \\  \\ **Unfolded **108x43x114  |   \\ **Folded**   \\ nd \\  \\ **Unfolded** \\ 114x48x118  |   \\ **Folded **   124x51x48 \\  \\ **Unfolded **124x51x120  |   \\ **Folded**   \\ 120x55x54 \\  \\ **Unfolded** \\ 120x55x126  |   \\ **Folded**   \\ 111x44x50 \\  \\ **Unfolded** \\ 110x44x114  |   \\ **Folded**   \\ nd \\  \\ **Unfolded** \\ 108x42x117  |
+^Water Resistance cert.|  IPX5  |  IP54  |||||||||  IPX4  |  IP55  |  IP54  |  nd  |
+^Manufacturer|nd|  Ninebot  ||||||||  Brightway (Navee)  |  Ninebot  |  Brightway (Navee)  ||  Ninebot  |
+
+nd - no data
 
 [[https://imgur.com/a/dTTN824|Click here for Mercedes AMG Petronas Edition Pro 2 scooter pics]]
 
 ====== Hacking ======
 
-All post-ES808 scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooers due to their similar popularity and protocols.
+Most post-ES808 scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooers due to their similar popularity and protocols. Some newer models from the Mi 4 series, as well as all of the models manufactured by Navee/Brightway are not supported by any flashing app as of the time of writing.
 
 The QiCycle EUNI ES808 isn't supported due to it's discontinued state and lack of popularity.
 
@@ -110,6 +114,46 @@ Look at the first 5 digits of the serial number. Below you will se a list of kno
 **30807 **- Mi Electric Scooter 3 - Black/Blue version
 
 **30806 **- Mi Electric Scooter 3 - White/Orange version
+
+**46442 **- Mi Electric Scooter 4 - German version
+
+**46443 **- Mi Electric Scooter 4 - European version
+
+**46441 **- Mi Electric Scooter 4 - Global version
+
+**46440** - Mi Electric Scooter 4 - Italian version
+
+**46416 **- Mi Electric Scooter 4 Lite - German version
+
+**46419** - Mi Electric Scooter 4 Lite - European version
+
+**46415** - Mi Electric Scooter 4 Lite - Global version
+
+**46418** - Mi Electric Scooter 4 Lite - French version
+
+**46417** - Mi Electric Scooter 4 Lite - Italian version
+
+**40595 **- Mi Electric Scooter 4 Ultra - German version
+
+**37829 **- Mi Electric Scooter 4 Ultra - Global version
+
+**40594 **- Mi Electric Scooter 4 Ultra - French version
+
+**45482 **- Mi Electric Scooter 4 Go - Global version
+
+**45480 **- Mi Electric Scooter 4 Go - French version
+
+**45481 **- Mi Electric Scooter 4 Go - Italian version
+
+**35802/38191** - Mi Electric Scooter 4 Pro - Global version
+
+**35803 **- Mi Electric Scooter 4 Pro - British version
+
+**35804 **- Mi Electric Scooter 4 Pro - French version
+
+**35806 **- Mi Electric Scooter 4 Pro - German version
+
+**41839 **- Mi Electric Scooter 4 Pro - Italian version
 ==== Checking battery version by serial number ====
 
 Find your 13-character battery serial number under "Battery info" in the Mi Home app or in any third-party app.
@@ -150,6 +194,4 @@ List of known battery versions:
 Scooter model 21074 with a serial number below 15107 and model 16133 with SNs between 541209 and 544518 have the non-reinforced hook which is prone to braking.
 
 All other scooter models are equipped with the newer, reinforced hook.
-
-\\
 

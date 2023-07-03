@@ -45,7 +45,7 @@ For example, if the integer is 1, then you're using v3.1.
 
 The //firmware// object contains all of the following data.
 
-//The displayName// key is pretty self-explanatory. It contains - as a string - the user-friendly name that should be displayed inside when the file is loaded. It's usually used to display the type + version of the loaded file.
+//The displayName// key is pretty self-explanatory. It contains - as a string - the user-friendly name that should be displayed inside an app when the file is loaded. It's usually used to display the type + version of the loaded file.
 
 The //model// key contains the model this firmware was originally made for, as a string. For a list of in-use values, see the [[:zip3#list_of_models|List of models]] section.
 

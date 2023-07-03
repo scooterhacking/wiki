@@ -7,7 +7,7 @@ Click on a scooter model to show a preview.
 ^Range (adv)|  20 km (12.4 miles)  ||  30 km (18.6 miles)  |  40 km (25 miles)  |  65 km (40.4 miles)  |  33-40 km (20.5 - 25 miles)  |  40-55 km (25 - 34.2 miles)  ||
 ^Battery (Wh)|  183  ||  275  |  367  |  561  |  367  |  460  ||
 ^Battery (mAh)|  5100  ||  7650  |  10200  |  15600  |  10200  |  12800  ||
-^Voltage|  36-42V  ||||||||
+^Voltage|  36V  ||||  48V  |  36V  |||
 ^Net weight|  14.5 kg (32 lbs)  |  14.7 kg (38.8 lbs)  |  15.1 kg (33 lbs)  |  15.8 kg (34.8 lbs)  |  21.8 kg (48 lbs)  |  17.5 kg (38.6 lbs)  |  17.7 kg (39 lbs)  |  18.5 kg (40.8 lbs)  |
 ^Charging time (hrs)|  3.5  ||  5  |  6.5  |  5  |  6.5  |  8  ||
 ^Power (nominal)|  250W  |  300W  ||  350W  |  400W  |||  450W  |
@@ -27,7 +27,7 @@ Click on a scooter model to show a preview.
 ^Visibility|  Front and rear lights, rear reflector  ||||||||
 ^Turn signals|  No  ||||  Yes  ||||
 ^Underglow lights|  No  ||||||||
-^Dimension (LxWxH)(cm)|  Unfolded: 114 x 48 x 116 \\  \\ Folded: 114 x 48 x 50  ||||   \\ Unfolded: 120 x 57 x 123 \\   \\ Folded: 120 x 57 x 54 \\   |   \\ Unfolded: 114 x 57 x 121 \\  \\ Folded: 114 x 57 x 48  ||   \\ Unfolded: 116 x 57 x 125 \\  \\ Folded: 116 x 57 x 53  |
+^Dimension (LxWxH)(cm)|  Unfolded: 114 x 48 x 116 \\  \\ Folded: 114 x 48 x 50  ||||   \\ Unfolded: 120 x 57 x 123 \\  \\ Folded: 120 x 57 x 54  |   \\ Unfolded: 114 x 57 x 121 \\  \\ Folded: 114 x 57 x 48  ||   \\ Unfolded: 116 x 57 x 125 \\  \\ Folded: 116 x 57 x 53  |
 ^Water resistance (IP)|  X5  ||||||||
 
 nd - no data

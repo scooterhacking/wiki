@@ -1,6 +1,8 @@
 ====== Trace cut, mosfet upgrade and trace reinforcing guide ======
 
-**For M365 v1.5 and earlier ESC **
+**For M365 v2.1 and earlier ESC **
+
+
 ===== Prerequisities: =====
 
   * <font inherit/inherit;;inherit;;transparent>Decent soldering skills</font>
