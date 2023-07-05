@@ -7,33 +7,33 @@ The same rough design is carried over the whole line, the scooter always includi
 
 Click on a scooter model to show a preview.
 
-^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^Max G2^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]^[[https://imgur.com/a/vNclLXE|SNSC2.4]]|
-^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25/35km/h  |  20/25 km/h  |||||
-^Range|  65km  |  40km  |  50-70km  |  60km (up to 100km on 1004/1033 Wh)  ||  55km (<100km on 1004/1033 Wh)  |||
-^Battery (Wh)|  551  |  367  |  551  |  551/1004/1033 (optional)  |||||
-^Ramovable battery|  No  ||||  Yes  ||||
-^3-pin charging connector|  Yes  |  No  |  Yes  ||  No  ||||
-^Voltage|  36-42V  ||||||||
-^Net weight|  19kg  |  17.5kg  |  24.3kg  |  20kg  |  24.6kg  |  27.5kg  ||  31.5 kg  |
-^Charging time (hrs)|  6  |  6.5  |  6  |  6  |  4h (external 5A charger)  ||||
-^Power (nominal)|  350  ||  450  |  350  ||||  400  |
-^Power (peak)|  700  ||  900  |  700  ||||  nd  |
-^Motor type|  Rear Hub  ||||||||
-^Max angle (%)|  20  ||  22  |  14  ||||  nd  |
-^Brakes|  Electrical rear Drum front  |||  Electrical rear, drum front, optional rear drum  |  Electrical rear, drum front, drum rear (optional on 2.2, stock on the rest)  ||||
-^Braking distance (20km/h)|  2 meters  ||||||||
-^Shock absorption|  N/A  ||  Front and rear  |  N/A  ||  Front  |||
-^Front Tire (inch)|  10 Pneumatic  |||||||  11.5 Pneumatic  |
-^Rear Tire (inch)|  10 Pneumatic  ||||||||
-^Max payload|  100kg  |||||||  120 kg  |
-^App/Bluetooth|  Yes  |||  Varies  |||||
-^LED screen|  Yes  |||  Yes, unless replaced  |  Varies depending on the configuration  ||||
-^Visibility|  Headlight, rear light, reflectors on some models  ||||||||
-^"Mood lights" (RGB LEDs)|  No  ||||  Optional  |||  Yes  |
-^Indicators|  No  ||  Yes  |  No  |||  Yes  ||
-^NFC|  No  ||||  Optional  |||  Yes  |
-^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\  \\ Folded: 112x47x53cm  |   \\ Unfolded: 110x47x115cm \\  \\ Folded: 110x46x53cm  |   \\ Unfolded: 121x57x126cm \\   \\ Folded: 121x57x61cm \\   |   \\ Unfolded: 112x47x120 cm \\  \\ Folded: N/A  |  No data, about the same as 2.0/2.1  ||||
-^Water resistance|  IPX4  ||  IPX5  |  Vehicle and controller - IPX5, battery and internal charger - IPX7  |  Vehicle - IPX4, battery and controller - IPX7  |||  nd  |
+^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/JhnjXPZ|Max G2]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]^[[https://imgur.com/a/vNclLXE|SNSC2.4]]^[[https://imgur.com/a/GGESKAg|Ninebot S90L]]^[[https://imgur.com/a/sY9Lg1s|Ninebot C1]]|
+^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25/35km/h  |  20/25 km/h  |||||||
+^Range|  65km  |  40km  |  50-70km  |  60km (up to 100km on 1004/1033 Wh)  ||  55km on 551 Wh, 75 km on 630 Wh, <100km on 1004/1033 Wh  ||||  ~65 km (unofficial)  |
+^Battery (Wh)|  551  |  367  |  551  |  551/630/1004/1033 (optional)  ||||||  662  |
+^Ramovable battery|  No  ||||  Yes  ||||||
+^3-pin charging connector|  Yes  |  No  |  Yes  ||  No  ||||||
+^Voltage|  36V  |||||||||  48V  |
+^Net weight|  19kg  |  17.5kg  |  24.3kg  |  20kg  |  24.6kg  |  27.5kg  ||  31.5 kg  |  ~30 kg  |  ~33 kg  |
+^Charging time (hrs)|  6  |  6.5  |  6  |  6  |  4h (external 5A charger, 551 Wh battery)  |||||  nd  |
+^Power (nominal)|  350  ||  450  |  350  ||||  400  ||  350/400  |
+^Power (peak)|  700  ||  900  |  700  ||||  nd  |  nd  |  nd  |
+^Motor type|  Rear Hub  ||||||||||
+^Max angle (%)|  20  ||  22  |  14  ||||  nd  |  nd  |  nd  |
+^Brakes|  Electrical rear Drum front  |||  Electrical rear, drum front, optional rear drum  |  Electrical rear, drum front, drum rear (optional on 2.2, stock on the rest)  ||||||
+^Shock absorption|  N/A  ||  Front and rear  |  N/A  ||  Front  |||||
+^Front Tire (inch)|  10 Pneumatic  |||||||  11.5 Pneumatic  |||
+^Rear Tire (inch)|  10 Pneumatic  ||||||||||
+^Max payload|  100 kg  |||||||  120 kg  |  100 kg  ||
+^App/Bluetooth|  Yes  |||  Varies  |||||||
+^LED screen|  Yes  |||  Yes, unless replaced  |  Varies depending on the configuration  ||||  Yes  ||
+^Visibility|  Headlight, rear light, reflectors on some models  ||||||||||
+^"Mood lights" (RGB LEDs)|  No  ||||  Optional  |||  Yes  |||
+^Indicators|  No  ||  Yes  |  No  |||  Yes  ||||
+^NFC|  No  ||||  Optional  |||  Yes  |||
+^Phone wireless charging|  No  |||||||  Optional  |||
+^Dimension (LxWxH)|   \\ Unfolded: 112x47x120cm \\  \\ Folded: 112x47x53cm  |   \\ Unfolded: 110x47x115cm \\  \\ Folded: 110x46x53cm  |   \\ Unfolded: 121x57x126cm \\  \\ Folded: 121x57x61cm  |   \\ Unfolded: 112x47x120 cm \\  \\ Folded: N/A  |  No data, about the same as 2.0/2.1  ||||||
+^Water resistance|  IPX4  ||  IPX5  |  Vehicle and controller - IPX5, battery and internal charger - IPX7  |  Vehicle - IPX4, battery and controller - IPX7  |||  nd  |  IPX4  |  IPX5  |
 
 ===== Hacking =====
 
@@ -41,7 +41,7 @@ Ninebot Max and SNSC2.0/2.1 scooters are supported by many apps and developers a
 
 The Ninebot Max G2 is not fully supported by any hacking tool as of 28/06/2023.
 
-ScooterHacking.org DOES NOT publicly support the 2.2-2.4 range of scooters to decrease theft rate.
+ScooterHacking.org DOES NOT publicly support the SNC2.2-2.4, C1 and S90L scooters to decrease theft rate.
 
 ===== Serial number anatomy =====
 
@@ -50,23 +50,24 @@ We also have battery SN anatomy, available here [[:nbbattanatomy|(click)]]
 [[https://i.imgur.com/m8cDtqN.png|Visual diagram]]
 
 The ESC serial number consists of 14 characters
- <font inherit/inherit;;rgb(0, 0, 0);;inherit>Example serial number: **N4G**</font> ** <font inherit/inherit;;rgb(243, 156, 18);;inherit>S</font>
+ <font inherit/inherit;;rgb(0, 0, 0);;inherit>Example serial number: **N4G**</font>  **
+ <font inherit/inherit;;rgb(243, 156, 18);;inherit>S</font>
  <font inherit/inherit;;#7f8c8d;;inherit>D</font>
  <font inherit/inherit;;rgb(142, 68, 173);;inherit>19</font>
  <font inherit/inherit;;rgb(39, 174, 96);;inherit>39</font>
  <font inherit/inherit;;rgb(192, 57, 43);;inherit>C</font>
- <font inherit/inherit;;rgb(52, 152, 219);;inherit>0123</font> **
+ <font inherit/inherit;;rgb(52, 152, 219);;inherit>0123</font>  **
 
 **Black** - Product identifier
 
-** <font inherit/inherit;;#f39c12;;inherit>Orange</font> **- Product version (SN prefix)
+** <font inherit/inherit;;#f39c12;;inherit>Orange</font>  **- Product version (SN prefix)
  <font inherit/inherit;;#7f8c8d;;inherit>**Gray**</font>  - Manufacturing line at the factory
 
-** <font inherit/inherit;;#9b59b6;;inherit>Purple</font> **- Year of production
+** <font inherit/inherit;;#9b59b6;;inherit>Purple</font>  **- Year of production
 
-** <font inherit/inherit;;#27ae60;;inherit>Green</font> **- Week of production
+** <font inherit/inherit;;#27ae60;;inherit>Green</font>  **- Week of production
 
-** <font inherit/inherit;;#e74c3c;;inherit>Red</font> **- Product revision
+** <font inherit/inherit;;#e74c3c;;inherit>Red</font>  **- Product revision
  <font inherit/inherit;;#3498db;;inherit>**Blue**</font>  - Serial number unique for every unit made in each week
 
 ==== Product identifiers ====
@@ -121,6 +122,6 @@ Check out our full [[:nbmotoranatomy|Ninebot Max motor anatomy (click)]]
   * If the motor SN includes **PCAH**, then it's a **third generation G30P**  motor.
   * If the motor SN includes **PAAH**, then it's a **third generation G30E**  motor.
   * If the motor SN includes **PADH**, then it's a **third generation G30D**  motor.
-  * If the motor SN includes **UNAH**, then it's a **450W** **G2D** motor.
+  * If the motor SN includes **UNAH**, then it's a **450W****G2D**  motor.
   * If the motor SN includes **PPAH**, then it's a **450W G2 **motor.
 

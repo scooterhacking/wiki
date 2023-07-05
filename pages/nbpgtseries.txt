@@ -1,0 +1,40 @@
+===== Characteristics & identification =====
+
+Click on a scooter model to show a preview.
+
+^  Model  ^  [[https://imgur.com/a/9li7btn|P65]]   ^  [[https://imgur.com/a/FkX67Zh|P100]]   ^  [[https://imgur.com/a/AWT8HNA|GT1]]   ^  [[https://imgur.com/a/avseQq8|GT2]]   |
+^  Max speed (stock firmware)  |  20/25/40 km/h (region)  |  50 km/h  |  60 km/h  |  70 km/h  |
+^  Range (adv)  |  65 km  |  100 km  |  70 km  |  90 km  |
+^  Battery (Wh)  |  561  |  1086  |  1008  |  1512  |
+^  Battery (Ah)  |  12  |  22600  |  20  |  30  |
+^  Voltage  |  48V  ||  52V  ||
+^  Net weight  |  28 kg  |  33 kg  |  48 kg  |  53 kg  |
+^  Charging time (hrs)  |  4  |  7  |  12/6 (1/2 chargers)  |  16/8 (1/2 chargers)  |
+^  Power (nominal)  |  500W  |  650W  |  1400W  |  2x1500W  |
+^  Power (peak)  |  980W  |  1350W  |  3000W  |  2x3000W  |
+^  Motor type  |  Rear hub  |||  Dual hub  |
+^  Traction control  |  No data  ||||
+^  Max climb angle  |  22%  |  23%  ||  30%  |
+^  Brakes  |  Front disc, rear ebrake  |  Front disc, rear disc & ebrake  |  Dual hydraulic disc  |  Dual hydraulic disc  |
+^  Shock absorption  |  N/A  |  Dual torsion-bar  |  Dual, wishbone, adjustable  ||
+^  Front tire (inch)  |  10.5  ||  11  ||
+^  Rear tire (inch)  | ::: || ::: ||
+^  Tire type  |  Self-healing (SegPower Cross)  ||||
+^  Max payload  |  120 kg  ||  150 kg  ||
+^  App/Bluetooth  |  Yes  ||||
+^  NFC  |  Yes  ||  No  ||
+^  USB port  |  Yes, 10W USB-C  ||  No  ||
+^  Apple Find My  |  No  ||||
+^  Screen  |  LED  |||  Transparent PMOLED  |
+^  Visibility  |  Front auto headlight and DTRL, rear brake light, reflectors  ||||
+^  Turn signals  |  Yes  ||||
+^  Mood lights (RGB LEDs)  |  Yes  ||||
+^  Dimension  |   \\ **Folded**   \\ 119x63x57cm \\  \\ **Unfolded** \\ 119x63x121cm  |   \\ **Folded**   \\ 119x63x64cm \\  \\ **Unfolded** \\ 119x63x129cm  |   \\ **Folded**   \\ 149x66x86 \\  \\ **Unfolded** \\ 149x66x131  ||
+^  Water resistance  |  IPX5 - scooter, IPX7 - battery  ||  IPX4  ||
+
+nd - no data
+
+===== Hacking =====
+
+SHFW does not support either P or GT-series scooters as of time of writing.
+

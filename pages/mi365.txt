@@ -23,7 +23,7 @@ Click on a scooter model to show a preview.
 ^Visibility|  Front and rear lights  ||||||  Front and rear lights, reflectors (in some versions)  ||||||||
 ^Indicators|  No  |||||||||  In some versions  |  No  ||  In some versions  |  No  |
 ^Dimension (LxWxH) (cm)|   \\ **Folded **   112x43x51 \\  \\ **Unfolded **106x110x51  |   \\ **Folded**   \\ 108x43x49 \\  \\ **Unfolded** \\ 108x43x114  ||   \\ **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\ **Folded**   108x43x49 \\  \\ **Unfolded** 108x43x114  ||   \\ **Folded**   113x43x49 \\  \\ **Unfolded** 113x43x118  |   \\ **Folded**   \\ 110x43x48 \\  \\ **Unfolded** \\ 111x43x114  |   \\ **Folded **   108x43x49 \\  \\ **Unfolded **108x43x114  |   \\ **Folded**   \\ nd \\  \\ **Unfolded** \\ 114x48x118  |   \\ **Folded **   124x51x48 \\  \\ **Unfolded **124x51x120  |   \\ **Folded**   \\ 120x55x54 \\  \\ **Unfolded** \\ 120x55x126  |   \\ **Folded**   \\ 111x44x50 \\  \\ **Unfolded** \\ 110x44x114  |   \\ **Folded**   \\ nd \\  \\ **Unfolded** \\ 108x42x117  |
-^Water Resistance cert.|  IPX5  |  IP54  |||||||||  IPX4  |  IP55  |  IP54  |  nd  |
+^Water Resistance cert.|  IPX5  |  IP54  ||||||||  IP55  |  IPX4  |  IP55  |  IP54  |  nd  |
 ^Manufacturer|nd|  Ninebot  ||||||||  Brightway (Navee)  |  Ninebot  |  Brightway (Navee)  ||  Ninebot  |
 
 nd - no data

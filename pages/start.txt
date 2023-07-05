@@ -18,7 +18,6 @@ We've also been compiling general information about possible hardware scooters m
   * [[:guide-pro2|Xiaomi M365 Pro 2]][[:guide-pro2| (DRV222/223 based)]]
   * [[:maxcfwguide|Ninebot Max G30]]
 
-
 ==== Scooter information ====
 
   * [[:nbesx|Ninebot ESx/SNSC1.X]]
@@ -26,6 +25,7 @@ We've also been compiling general information about possible hardware scooters m
   * [[:nbmax|Ninebot Max/SNSC2.X]]
   * [[:nbtseries|Ninebot T-Series]]
   * [[:nbfseries|Ninebot F-Series]]
+  * [[:nbpgtseries|Ninebot P and GT-series]]
   * [[:mi365|Xiaomi M365 lineup comparison]]
   * [[:okaicomparison|Okai ES-Series comparison]]
   * [[:lime|Lime scooters comparison]]
