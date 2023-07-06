@@ -6,7 +6,7 @@ Click on a scooter model to show a preview.
 ^  Max speed (stock firmware)  |  20/25/40 km/h (region)  |  50 km/h  |  60 km/h  |  70 km/h  |
 ^  Range (adv)  |  65 km  |  100 km  |  70 km  |  90 km  |
 ^  Battery (Wh)  |  561  |  1086  |  1008  |  1512  |
-^  Battery (Ah)  |  12  |  22600  |  20  |  30  |
+^  Battery (Ah)  |  12  |  22.6  |  20  |  30  |
 ^  Voltage  |  48V  ||  52V  ||
 ^  Net weight  |  28 kg  |  33 kg  |  48 kg  |  53 kg  |
 ^  Charging time (hrs)  |  4  |  7  |  12/6 (1/2 chargers)  |  16/8 (1/2 chargers)  |

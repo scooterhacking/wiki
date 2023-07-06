@@ -32,7 +32,7 @@ nd - no data
 
 ====== Hacking ======
 
-Most post-ES808 scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooers due to their similar popularity and protocols. Some newer models from the Mi 4 series, as well as all of the models manufactured by Navee/Brightway are not supported by any flashing app as of the time of writing.
+Most post-ES808 scooters are widely supported by developers and are as popular in the hacking scene as the Ninebot scooters due to their similar popularity and protocols. Some newer models from the Mi 4 series, as well as all of the models manufactured by Navee/Brightway are not supported by any flashing app as of the time of writing.
 
 The QiCycle EUNI ES808 isn't supported due to it's discontinued state and lack of popularity.
 
@@ -40,29 +40,27 @@ The QiCycle EUNI ES808 isn't supported due to it's discontinued state and lack o
 
 [[:mierrorcodes|M187/365/Pro error codes]]
 
-[[https://m365.scooterhacking.org/|M187/M365 custom firmware toolkit]]
+[[https://scooterhack.in/utility|ScooterHacking Utility]] (Android)
 
-[[https://m365pro.scooterhacking.org/|M365 Pro custom firmware toolkit]]
+[[https://scooterhack.in/scootbatt|Scootbatt]] (Android)
 
 [[https://iap.scooterhacking.org/|Ninebot IAP]] (Windows)
 
-[[https://play.google.com/store/apps/details?id=eScooter.m365Info&hl=en_US|XiaoFlasher]] (Android)
+[[https://play.google.com/store/apps/details?id=com.m365downgrade|m365 DownG]] (Android)
 
-[[https://play.google.com/store/apps/details?id=app.peretti.m365tools|M365 Tools]] (Android)
+[[https://mi.cfw.sh/#|Xiaomi custom firmware toolkit]]
 
-[[https://scooterhack.in/utility|ScooterHacking Utility]] (Android)
+[[https://files.scooterhacking.org/firmware/m365/|M365 stock firmware files]]
 
-[[https://tools.scooterhacking.org/xiaotea/|XiaoTea toolkit]]
+[[https://files.scooterhacking.org/firmware/pro/|M365 Pro stock firmware files]]
 
-[[https://play.google.com/store/apps/details?id=com.m365downgrade|m365 DownG]]
+[[https://files.scooterhacking.org/firmware/pro2/|Mi Electric Scooter Pro 2 stock firmware files]]
 
-[[https://files.scooterhacking.org/firmware/m365/|M365 firmware files]]
+[[https://files.scooterhacking.org/firmware/1s/|Mi Electric Scooter 1S stock firmware files]]
 
-[[https://files.scooterhacking.org/firmware/pro/|M365 Pro firmware files]]
+[[https://firmware.scooterhacking.org/lite/|Mi Electric Scooter Essential stock firmware files]]
 
-[[https://files.scooterhacking.org/firmware/pro2/|M365 Pro 2 firmware files]]
-
-[[https://files.scooterhacking.org/firmware/1s/|M365 1S firmware files]]
+[[https://firmware.scooterhacking.org/mi3/|Mi Electric Scooter 3 stock firmware files]]
 
 ===== Serial number anatomy =====
 

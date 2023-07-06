@@ -7,7 +7,7 @@ The same rough design is carried over the whole line, the scooter always includi
 
 Click on a scooter model to show a preview.
 
-^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/JhnjXPZ|Max G2]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]^[[https://imgur.com/a/vNclLXE|SNSC2.4]]^[[https://imgur.com/a/GGESKAg|Ninebot S90L]]^[[https://imgur.com/a/sY9Lg1s|Ninebot C1]]|
+^Scooter model^[[https://imgur.com/a/7VONFdC|Max]]^[[https://i.imgur.com/j2JJzSk.png|Max Lite]]^[[https://imgur.com/a/JhnjXPZ|Max G2]]^[[https://imgur.com/a/3eTTiyB|SNSC2.0/2.1]]^[[https://imgur.com/a/Zkc3umh|SNSC2.2]]^[[https://imgur.com/a/RDeATF0|SNSC2.3]]^[[https://imgur.com/a/qscK40c|SNSC2.3.2]]^[[https://imgur.com/a/vNclLXE|SNSC2.4]]^[[https://imgur.com/a/GGESKAg|Ninebot S90L]]^[[https://imgur.com/a/sY9Lg1s|Ninebot C1]]|
 ^Max speed|  20/25/30km/h  |  20/25/30km/h  |  20/25/35km/h  |  20/25 km/h  |||||||
 ^Range|  65km  |  40km  |  50-70km  |  60km (up to 100km on 1004/1033 Wh)  ||  55km on 551 Wh, 75 km on 630 Wh, <100km on 1004/1033 Wh  ||||  ~65 km (unofficial)  |
 ^Battery (Wh)|  551  |  367  |  551  |  551/630/1004/1033 (optional)  ||||||  662  |

@@ -25,6 +25,7 @@ We've also been compiling general information about possible hardware scooters m
   * [[:nbmax|Ninebot Max/SNSC2.X]]
   * [[:nbtseries|Ninebot T-Series]]
   * [[:nbfseries|Ninebot F-Series]]
+  * [[:nbdseries|Ninebot D-Series]]
   * [[:nbpgtseries|Ninebot P and GT-series]]
   * [[:mi365|Xiaomi M365 lineup comparison]]
   * [[:okaicomparison|Okai ES-Series comparison]]

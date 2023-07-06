@@ -1,0 +1,34 @@
+===== Characteristics & identification =====
+
+Click on a scooter model to show a preview.
+
+^  Model  ^  [[https://imgur.com/a/OwF8Sgn|D18]]   ^  [[https://imgur.com/a/ZDmpahW|D28]]   ^  [[https://imgur.com/a/QbOF4Td|D38]]   ^  [[https://imgur.com/a/dCexGhb|D40]]   |
+^  Max speed (stock)  |  20/25 kph  |||  30 kph  |
+^  Range (adv)  |  18 km  |  28 km  |  38 km  ||
+^  Battery (Wh)  |  184  |  275  |  367  ||
+^  Battery (mAh)  |  5100  |  7650  |  10200  ||
+^  Voltage  |  36V  ||||
+^  Net weight  |  14.8 kg  |  15.3 kg  |  16.3 kg  |  nd  |
+^  Charging time (hrs)  |  3.5  |  5  |  6.5  ||
+^  Power (nominal)  |  250W  |  300W  |  350W  ||
+^  Power (peak)  |  500W  ||||
+^  Motor type  |  Front hub  ||||
+^  Traction Control  |  No  ||||
+^  Max angle  |  10%  |  15%  |  20%  ||
+^  Brakes  |  Front ebrake, rear drum  ||||
+^  Shock absorption  |  N/A  ||||
+^  Front tire (inch)  |  10  ||||
+^  Rear tire (inch)  | ::: ||||
+^  Tire type  |  Pneumatic  ||||
+^  Max payload  |  100 kg  |  120 kg  |||
+^  App/Bluetooth  |  Yes  ||||
+^  Apple Find My  |  No  ||||
+^  NFC  |  No  ||||
+^  USB Port  |  No  ||||
+^  LED Screen  |  Yes  ||||
+^  Visibility  |  Front and rear light, reflectors  ||||
+^  Turn signals  |  No  ||||
+^  Underglow lights  |  No  ||||
+^  Dimension (LxWxH)(cm)  |   \\ **Folded**   \\ 114x48x50 \\  \\ **Unfolded** \\ 114x48x116 \\   |||  nd  |
+^  Water resistance (IP)  |  X5  ||||
+

@@ -2,7 +2,7 @@
 
 Click on a scooter model to show a preview.
 
-^Model^  [[https://i.imgur.com/TMLn679.png|E22/D/E]]   ^  [[https://imgur.com/a/FyZGXQi|E25/D/E/A]]   ^  [[https://i.imgur.com/dvRJwi4.png|E45/D/E]]   ^  E2  ^  E2 Plus  ^  [[https://i.imgur.com/3GUXZme.png|E8]]   ^  [[https://imgur.com/a/fhFo4qK|E10]]   ^  [[https://imgur.com/a/rtWGQAB|E12]]   |
+^Model^  [[https://i.imgur.com/TMLn679.png|E22/D/E]]   ^  [[https://imgur.com/a/FyZGXQi|E25/D/E/A]]   ^  [[https://i.imgur.com/dvRJwi4.png|E45/D/E]]   ^  [[https://imgur.com/a/nkO3SB7|E2]]   ^  [[https://imgur.com/a/Xc7ni8g|E2 Plus]]   ^  [[https://i.imgur.com/3GUXZme.png|E8]]   ^  [[https://imgur.com/a/fhFo4qK|E10]]   ^  [[https://imgur.com/a/rtWGQAB|E12]]   |
 ^Max speed|  25/20 kph (version)  |  25/20/25/28 kph (version)  |  30/20/25 kph (version)  |  20 kph  |  25 kph  |  14 kph  |  16 kph  |  18 kph  |
 ^Range (adv)|  25 km  |  25 km  |  45 km  |  25 km  ||  10 km  |||
 ^Battery (Wh)|  187  |  215  |  368  |  220  ||  55.08  |||

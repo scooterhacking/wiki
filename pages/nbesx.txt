@@ -3,7 +3,7 @@
 Click on a scooter model to show a preview.\\
 **Ninebot E-series was moved to ** [[:nbeseries|nbeseries (click)]]
 
-^Scooter model^[[https://cdn.shopify.com/s/files/1/0050/2133/5587/products/segway-ninebot-segway-ninebot-kickscooter-max-g30_3_300x.jpg?v=1573514758|Max]] (for comparison)^[[https://upload.wikimedia.org/wikipedia/commons/7/72/Ninebot_by_Segway_Kickscooter_ES2.jpg|ES4 (ES2 ext battery)]]^[[https://cdn.shopify.com/s/files/1/0030/8183/0512/products/segway-ninebot-es2-electric-scooter-398584_500x500_crop_center.jpg|ES2]]^[[https://static4.segway.com/wp-content/uploads/2019/11/es3-g5.jpg|ES3 (ES1 ext battery)]]^[[https://www.ridefatdaddy.com/wp-content/uploads/2019/01/Segway-Ninebot-KickScooter-ES1-.jpg|ES1]]^[[https://imgur.com/a/cnDsYVZ|ES1L]]/[[https://i.imgur.com/NHD7YGq.png|ES1LD]]^[[https://i.imgur.com/SFPVHDv.jpg|SN1.0BLK ]](sharing)^[[https://i.imgur.com/nzkUwxh.jpg|SNSC1.0]] (sharing)^[[https://i.imgur.com/bzjNsUp.jpg|SNSC1.0 ext battery ]](sharing)|
+^Scooter model^[[https://imgur.com/a/7VONFdC|Max]] (for comparison)^[[https://imgur.com/a/hwoo6l8|ES4 (ES2 ext battery)]]^[[https://imgur.com/a/DqpIPmF|ES2]]^[[https://imgur.com/a/M9PiaOW|ES3 (ES1 ext battery)]]^[[https://imgur.com/a/ZxBPxgg|ES1]]^[[https://imgur.com/a/cnDsYVZ|ES1L]]/[[https://i.imgur.com/NHD7YGq.png|ES1LD]]^[[https://i.imgur.com/SFPVHDv.jpg|SN1.0BLK ]](sharing)^[[https://i.imgur.com/nzkUwxh.jpg|SNSC1.0]] (sharing)^[[https://i.imgur.com/bzjNsUp.jpg|SNSC1.0 ext battery ]](sharing)|
 ^Max speed|25-30km/h|30km/h|25km/h|27km/h|25km/h|20km/h|25km/h|20-25km/h|20-30km/h|
 ^Range|65km|45km|25km|45km|  25km  |  20km  |40-45km|25km|45km|
 ^Battery (Wh)|551|374|187|374|  184/187 (version)  |  184  |371|187|374|
@@ -24,7 +24,7 @@ Click on a scooter model to show a preview.\\
 ^LED Screen| ::: |||||| ::: |||
 ^Visibility|  Headlight, Rear light  |||  Headlight, Rear reflector (rear light on the ES1LD)  |||  Headlight, Rear light  |||
 ^Underglow lights|  No  |  Yes  ||  No  |||  Yes  |  Varies  ||
-^Dimension (LxWxH)|  Unfolded: 112 x 47 x 120 cm \\ Folded: 112 x 47 x 53 cm  |  Unfolded: 102 x 43 x 113 cm \\   \\ Folded: 113 x 43 x 40 cm  ||||  Unfolded: 102 x 43 x 113 cm \\   \\ Folded: 113 x 43 x 32 cm  |  Unfolded: 102 x 43 x 113 cm \\   \\ Folded: N/A  |||
+^Dimension (LxWxH)|  Unfolded: 112 x 47 x 120 cm \\ Folded: 112 x 47 x 53 cm  |  Unfolded: 102 x 43 x 113 cm \\  \\ Folded: 113 x 43 x 40 cm  ||||  Unfolded: 102 x 43 x 113 cm \\  \\ Folded: 113 x 43 x 32 cm  |  Unfolded: 102 x 43 x 113 cm \\  \\ Folded: N/A  |||
 ^Water Resistance (IP)|  54  |||||||||
 
 ===== Hacking =====
@@ -53,33 +53,34 @@ Ninebot ESx and SNSC1.X scooters are supported by many apps and developers and a
 
 ==== ESC serial number anatomy ====
 
-**<font inherit/inherit;;#f39c12;;inherit>We also have battery</font><font inherit/inherit;;#f39c12;;inherit>SN anatomy, available here:</font>** [[http://bit.ly/nb-battery-anatomy|(link)]]
+** <font inherit/inherit;;#f39c12;;inherit>We also have battery</font>
+ <font inherit/inherit;;#f39c12;;inherit>SN anatomy, available here:</font> ** [[http://bit.ly/nb-battery-anatomy|(link)]]
 
 **[[https://i.imgur.com/iI7kjLG.png|Visual diagram]]**
 
 The ESC serial number consists of 14 characters. All ES series serial numbers start with **N2.**
 
-Example serial number: **N2G<font inherit/inherit;;#f39c12;;inherit>T</font><font inherit/inherit;;#7f8c8d;;inherit>X</font><font inherit/inherit;;#8e44ad;;inherit>19</font><font inherit/inherit;;#27ae60;;inherit>39</font><font inherit/inherit;;#e74c3c;;inherit>C</font><font inherit/inherit;;#3498db;;inherit>0123</font>**
+Example serial number: **N2G <font inherit/inherit;;#f39c12;;inherit>T</font>
+ <font inherit/inherit;;#7f8c8d;;inherit>X</font>
+ <font inherit/inherit;;#8e44ad;;inherit>19</font>
+ <font inherit/inherit;;#27ae60;;inherit>39</font>
+ <font inherit/inherit;;#e74c3c;;inherit>C</font>
+ <font inherit/inherit;;#3498db;;inherit>0123</font> **
 
 **Black**  - Product identifier
+ <font inherit/inherit;;#f39c12;;inherit>**Orange**</font> - Product version (SN prefix)
 
-<font inherit/inherit;;#f39c12;;inherit>**Orange**</font>- Product version (SN prefix)
-
-**<font inherit/inherit;;#7f8c8d;;inherit>Gray</font>**- Manufacturing line at the factory
-
-<font inherit/inherit;;#8e44ad;;inherit>**Purple**</font>- Year of production
-
-<font inherit/inherit;;#27ae60;;inherit>**Green**</font>- Week of production
-
-<font inherit/inherit;;#e74c3c;;inherit>**Red**</font>- Product revision
-
-<font inherit/inherit;;#3498db;;inherit>**Blue**</font> - Serial number unique for every unit made each week
+** <font inherit/inherit;;#7f8c8d;;inherit>Gray</font> **- Manufacturing line at the factory
+ <font inherit/inherit;;#8e44ad;;inherit>**Purple**</font> - Year of production
+ <font inherit/inherit;;#27ae60;;inherit>**Green**</font> - Week of production
+ <font inherit/inherit;;#e74c3c;;inherit>**Red**</font> - Product revision
+ <font inherit/inherit;;#3498db;;inherit>**Blue**</font>  - Serial number unique for every unit made each week
 
 **Product identifier (**black**)**
 
 Represents a version or edition of a scooter.
 
-**Manufacturing date (**<font inherit/inherit;;#8e44ad;;inherit>purple</font>/<font inherit/inherit;;#27ae60;;inherit>green</font>**)**
+**Manufacturing date (** <font inherit/inherit;;#8e44ad;;inherit>purple</font> / <font inherit/inherit;;#27ae60;;inherit>green</font> **)**
 
 The first two digits are the manufacturing year. (20 for 2020, 19 for 2019 etc.)
 
@@ -87,13 +88,13 @@ The last two digits are the manufacturing week.
 
 It can be replaced with anything as it doesn't have any affect on the scooter.
 
-**Identifier/Unit serial number (**<font inherit/inherit;;#3498db;;inherit>blue</font>**)**
+**Identifier/Unit serial number (** <font inherit/inherit;;#3498db;;inherit>blue</font> **)**
 
 Probably an incremental counter for the number of scooters produced per week, a 3 or 4-digit number.
 
 It can be replaced with anything as it doesn't have any purpose for the scooter.
 
-**Prefix letters (**<font inherit/inherit;;#f39c12;;inherit>orange</font>**)**
+**Prefix letters (** <font inherit/inherit;;#f39c12;;inherit>orange</font> **)**
 
 S/H – Black ES4
 
@@ -113,9 +114,7 @@ F/E – Black ES1
 
 A **(N6GA) **- Black ES3 Plus (Costco)
 
-**Manufacturing line (**<font inherit/inherit;;#7f8c8d;;inherit>gray</font>**)**
+**Manufacturing line (** <font inherit/inherit;;#7f8c8d;;inherit>gray</font> **)**
 
 Determines which line at the factory was used to make a particular scooter.
-
-\\
 
