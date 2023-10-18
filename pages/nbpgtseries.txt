@@ -3,7 +3,7 @@
 Click on a scooter model to show a preview.
 
 ^  Model  ^  [[https://imgur.com/a/9li7btn|P65]]   ^  [[https://imgur.com/a/FkX67Zh|P100]]   ^  [[https://imgur.com/a/AWT8HNA|GT1]]   ^  [[https://imgur.com/a/avseQq8|GT2]]   |
-^  Max speed (stock firmware)  |  20/25/40 km/h (region)  |  50 km/h  |  60 km/h  |  70 km/h  |
+^  Max speed (stock firmware)  |  20/25/40 km/h (region)  |  25/50 km/h (region)  |  20/25/60 km/h (region)  |  70 km/h  |
 ^  Range (adv)  |  65 km  |  100 km  |  70 km  |  90 km  |
 ^  Battery (Wh)  |  561  |  1086  |  1008  |  1512  |
 ^  Battery (Ah)  |  12  |  22.6  |  20  |  30  |

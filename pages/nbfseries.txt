@@ -2,7 +2,7 @@
 
 Click on a scooter model to show a preview.
 
-^Model^[[https://imgur.com/a/y4vPzjt|F20]]^[[https://imgur.com/a/y4vPzjt|F25]]^[[https://imgur.com/a/iuAnvPt|F30]]^[[https://imgur.com/a/25wPD0E|F30 Plus]]^[[https://imgur.com/a/bUwjviS|F40]]^[[https://imgur.com/a/VlAJgoW|F65]]^[[https://imgur.com/a/mjHlasc|F2]]^[[https://imgur.com/a/yi8OOpm|F2 Plus]]^[[https://imgur.com/a/kX03AfK|F2 Pro]]|
+^Model^[[https://imgur.com/a/y4vPzjt|F20]]^[[https://imgur.com/a/y4vPzjt|F25]]^[[https://imgur.com/a/iuAnvPt|F30]]^[[https://imgur.com/a/25wPD0E|F30 Plus]]^[[https://imgur.com/a/bUwjviS|F35/F40]]^[[https://imgur.com/a/VlAJgoW|F65]]^[[https://imgur.com/a/mjHlasc|F2]]^[[https://imgur.com/a/yi8OOpm|F2 Plus]]^[[https://imgur.com/a/kX03AfK|F2 Pro]]|
 ^Max speed (stock)|  20/25 kph (12.4/15.5 mph)(version)  |||  25 km/h  |  20/25/30 kph (12.4/15.5/18.6 mph) (version)  |||||
 ^Range (adv)|  20 km (12.4 miles)  ||  30 km (18.6 miles)  ||  40 km (25 miles)  |  65 km (40.4 miles)  |  33-40 km (20.5 - 25 miles)  |  40-55 km (25 - 34.2 miles)  ||
 ^Battery (Wh)|  183  ||  275  ||  367  |  561  |  367  |  460  ||
